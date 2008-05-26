@@ -1,0 +1,16 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>        <dir>         <type>    <options>          <dump> <pass>
+none                   /dev/pts      devpts    defaults            0      0
+none                   /dev/shm      tmpfs     defaults            0      0
+
+
+/dev/cdrom /mnt/cdrom   iso9660   ro,user,noauto,unhide   0      0
+/dev/dvd /mnt/dvd   udf   ro,user,noauto,unhide   0      0
+/dev/sda1 /boot ext3 defaults 0 1
+/dev/sda2 swap swap defaults 0 0
+/dev/sda4 /home ext3 defaults 0 1
+/dev/sda6 / ext3 defaults 0 1
+/dev/sda7 /home/mihairu/Backup ext3 defaults,user  0 1
+/dev/sda5 /home/mihairu/Server ext3 defaults,user  0 1

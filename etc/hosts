@@ -1,0 +1,11 @@
+#
+# /etc/hosts: static lookup table for host names
+#
+
+#<ip-address>	<hostname.domain.org>	<hostname>
+127.0.0.1		localhost.localdomain localhost
+127.0.0.1               cms.local.host cms.local.host
+127.0.0.1               mysql.local.host mysql.local.host
+127.0.0.1               r61book r61ibook
+192.168.152.4           server-pc server-pc
+# End of file
