@@ -1,0 +1,47 @@
+defflow auto
+defscrollback 5000
+altscreen on
+autodetach on
+msgwait 2 # 1 second messages
+
+vbell_msg "[[[ ding ]]]"
+vbell off
+startup_message off
+
+caption always "%{= kw}%-w%{= Kk}%n %t%{-}%+w %-= %c"
+
+#caption splitonly "%{= kb}[ %{W}%n*%f %t%?(%u)%? %{b}]"
+#hardstatus alwayslastline "%{= kb}[ %=%{w}%?%-Lw%?%{b}(%{W}%n*%f %t%?(%u)%?%{b})%{w}%?%+Lw%?%?%= %{b}][%{w} %0c %{b}]"
+#sorendition +b kG
+
+# default windows
+screen -t IRC/weechat weechat-curses
+#screen -t XMPP/finch finch
+#screen -t MP3/moc mocp
+#screen -t e-mail/mutt mutt
+select 0
+
+# remove some stupid / dangerous key bindings
+bind k
+bind W
+bind ^k
+bind .
+bind ^\
+bind \\
+bind ^h
+bind h
+#make them better
+bind 'K' kill
+bind 'W' windowlist
+#f1 and f2, forward and back
+bindkey -k k1 prev
+bindkey -k k2 next  
+
+termcap LP 1
+termcap XT 1
+
+sorendition "+b kG"
+
+monitor "on"
+
+defutf8 on

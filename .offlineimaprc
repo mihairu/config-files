@@ -1,0 +1,79 @@
+# Sample minimal config file.  Copy this to ~/.offlineimaprc and edit to
+# suit to get started fast.
+[mbnames]
+enabled = yes
+filename = ~/Mailbox/muttrc.mailboxes
+header = "mailboxes "
+peritem = "~/Mailbox/%(accountname)s/%(foldername)s"
+sep = " "
+footer = "\n"
+
+[general]
+accounts = school,work,personal
+#ui = Curses.Blinkenlights # Gives you a nice blinky output on the console so you know what's happening.
+ui = Noninteractive.Quiet # If uncommented, this would show nothing at all. Great for cronjobs or background-processes
+
+[Account njnet]
+localrepository = NJNet-local
+remoterepository = NJNet-remote
+
+[Repository NJNet-local]
+type = Maildir
+localfolders = ~/Mailbox/njnet
+
+[Repository NJNet-remote]
+type = IMAP
+remotehost = imap.njnet.cz.cz
+remoteuser = 
+remotepass = 
+ssl = yes
+folderfilter = lambda foldername: foldername in ['INBOX']
+
+[Account school]
+localrepository = School-local
+remoterepository = School-remote
+
+[Repository School-local]
+type = Maildir
+localfolders = ~/Mailbox/school
+
+[Repository School-remote]
+type = IMAP
+remotehost = imap.vsb.cz
+remoteuser = 
+remotepass = 
+ssl = yes
+folderfilter = lambda foldername: foldername in ['INBOX']
+
+[Account work]
+localrepository = Work-local
+remoterepository = Work-remote
+
+[Repository Work-local]
+type = Maildir
+localfolders = ~/Mailbox/work
+
+[Repository Work-remote]
+type = IMAP
+remotehost = mail.fv.cz
+remoteuser = 
+remotepass = 
+ssl = yes
+folderfilter = lambda foldername: foldername in ['INBOX']
+
+[Account personal]
+localrepository = Personal-local
+remoterepository = Personal-remote
+
+[Repository Personal-local]
+type = Maildir
+localfolders = ~/Mailbox/personal
+
+[Repository Personal-remote]
+type = IMAP
+remotehost = imap.gmail.com
+remoteuser = 
+remotepass =
+ssl = yes
+folderfilter = lambda foldername: foldername in ['INBOX', 'INBOX/Mailing lists/Python', 'INBOX/Mailing lists/Debian', 'INBOX/Nahravky']
+

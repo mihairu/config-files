@@ -1,0 +1,2115 @@
+2008-04-29 20:04:23	-->	mihairu (n=mihairu@213.155.227.225) has joined #archlinux
+2008-04-29 20:04:23	--	Topic for #archlinux is: "[ Welcome to #archlinux (!rules) || Warning: 2007.08 iso's should not be used; use these instead:  http://www.archlinux.org/news/389/ ]"
+2008-04-29 20:04:23	--	Topic set by MrElendig on Sun Apr 27 21:33:30 2008
+2008-04-29 20:04:24	--	Nicks #archlinux: [[digit] [vEX] \pub\bash0r _nalle _V_ `dax` Aakko Absolute0 AC`97 acez Aciid acura AerialX afonic`oFF ahelon akurashy al- alfauros amee2k amelia amki anakin_ andash anders andrewy andyrtr angvp anrxc Antti_Alien apeiro Aperculum AquaFox Aramroth ArchMage ardiem Asgaroth AssociateX avalan b0h b52 BadAtom bassM bavardage benanne biio Bjoern-Erik bjorn` bjstick blokkie blubbo BlueLander bobgill bobgill2_ Bonzodog Borbus brain0 brian bruenig bud^ Bug2000 buggs buggu Bylkki Cain_ Caleb casperr ce_geek Celebiaril cento cerebra1` CF chii chmielu Chrysalis chwi cifvts Cimi cnwdup CoarseSand codemac codethief comhack cotton4 crazyindian cromo crouse daaku Daenyth Daenyth|Work Dan39 danalien Dannyarr dared__ DarkJesus darkmeerkat DarthShrine dashua dashua` dav7 DazWiLLiE dcraven- DelPede delroth_ Denacke Devourer Dieter DigitalKiwi dimaka_ Dirhael Ditzi dodo1122 Dogma drag0nl0rd drc822 Dream_Team droog dsa DuClare ebbeyes ebirtaid eight_ EinarDogfin elasticdog elstupidos Emess eMxyzptlk enderst Entasis eth0 Evanlec evaryont ExxonValdeez F F-eeks faemir fajmoh fean0r FedeB fester64 fignew firsm fivre flanders flx- fophillips fredforfaen Freduardo frugo3000 Fubarovic funkyou g10k gades gangsterlicious gcarrier GCN gecko^| gejr GGLucas giantpez Gigamo glguy glith gorus grefven gridl0ck grnmtn grte harryBer hayaka hdoria HeatHawk[AP] HeatHawk[LI] heavenquake heke1 HelloMeow henno hifi hobbynutte HokieTux hotfuzz hrist hst Huijari Hunnur Husio hyperair IceBear idjut iggly ighea iGoth iluvgrlzwglasses imachine Industrial inpherno irCuBiC isak jason^ jbsnake_ jeebusmobile jflm jihsro jmip JoinTheHell jonth Jos junckritter jvoorhis jwbirdsong K4rP4D KaMa kani kdubois kekimmo keks_ kelnoky__ kenen kennae KentControl keytoaster kloeri knownbad kolmodin koq kutio KyleS-home KyleS-work Lachmeister lartza lburton lengani leprechau lessthanjake Linked LinuxLefty ljacob Login_Here lokedk lolman` louipc LSD` lyld m[a]tt MacGyver9 Man_of_Wax manveru marant marteus mauriku mavez mayday_jay Mazaev mc megaTherion meister mekius method_ mguezuraga mihairu mijenix Mindless` Mion mo mockfrog mogunus monshin monstar-1 mort Mozz MrBobBarker MrElendig MrGrim mtl mucknert muiro muscov mwti mykhal n00dl3 nedrik2 Nekos_ neotuli Nergar neri neur0fx Neverther NevroPus nifelheim Nikke nobbs nochternus NoOneImportant nothlit`core notplus_M nustyle nwatson oc^ OceanSpr2y OceanSpray OgMaciel oipat Oxyd p3nguin p[j]aN Part` parti patogen patson Paul-S_ paul_thujone paulez peakperformance peh penguinflavored pfleidi85 pharaonpso PhilKC phlpp phrearch phrik pierluigi piie plus_M pmcnabb PRAEDO profoX` profsnuggles2 purch pyther quad3d-dbi quarks radius ragdi ramoneur Rasi raw_ rE reaVer RedShift Remenic_ Revellion richiefrich rikur rine_ robber49 rob| rochus romano2k roodie roxazer rpag rphillips rpj8 rpj8laptop rson451 ruepelor rupogo rvg_ sabooky Sacro samoht sandsmark sati schischa schmidtma sco50000 sega01 Sememmon serrghi sevenfourk Shahid shining Shirakawasuna shp shrp sier Silvershine Sisu Siyo skarface skate_estagio Skee Skitt slango Slashbunny slubman snL20 soran soul9 spaceninja SpineShank SportChick sputters spY|da ss2 sscj ssimon steve___ stillunknown stojic Storlek Strog sunn Superbaloo surfhai svinkels syazhani sykopomp symtab Tallen TAsn TBCOOL TecnoVM64 tha thebrokencube theneb Theoden thiago_a Thurin1 tiggerthump timtux tmm1 Tobsan tombhadAC tomkx toofishes Torikun torstenvdb toshi trafim troxor_ tumult tuopppi turska twifkak Una^ unix_infidel uriahheep usv uwolfer uzyszkodnik v2punkt0 Vardyr Vargen2003 varl Vaxu_ vegai VeXocide vi3t vorlok w00p]wakeup wahooooo wakrelmix waldzell whoppix wide-eye wizzo Wraithan XanK XazZ xenol xhanjian z1o ZaB|SHC| zaggy-nl zaggy-nl_ Zariel zels Zeqadious zer0cool ziggurat Zlasher zmj|Zileo zodmaner Zom zoryfl zukka zybl0re {Phoinix}]
+2008-04-29 20:04:24	--	Channel #archlinux: 479 přezdívky (0 op, 0 částečný-op, 0 voice, 479 normální)
+2008-04-29 20:04:25	--	Channel created on Sun Feb 15 06:08:31 2004
+2008-04-29 20:04:31	mihairu	hi all
+2008-04-29 20:04:36	hyperair	Absolute0: read the manpage of rename for more info
+2008-04-29 20:04:45	Absolute0	hyperair: mine has no info :)
+2008-04-29 20:04:46	mihairu	guys is possible (with abs) to recompile whole system?
+2008-04-29 20:04:47	-->	ilgufo (n=Matteo@host249-183-dynamic.0-87-r.retail.telecomitalia.it) has joined #archlinux
+2008-04-29 20:04:51	hyperair	what?
+2008-04-29 20:04:53	hyperair	man rename?
+2008-04-29 20:04:57	Absolute0	right
+2008-04-29 20:05:03	hyperair	O_o?
+2008-04-29 20:05:04	Asgaroth	so i need to have a way handle this(packages are sage-mathematics and sage-mathematics-bin)
+2008-04-29 20:05:24	hyperair	handle what?
+2008-04-29 20:05:26	paul_thujone	Evanlec: the same app and a simple script I isolated from that performs good on Arch32 but produces B/W jpegs (with vertical lines) on Arch64
+2008-04-29 20:05:36	-->	tigrmesh (n=arch@adsl-149-13-37.mia.bellsouth.net) has joined #archlinux
+2008-04-29 20:05:42	hyperair	oh whoops ithought Asgaroth and Absolute0 were the same person
+2008-04-29 20:05:47	<--	rpj8laptop (n=rpj8@c-71-230-51-186.hsd1.pa.comcast.net) has quit ("Lost terminal")
+2008-04-29 20:05:54	-->	MrGreen (n=MrGreen@client-86-31-63-248.nrth.adsl.virgin.net) has joined #archlinux
+2008-04-29 20:05:56	Evanlec	paul_thujone: hm, interesting
+2008-04-29 20:06:00	hyperair	Absolute0: hellooooooo
+2008-04-29 20:06:01	Absolute0	hyperair: http://rafb.net/p/YPquAc49.html
+2008-04-29 20:06:26	hyperair	Absolute0: yeah that's what i read too
+2008-04-29 20:06:29	faemir	hmm, what is a good cli audio convertor?
+2008-04-29 20:06:37	MrGreen	ffmpeg
+2008-04-29 20:06:45	hyperair	replaces the first occurence of <from> with <to> for each file specified
+2008-04-29 20:06:47	faemir	Okay.
+2008-04-29 20:06:48	paul_thujone	Evanlec: I'm quite new to 64, so I though I was missing some common issue
+2008-04-29 20:07:11	hyperair	Absolute0: from what i understand you want to rename ClassType<stuff> to Entity<stuff>
+2008-04-29 20:07:15	<--	MrGreen (n=MrGreen@client-86-31-63-248.nrth.adsl.virgin.net) has left #archlinux ()
+2008-04-29 20:07:23	Evanlec	paul_thujone: ive not heard of any issues concerning jpeg handling with arch64 ... your issue may not be related to architecture even
+2008-04-29 20:07:30	hyperair	Absolute0: command would be "rename ClassType Entity ClassType*"
+2008-04-29 20:07:35	<--	benanne (n=rijyiohe@78-22-116-102.access.telenet.be) has quit ("I liek all mudkïps regardless of creed and race")
+2008-04-29 20:07:50	<--	hyperair (n=hyperair@130.67.50.60.brf01-home.tm.net.my) has left #archlinux ("Ex-Chat")
+2008-04-29 20:07:53	anakin_	Dream_Team: I eventually went for wmii but awesome's status bar is fancier indeed
+2008-04-29 20:08:32	<--	Evanlec (n=evan@cpe-66-65-251-53.ne.res.rr.com) has quit ("leaving")
+2008-04-29 20:08:42	-->	Evanlec (n=Evanlec@cpe-66-65-251-53.ne.res.rr.com) has joined #archlinux
+2008-04-29 20:08:52	-->	MrGreen (n=MrGreen@client-86-31-63-248.nrth.adsl.virgin.net) has joined #archlinux
+2008-04-29 20:08:58	Absolute0	hyperair I figured it out thanks a lot
+2008-04-29 20:09:00	paul_thujone	Evanlec: well, thanks for your feedback, I'll start by compiling involved packages, since I have no clue what else I could do
+2008-04-29 20:09:16	-->	astro76 (n=jtaji@unaffiliated/astro76) has joined #archlinux
+2008-04-29 20:09:22	MrElendig	Dream_Team: if you want a fanzy atatus bar in wmii, just grab dzen
+2008-04-29 20:09:35	MrGreen	MrElendig: rocks
+2008-04-29 20:09:35	MrElendig	but I prefer the "simple" wmii one tho
+2008-04-29 20:10:15	-->	errdil (n=Marshall@host-91-192-91-202.elomza.pl) has joined #archlinux
+2008-04-29 20:10:34	<--	errdil (n=Marshall@host-91-192-91-202.elomza.pl) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 20:10:44	zodmaner	dzen is originally for dwm, right?
+2008-04-29 20:10:53	-->	errdil (n=vlad@host-91-192-91-202.elomza.pl) has joined #archlinux
+2008-04-29 20:10:54	MrElendig	no
+2008-04-29 20:11:00	Evanlec	paul_thujone: yea, i suppose you could make yourself a 32bit chroot to test and see if 64bit libraries are really to blame
+2008-04-29 20:11:08	zodmaner	Ah, so I misunderstand then :P
+2008-04-29 20:11:13	Evanlec	dzen was made more for xmonad i think
+2008-04-29 20:11:15	phrik	RSS Update: aurpkgs: pam_pgsql
+2008-04-29 20:11:22	Evanlec	but it is wm-independent
+2008-04-29 20:11:29	zodmaner	Must be becaues of the 'd' in the name ;)
+2008-04-29 20:11:35	zodmaner	*because
+2008-04-29 20:11:44	Evanlec	zodmaner: heh, i dunno about that
+2008-04-29 20:11:54	paul_thujone	Evanlec: thanks again
+2008-04-29 20:12:04	anakin_	2 tilling|wmii|dwm|awesome|xmonad|ratpoison  -regex (tilling wm is really getting into my mind)
+2008-04-29 20:12:08	anakin_	lol
+2008-04-29 20:12:17	Evanlec	paul_thujone: np, i run arch64 so these type of issues get my attention
+2008-04-29 20:12:18	MrGreen	use Openbox
+2008-04-29 20:12:21	MrGreen	and be happy
+2008-04-29 20:12:22	anakin_	irssi regex highlighting
+2008-04-29 20:12:41	mihairu	guys is possible (with abs) to recompile whole system?
+2008-04-29 20:13:09	paul_thujone	Evanlec: I'll take the time to report any news of interest
+2008-04-29 20:13:20	<--	MrGreen (n=MrGreen@client-86-31-63-248.nrth.adsl.virgin.net) has quit (Client Quit)
+2008-04-29 20:13:52	Evanlec	paul_thujone: sounds good
+2008-04-29 20:14:22	<--	pmcnabb (n=peter@komodo.mcnabbs.org) has left #archlinux ()
+2008-04-29 20:14:23	MrElendig	dzen wasn't made for one wm at all
+2008-04-29 20:14:42	<--	dsa (n=douglas@archlinux/trusteduser/dsa) has quit ("Saindo")
+2008-04-29 20:14:48	<--	zoryfl (n=zoryfl@p5B166EC7.dip.t-dialin.net) has quit
+2008-04-29 20:15:14	MrElendig	Dzen is a general purpose messaging, notification and menuing program for X11. It was desigend to be scriptable in any language and integrate well with window managers like dwm, wmii and xmonad though it will work with any windowmanger.
+2008-04-29 20:15:29	Evanlec	MrElendig: right, it just seems that xmonad users latched onto it quickest
+2008-04-29 20:15:39	-->	maki_d (n=chatzill@77.28.72.33) has joined #archlinux
+2008-04-29 20:15:53	MrElendig	probably cause xmonad don't have an official bar
+2008-04-29 20:15:56	mc	that's because it's easier than implementing their own toolbar
+2008-04-29 20:16:06	Evanlec	xmobar ?
+2008-04-29 20:16:15	mc	you're an xmobar!
+2008-04-29 20:16:15	zodmaner	lol
+2008-04-29 20:16:23	MrElendig	came later
+2008-04-29 20:16:29	-->	spiorf (n=spiorf@host13-217-dynamic.21-79-r.retail.telecomitalia.it) has joined #archlinux
+2008-04-29 20:16:32	MrElendig	and it sucks
+2008-04-29 20:16:33	Evanlec	lol
+2008-04-29 20:16:34	MrElendig	:p
+2008-04-29 20:16:40	Dream_Team	back on wmii
+2008-04-29 20:16:40	Aramroth	aaaargh
+2008-04-29 20:16:56	mc	yarrr matey!
+2008-04-29 20:16:59	Asgaroth	is there a "forgot my password" function for the aur?
+2008-04-29 20:16:59	*	mc is drunk
+2008-04-29 20:17:10	mc	Asgaroth: i'm pretty sure there isn't
+2008-04-29 20:17:12	Aramroth	wtf, flash plugin doesn't work with firefox3-bin from aur
+2008-04-29 20:17:23	mc	i seem to recall someone asking and being told to register another username
+2008-04-29 20:17:30	MrElendig	Asgaroth: ask on the ml to get your pw reset
+2008-04-29 20:17:50	mc	or do that
+2008-04-29 20:17:59	mc	MrElendig = smart
+2008-04-29 20:18:01	Dream_Team	MrElendig: xft font line doesn't work, and I'm pretty sure that it's a correct one
+2008-04-29 20:18:02	Aramroth	i put the libflashplayer.so in /usr/lib/mozilla/plugins and firefox doesn't load it
+2008-04-29 20:18:08	MrElendig	if you got a valid email regged, that is
+2008-04-29 20:18:10	Aramroth	it's as if it was not installed
+2008-04-29 20:18:28	MrElendig	Aramroth: check the plugin path
+2008-04-29 20:18:33	Asgaroth	MrElendig: yes, email is valid, I will do that
+2008-04-29 20:18:51	mc	anyway
+2008-04-29 20:18:56	MrElendig	[oh@Alice][~]%echo $MOZ_PLUGIN_PATH
+2008-04-29 20:18:57	MrElendig	/opt/mozilla/lib/plugins:/usr/lib/mozilla/plugins
+2008-04-29 20:18:58	*	mc chair spins his way out of the room
+2008-04-29 20:19:02	<--	bavardage (n=ben@87.113.100.153.plusnet.pte-ag2.dyn.plus.net) has left #archlinux ()
+2008-04-29 20:19:03	MrElendig	check what you got
+2008-04-29 20:19:36	-->	SickHate (n=sickhate@bl4-188-183.dsl.telepac.pt) has joined #archlinux
+2008-04-29 20:19:40	Aramroth	hm, installed it in ~/.mozilla/plugins and works fine
+2008-04-29 20:19:45	MrElendig	Aramroth: and just a pacman -S flashplugin shoud work
+2008-04-29 20:19:58	casperr	does anyone know where the visualboyadvance binary installs to ?
+2008-04-29 20:20:02	-->	ispy_ (n=ispyhuma@67.59.59.227) has joined #archlinux
+2008-04-29 20:20:05	<--	lengani (n=lengani@84-254-156-30.ip.skylogicnet.com) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 20:20:05	Aramroth	it did not work.
+2008-04-29 20:20:07	MrElendig	Aramroth: as I said, MOZ_PLUGINPATH
+2008-04-29 20:20:09	casperr	I just installed it from community and now I cant figure out how to run it =(
+2008-04-29 20:20:19	MrElendig	casperr: man pacman
+2008-04-29 20:20:25	casperr	MrElendig: uhhhhhh.....
+2008-04-29 20:20:26	<--	XanK (n=carlos@190.36.233.93) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 20:20:27	anakin_	MrElendig: I'm also satisfied with wmii's status bar, it would be perfect though if it allowed some kind of progress bar/graph
+2008-04-29 20:20:28	Aramroth	[aramroth@lilith ~]$ echo $MOZ_PLUGIN_PATH
+2008-04-29 20:20:28	Aramroth	[aramroth@lilith ~]$
+2008-04-29 20:20:39	ispy_	So, is it just me or is the default manpath not correct?  I can't seem to pull-up general man pages by default.  Or am I totally missing something?
+2008-04-29 20:20:45	MrElendig	casperr: man pacman, and read what -QL does
+2008-04-29 20:20:46	MrElendig	-Ql*
+2008-04-29 20:20:49	<--	Celebiaril (n=k@tsv.users.odessa.comstar.net.ua) has quit (Remote closed the connection)
+2008-04-29 20:20:57	MrElendig	go go go!
+2008-04-29 20:21:01	ispy_	GO!
+2008-04-29 20:21:03	-->	lengani (n=lengani@84-254-156-30.ip.skylogicnet.com) has joined #archlinux
+2008-04-29 20:21:10	Aramroth	ah
+2008-04-29 20:21:15	casperr	MrElendig: its -Ql
+2008-04-29 20:21:21	Aramroth	i am stupid.
+2008-04-29 20:21:32	MrElendig	XazZ: I said that
+2008-04-29 20:21:34	MrElendig	er...
+2008-04-29 20:21:35	MrElendig	casperr: I said that
+2008-04-29 20:21:48	Aramroth	firefox3-bin is installed in /opt/firefox3-bin, not in /usr -_-
+2008-04-29 20:21:50	casperr	well you said -QL but meh whatever
+2008-04-29 20:21:57	XazZ	hi MrElendig :p
+2008-04-29 20:22:00	MrElendig	Aramroth: check that you got /etc/profile.d/mozilla-common.sh  and it's +x
+2008-04-29 20:22:19	XazZ	casperr: he corrected himself one line after that ;)
+2008-04-29 20:22:21	MrElendig	casperr: and one line later I said -Ql*
+2008-04-29 20:22:22	<--	chmielu (i=chmielu@server1.bshellz.net) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 20:22:27	<--	SickHate (n=sickhate@bl4-188-183.dsl.telepac.pt) has quit (Client Quit)
+2008-04-29 20:22:32	casperr	MrElendig: oh sorry, Didn't see that haha
+2008-04-29 20:22:34	casperr	ijust woke up =DC
+2008-04-29 20:22:44	casperr	i just want this though so I can play the megaman gba game
+2008-04-29 20:22:49	MrElendig	-Ql foo | grep /bin
+2008-04-29 20:22:59	<--	v2punkt0 (n=v2punkt0@unaffiliated/v2punkt0) has quit ("leaving")
+2008-04-29 20:23:16	Aramroth	it works ;D
+2008-04-29 20:23:18	MrElendig	I bet it's just the path that isn't updated
+2008-04-29 20:23:21	casperr	MrElendig: yah I found it
+2008-04-29 20:23:26	-->	seemawn (n=seemawn@p4FD3F148.dip.t-dialin.net) has joined #archlinux
+2008-04-29 20:23:30	casperr	MrElendig: no, it just had really wierd capitilization
+2008-04-29 20:23:31	Aramroth	/opt/firefox3-bin/plugins, not /usr/lib/mozilla/plugins
+2008-04-29 20:24:06	--	heke1 is now known as hekel
+2008-04-29 20:24:08	MrElendig	Aramroth: make a mozilla-common.sh and export the right path in it
+2008-04-29 20:24:18	MrElendig	trow it in profile.d and a+x it
+2008-04-29 20:25:10	MrElendig	Aramroth: you using the binary right from mozilla.org?
+2008-04-29 20:25:19	patogen	Hmm any idea on how to get vmware server to work with 2.6.25
+2008-04-29 20:25:22	Aramroth	no, i'm using firefox3-bin from aur
+2008-04-29 20:25:30	patogen	I tried editing the package from yaourt but failed
+2008-04-29 20:25:32	MrElendig	Aramroth: that's the same
+2008-04-29 20:25:55	Aramroth	i installed libflashplayer.so to /opt/firefox3-bin/plugins and it works now
+2008-04-29 20:25:55	<--	kutio (n=kutio@vig38-1-82-67-76-10.fbx.proxad.net) has quit ("Quitte")
+2008-04-29 20:25:58	MrElendig	Aramroth: I recomend to build ff3-systemcairo or the -spooky instead.
+2008-04-29 20:26:06	MrElendig	pretier fonts, and it's faster
+2008-04-29 20:26:15	Dream_Team	-spooky ff is awesome
+2008-04-29 20:26:22	KyleS-work	I tried the 2.6.25 kernel
+2008-04-29 20:26:23	KyleS-work	but...
+2008-04-29 20:26:29	KyleS-work	it made meh nvidia slower :(
+2008-04-29 20:26:31	MrElendig	specialy when combined with cairo-ubuntu and friends
+2008-04-29 20:26:35	KyleS-work	I lost about 5k fps with it
+2008-04-29 20:26:44	-->	ericz (n=eric@ip70-174-124-252.hr.hr.cox.net) has joined #archlinux
+2008-04-29 20:26:48	Dream_Team	You lost 3D accell
+2008-04-29 20:26:53	Dream_Team	must rebuild/patch it
+2008-04-29 20:27:01	MrElendig	KyleS-work: just make the glxgears window smaller, or hide part of it
+2008-04-29 20:27:13	MrElendig	then you will get the fps's back
+2008-04-29 20:27:13	KyleS-work	lol MrElendig
+2008-04-29 20:27:18	KyleS-work	I was getting about 11k
+2008-04-29 20:27:21	anakin_	MrElendig: I'd like start wmii in tag "2" by default, thus I'm placing "wmiir xwrite /ctl view 2" under "Event Start" in wmiirc but it's not working, though it works on the command line
+2008-04-29 20:27:24	KyleS-work	then after I moved to 2.6.23 kernel
+2008-04-29 20:27:27	KyleS-work	went down to about 9k fps
+2008-04-29 20:27:32	KyleS-work	now I'm about 5k fps :(
+2008-04-29 20:27:34	Dream_Team	:o
+2008-04-29 20:27:44	MrElendig	(this is ofcause a way to say that glxgears can't be used as a benchmark at all)
+2008-04-29 20:27:48	KyleS-work	but I went back to 2.6.24
+2008-04-29 20:27:49	-->	ech0s7 (n=ech0s7@host213-13-dynamic.30-79-r.retail.telecomitalia.it) has joined #archlinux
+2008-04-29 20:28:01	KyleS-work	and getting about 9k fps again
+2008-04-29 20:28:25	KyleS-work	nvidia-beta ftl :(
+2008-04-29 20:28:50	MrElendig	anakin_: wrong way to do it
+2008-04-29 20:29:13	anakin_	would it be easier in rc.wmii?
+2008-04-29 20:29:37	anakin_	assuming plan9port is in place of course
+2008-04-29 20:29:45	-->	stillunk1own (n=stillunk@vpn006063.vpn.utwente.nl) has joined #archlinux
+2008-04-29 20:30:00	Dream_Team	MrElendig: Have you played with python wmii ?
+2008-04-29 20:30:13	<--	akurashy (n=93488da@adsl-64-237-218-120.prtc.net) has quit (Read error: 110 (Connection timed out))
+2008-04-29 20:31:02	-->	akurashy (n=93488da@67.224.157.24) has joined #archlinux
+2008-04-29 20:31:17	-->	linfan (n=linfan@c80-216-131-154.bredband.comhem.se) has joined #archlinux
+2008-04-29 20:31:28	linfan	hmmm
+2008-04-29 20:31:32	MrElendig	Dream_Team: used the P9.py a bit
+2008-04-29 20:31:35	Torikun	larch failed!
+2008-04-29 20:31:48	MrElendig	to set the urgent tag on weechat at hl
+2008-04-29 20:32:09	linfan	Is netcfg2 deprecated in some way? Are there any other ways of getting wireless than thru netcfg2?
+2008-04-29 20:32:18	MrElendig	just to avoid using pipes :D
+2008-04-29 20:32:24	<--	mguezuraga (n=mguezura@host224.190-225-21.telecom.net.ar) has left #archlinux ("Konversation terminated!")
+2008-04-29 20:32:35	Dream_Team	MrElendig: Do you have a nice statusbar for me ? :3
+2008-04-29 20:32:43	-->	hbhth (n=hb@p5B1318A2.dip0.t-ipconnect.de) has joined #archlinux
+2008-04-29 20:32:44	MrElendig	linfan: what do you meen by "is netcfg2 deprecated"
+2008-04-29 20:32:49	-->	rpj8laptop (n=rpj8@c-71-230-51-186.hsd1.pa.comcast.net) has joined #archlinux
+2008-04-29 20:32:56	<--	ericz (n=eric@ip70-174-124-252.hr.hr.cox.net) has quit ("Leaving")
+2008-04-29 20:33:01	linfan	It doesn't work off the box
+2008-04-29 20:33:04	MrElendig	Dream_Team: mine is more or less "stock"
+2008-04-29 20:33:14	rpj8laptop	MrElendig: Alright. I tryied gtkam and I get a "Could not claim the USB device" error. I am a part of the camera groupd.
+2008-04-29 20:33:18	hrist	Dream_Team: you've failed!
+2008-04-29 20:33:20	rpj8laptop	Not sure where to go from here
+2008-04-29 20:33:20	MrElendig	linfan: it does, if you set up your profile correctly
+2008-04-29 20:33:26	Dream_Team	hrist: Of course I do !
+2008-04-29 20:33:35	Dream_Team	hrist: Note that I switched back to wmii, I less fail
+2008-04-29 20:34:13	linfan	well, it used to work and nothing is changed but it doesn't work any more, lest i do some 10-20 restarts and disconnections of the router
+2008-04-29 20:34:37	MrElendig	anakin_: starting wmii in a specific view don't make sence, unless you combine it wiht autostarting apps
+2008-04-29 20:34:48	anakin_	MrElendig: I do
+2008-04-29 20:34:51	Dream_Team	MrElendig: I would just like to get rid of (UTC+0200)
+2008-04-29 20:34:51	MrElendig	since the views are dynamic anyway
+2008-04-29 20:35:06	-->	SickHate (n=sickhate@bl4-188-183.dsl.telepac.pt) has joined #archlinux
+2008-04-29 20:35:06	MrElendig	Dream_Team: uhm, just change it?
+2008-04-29 20:35:10	anakin_	MrElendig: I have a few autostarting apps
+2008-04-29 20:35:14	-->	mrsa (n=mdean@ip72-196-253-84.dc.dc.cox.net) has joined #archlinux
+2008-04-29 20:35:30	faemir	Anyone know a program to edit pdfs?
+2008-04-29 20:35:35	anakin_	which are put into place (read tagged) by some rules
+2008-04-29 20:35:40	MrElendig	anakin_: set the name of the view instead of switching to a view
+2008-04-29 20:35:41	-->	jan-portugal (n=jan@bl8-175-163.dsl.telepac.pt) has joined #archlinux
+2008-04-29 20:35:46	Dream_Team	MrElendig: I tought you had some nice sed line to get rid of (UTC) :p
+2008-04-29 20:35:53	SickHate	ois anakin_
+2008-04-29 20:35:53	<--	trafim (n=reallyma@212.200.84.70) has quit ("leaving")
+2008-04-29 20:35:57	SickHate	;)
+2008-04-29 20:36:01	<--	nedrik2 (n=nedrik@pD9ED5C6D.dip.t-dialin.net) has quit (Client Quit)
+2008-04-29 20:36:09	anakin_	:)
+2008-04-29 20:36:24	SickHate	hows it going that wmi?
+2008-04-29 20:36:48	Dream_Team	ah sigh, aother wmii font problem
+2008-04-29 20:36:55	anakin_	wmii just makes sense :)
+2008-04-29 20:36:56	-->	tuxfusion (n=ken@g226201021.adsl.alicedsl.de) has joined #archlinux
+2008-04-29 20:37:00	Dream_Team	Is the îôû problem related to wmii or my artwiz font ?
+2008-04-29 20:37:06	MrElendig	Dream_Team: uhm, just add an awk to the {date}
+2008-04-29 20:37:18	linfan	It seems you need to be a computer engineer to know all the tweeks and correct opitons and special tricks to get the damned netcfg2 to work - it it isn't that it cannot find any configured wifi, it cannot get a lease - grrrr.....
+2008-04-29 20:37:18	-->	phoenixh (n=phoenixh@p548648AE.dip.t-dialin.net) has joined #archlinux
+2008-04-29 20:37:19	MrElendig	fn status { echo -n `{uptime | sed 's/.*://; s/,//g'} '|' `{date} }
+2008-04-29 20:37:23	MrElendig	just change that
+2008-04-29 20:37:48	MrElendig	the fields are seperated by " "
+2008-04-29 20:37:58	linfan	... or it complains over ARPOP's and other shit
+2008-04-29 20:37:59	rpj8laptop	anyone with any idea what I should do? I'm at aloss./
+2008-04-29 20:38:00	MrElendig	so it's easy to awk or cut what you want
+2008-04-29 20:38:42	rpj8laptop	Oh. Do I perhaps need to download some kind of drivers/modules for the camera? Or shouldn't libgphoto2 take care of that for me.
+2008-04-29 20:38:53	rpj8laptop	gphoto2 gives me : Could not query kernel driver of device.
+2008-04-29 20:39:07	rpj8laptop	before it says "could not claim interface 0 (Operation not permitted)."
+2008-04-29 20:39:22	Dream_Team	$(date '+%H:%M:%S'), that also does the trick
+2008-04-29 20:39:37	patogen	How come kernel-headers is out of date? Nobody fixed it yet?
+2008-04-29 20:39:50	linfan	try to mv udev.rules.pacsave udev.rules - that solved my camera troubles - there is a bug in the photo udev rules and some fix
+2008-04-29 20:39:57	Torikun	http://cerebrosuslens.blogspot.com/2008/04/ubuntu-vs-win-by-cerebrosus-lens-geek.html
+2008-04-29 20:40:13	anakin_	Dream_Team: yeah, and avoid running awk
+2008-04-29 20:40:16	<--	astro76 (n=jtaji@unaffiliated/astro76) has quit (Remote closed the connection)
+2008-04-29 20:40:21	MrElendig	Dream_Team: date | awk '{print $1" "$2" "$3" "$4" "$6}'
+2008-04-29 20:40:23	anakin_	avoids*
+2008-04-29 20:40:40	MrElendig	someone with more awk skills than me can probably make it prettier
+2008-04-29 20:40:45	zodmaner	awk scares me
+2008-04-29 20:40:45	linfan	the PTP usb is gone in the 54 udev rules
+2008-04-29 20:40:48	Dream_Team	Sorry but I have 0 awk skills
+2008-04-29 20:41:11	zodmaner	MrElendig: Any good resource online to learn awk?
+2008-04-29 20:41:14	MrElendig	drop the $6 if you don'w want the year
+2008-04-29 20:41:14	tuxfusion	Torikun, nice pic
+2008-04-29 20:41:26	<--	stillunknown (n=stillunk@82-136-225-75.ip.telfort.nl) has quit (Read error: 110 (Connection timed out))
+2008-04-29 20:41:35	Dream_Team	$6 is (UTC) here
+2008-04-29 20:41:41	Torikun	Fresh on digg tuxfusion, Had to sahre it
+2008-04-29 20:41:42	Torikun	ol
+2008-04-29 20:41:47	Dream_Team	Can awk drop the last ","
+2008-04-29 20:41:48	Dream_Team	?
+2008-04-29 20:41:54	Torikun	AWK THE WORLD
+2008-04-29 20:42:01	linfan	So, guys, can I get wireless without the crappy netcfg2?
+2008-04-29 20:42:06	Dream_Team	yeah
+2008-04-29 20:42:13	Dream_Team	wicd, manual scritps
+2008-04-29 20:42:14	anakin_	I'm using awk to format network bandwidth output from ifconfig into wmii's bar, I'll share it later
+2008-04-29 20:42:19	MrElendig	Dream_Team: just run date in a term, and count the fields
+2008-04-29 20:42:22	zodmaner	linfan: ...or networkmanager
+2008-04-29 20:42:23	Dream_Team	anakin_: no, now.
+2008-04-29 20:42:31	anakin_	Dream_Team: not working yet :)
+2008-04-29 20:42:34	anakin_	lol
+2008-04-29 20:42:44	-->	unstable (i=unstable@tor/regular/sid) has joined #archlinux
+2008-04-29 20:43:05	linfan	zodmaner - so i can pacman -R netcfg and try with networkmanager - will that work?
+2008-04-29 20:43:11	-->	mit3z (n=unusual@balticom-144-56.balticom.lv) has joined #archlinux
+2008-04-29 20:43:26	-->	spaz (n=asistir@unaffiliated/kittens) has joined #archlinux
+2008-04-29 20:43:28	spaz	allo
+2008-04-29 20:43:31	-->	godane (n=arch@c-24-62-247-205.hsd1.nh.comcast.net) has joined #archlinux
+2008-04-29 20:43:35	anakin_	I must calculate the derivative in relation to time of the RX counter... what's the update interval of the bar?
+2008-04-29 20:43:41	--	kelnoky__ is now known as kelnoky
+2008-04-29 20:44:03	spaz	i have a weird problem with firefox 3 (i've asked this before but had no response after waiting for 24h, sorry)
+2008-04-29 20:44:10	Dream_Team	looks like it's 1 sec if you use "wait 1"
+2008-04-29 20:44:10	tuxfusion	date has cool modifiers
+2008-04-29 20:44:13	Dream_Team	sleep 1*
+2008-04-29 20:44:18	anakin_	yeah
+2008-04-29 20:44:21	Dream_Team	anakin_: actaully depends of your script setting
+2008-04-29 20:44:24	zodmaner	linfan: Yeah, I think so
+2008-04-29 20:44:30	anakin_	sleep 1 here
+2008-04-29 20:44:37	zodmaner	linfan: But I don't think you have to remove netcfg, for that matter
+2008-04-29 20:44:45	Dream_Team	Any good onscreen ruler program for linux ?
+2008-04-29 20:44:47	spaz	http://arch.kimag.es/share/9820276.png
+2008-04-29 20:44:51	spaz	^ there's my issue with firefox 3
+2008-04-29 20:44:54	Dream_Team	The kind of things webdevelopper like
+2008-04-29 20:45:09	spaz	i tried #firefox on irc.mozilla.org too.
+2008-04-29 20:45:14	MrElendig	anakin_: it's whatever you set it too
+2008-04-29 20:45:18	kelnoky	spaz: I bet it's kde's fault :p
+2008-04-29 20:45:20	Dream_Team	spaz: beta 5 had HUGE buttons for me, switching to swiftfox-pre1 somewhat fixed it
+2008-04-29 20:45:24	bruenig	spaz: there is a bigger problem in that screen, at the bottom there, kde appears to have infected your computer
+2008-04-29 20:45:25	XazZ	I have a question about some C code: index /= adev->txdesc_size; <- if this is valid (gcc doesn't complain), what does the slash ("/") do?
+2008-04-29 20:45:34	spaz	bruenig, kdemod >_>
+2008-04-29 20:45:38	spaz	also, yes, yes it has.
+2008-04-29 20:45:39	Torikun	does kdemod now use kde 4 ?
+2008-04-29 20:45:40	linfan	zodmaner: then i will do my laptop wired - i cant't stand this shitty netcfg any more - it makes me puke
+2008-04-29 20:45:43	spaz	Torikun, no
+2008-04-29 20:45:57	MrElendig	linfan: then don't use it
+2008-04-29 20:46:07	MrElendig	or just stop noobing, and fix your config
+2008-04-29 20:46:18	linfan	MrElendig - I have no choice
+2008-04-29 20:46:19	MrElendig	you havn't even said what the error is
+2008-04-29 20:46:20	-->	jerryLUC (n=jerry@28.80-202-219.nextgentel.com) has joined #archlinux
+2008-04-29 20:46:22	tuxfusion	spaz, any errors when starting from console ? fonts , any libs ?
+2008-04-29 20:46:23	Torikun	noobing lol
+2008-04-29 20:46:29	Torikun	too much snobbing here
+2008-04-29 20:46:30	linfan	it is no fucking config thin
+2008-04-29 20:46:30	spaz	Torikun, none
+2008-04-29 20:46:31	MrElendig	linfan: you always got a coice
+2008-04-29 20:46:32	zodmaner	linfan: Well, just remove it then if you don't want it :)
+2008-04-29 20:46:33	spaz	err
+2008-04-29 20:46:35	spaz	*tuxfusion
+2008-04-29 20:46:43	zodmaner	linfan: I also use wicd on my Eee :)
+2008-04-29 20:46:45	MrElendig	linfan: how can you be sure=
+2008-04-29 20:46:47	<--	ziggurat (n=opera@d57-9-63.home.cgocable.net) has left #archlinux ()
+2008-04-29 20:47:05	linfan	coz i have done no changes and it stopped working some days ago
+2008-04-29 20:47:13	-->	lostarcher (n=opera@d57-9-63.home.cgocable.net) has joined #archlinux
+2008-04-29 20:47:18	MrElendig	linfan: if you can bring up the net by hand, but netcfg failse, then it's 99% sure a config error
+2008-04-29 20:47:39	Dream_Team	MrElendig: lol, switching to wmii fixed my vim problems
+2008-04-29 20:47:46	-->	Blu3ness (n=Blu3ness@S0106001b11e6543e.ed.shawcable.net) has joined #archlinux
+2008-04-29 20:47:51	tuxfusion	spaz, i guess firefox ( no beta) works ?
+2008-04-29 20:48:01	linfan	i will bring it up by netcfg2 but it takes about 10-15 minutes of stubborn reboots and restarts every fucking time
+2008-04-29 20:48:03	MrElendig	Dream_Team: as I've said before, awesome isn't :D
+2008-04-29 20:48:03	Torikun	Ubuntu shipped with FF3 B so it must be good!
+2008-04-29 20:48:08	<--	delroth_ (n=delroth@ALille-152-1-63-67.w83-198.abo.wanadoo.fr) has left #archlinux ()
+2008-04-29 20:48:14	MrElendig	FF3 is good
+2008-04-29 20:48:16	tuxfusion	true !
+2008-04-29 20:48:16	spaz	Torikun, yes.
+2008-04-29 20:48:19	spaz	*tuxfusion
+2008-04-29 20:48:21	spaz	sorry Torikun
+2008-04-29 20:48:23	Torikun	Ubuntu is Linux
+2008-04-29 20:48:25	-->	delroth (n=delroth@ALille-152-1-63-67.w83-198.abo.wanadoo.fr) has joined #archlinux
+2008-04-29 20:48:25	spaz	i need to watch what i tab
+2008-04-29 20:48:28	spaz	i don't like ubuntu
+2008-04-29 20:48:30	Torikun	and Ubuntu chose FF3b
+2008-04-29 20:48:37	bruenig	spaz: liar
+2008-04-29 20:48:39	tuxfusion	ubuntu is firefox !
+2008-04-29 20:48:40	sykopomp	linux is ubuntu
+2008-04-29 20:48:50	spaz	:|
+2008-04-29 20:48:50	Torikun	linux = ubuntu Ubuntu=GNu
+2008-04-29 20:48:58	sykopomp	ubuntu/gnu
+2008-04-29 20:48:59	Torikun	RMS is actually MS with a beard
+2008-04-29 20:49:04	sykopomp	gnu/ubuntu
+2008-04-29 20:49:05	spaz	sigh
+2008-04-29 20:49:07	MrElendig	you are all worng
+2008-04-29 20:49:14	MrElendig	ubuntu is gnu/linux
+2008-04-29 20:49:15	tuxfusion	or like i learned in office today : Winner Winner Chicken Dinner !
+2008-04-29 20:49:18	spaz	i'm not worng, i'm jacob.
+2008-04-29 20:49:20	sykopomp	RMS is MS with an R
+2008-04-29 20:49:22	MrElendig	and it's rms, not RMS
+2008-04-29 20:49:23	spaz	do i LOOK chinese?
+2008-04-29 20:49:24	spaz	>_<
+2008-04-29 20:49:26	spaz	ok maybe i do
+2008-04-29 20:49:27	Dream_Team	MrElendig: Yeah, wmii should be called awesome, I missed vim
+2008-04-29 20:49:28	Torikun	ah
+2008-04-29 20:49:30	sykopomp	now we discuss what that R stands for. Go!
+2008-04-29 20:49:33	spaz	(with emoticons at least)
+2008-04-29 20:49:39	Torikun	Real Mark Shuttleworth
+2008-04-29 20:49:39	-->	esquiso (n=esquiso@195-23-162-81.net.novis.pt) has joined #archlinux
+2008-04-29 20:49:58	sykopomp	R stands for neckbeaRd
+2008-04-29 20:50:01	Torikun	Arron Griffen VS. RMS
+2008-04-29 20:50:11	heavenquake	rms > *
+2008-04-29 20:50:13	-->	skorpan (n=skorpan@c83-254-85-174.bredband.comhem.se) has joined #archlinux
+2008-04-29 20:50:26	MrElendig	http://geekz.co.uk/lovesraymond/archive/mundane-name
+2008-04-29 20:50:28	bruenig	heavenquake++++++++
+2008-04-29 20:50:32	MrElendig	rms, not RMS
+2008-04-29 20:50:34	sykopomp	RMS vs Linus vs Tuomo (ion3) vs Theo
+2008-04-29 20:50:42	*	spaz will try another desktop for firefox 3
+2008-04-29 20:50:44	Dream_Team	Any light alternative to kruler ?
+2008-04-29 20:50:52	tuxfusion	ruler ?
+2008-04-29 20:50:53	spaz	people in #firefox on moznet are suggesting i change distro
+2008-04-29 20:50:57	spaz	simply to use a browser
+2008-04-29 20:50:59	sykopomp	spaz: use conkeror or vimperator
+2008-04-29 20:51:01	spaz	i couldn't help but laugh to death
+2008-04-29 20:51:01	KyleS-work	I <3s ff3b5
+2008-04-29 20:51:01	MrElendig	sykopomp: don't forget ESR and Knuth
+2008-04-29 20:51:03	spaz	lol
+2008-04-29 20:51:09	kelnoky	spaz: those ppl are funny.
+2008-04-29 20:51:09	sykopomp	although, conkeror runs lighter and faster than vimperator
+2008-04-29 20:51:13	sykopomp	which is xtreme lulz
+2008-04-29 20:51:21	bruenig	spaz: they are right, this distro sucks
+2008-04-29 20:51:22	spaz	what's conkeror?
+2008-04-29 20:51:23	spaz	:P
+2008-04-29 20:51:25	Dream_Team	tuxfusion: ruler as in the program or ruler as in youdon'tseewhatitdoes
+2008-04-29 20:51:27	spaz	do they mean konqueror?
+2008-04-29 20:51:30	spaz	bruenig, then why are you here
+2008-04-29 20:51:31	Dream_Team	spaz: emacs for firefox
+2008-04-29 20:51:37	MrElendig	spaz: emacs for ff
+2008-04-29 20:51:38	spaz	ewwwww
+2008-04-29 20:51:39	bruenig	spaz: to inform the moron archers how bad their distro is
+2008-04-29 20:51:42	sykopomp	conkeror is a standalone browser that uses XULrunner
+2008-04-29 20:51:48	bruenig	spaz: what better place than here to do that?
+2008-04-29 20:51:49	tuxfusion	Dream_Team, come on you know i just bash kde
+2008-04-29 20:51:53	rpj8laptop	If anyone's available, I followed the directions word for word on the archwiki and I still can't grab photos as normal user from my digital camera.
+2008-04-29 20:51:55	sykopomp	it works much the same way as vimperator does, but it's not a browser plugin.
+2008-04-29 20:51:59	Dream_Team	tuxfusion: I need an alternative heh
+2008-04-29 20:52:01	jerryLUC	when i remove packages with pacman, they does'nt seem to be deleted, right?
+2008-04-29 20:52:02	spaz	bruenig, take your ubuntu zealotism somewhere else please
+2008-04-29 20:52:05	spaz	i fled ubuntu
+2008-04-29 20:52:10	MrElendig	rpj8laptop: fix the udev rule
+2008-04-29 20:52:12	Dream_Team	tuxfusion: gruler is fail
+2008-04-29 20:52:13	spaz	i started there but after a while i realized it was just crap
+2008-04-29 20:52:17	spaz	like debian is crap.
+2008-04-29 20:52:17	MrElendig	or switch to the old one
+2008-04-29 20:52:23	tuxfusion	Dream_Team, o0
+2008-04-29 20:52:25	kelnoky	spaz: don't take everyone seriously around here ;)
+2008-04-29 20:52:27	<--	linfan (n=linfan@c80-216-131-154.bredband.comhem.se) has quit ("Leaving")
+2008-04-29 20:52:28	sykopomp	what the heck is the problem, spaz?
+2008-04-29 20:52:29	spaz	:P
+2008-04-29 20:52:36	bruenig	spaz: you fled ubuntu because you wanted t be 1337. Oh no, everyone else is using this. Now I can't act like I am really super good at the computer. I am going to leave to I can still be cool.
+2008-04-29 20:52:36	inpherno	bruenig, I don't think Arch users are the type of people to give a ****
+2008-04-29 20:52:39	spaz	sykopomp, i told you already
+2008-04-29 20:52:40	bruenig	spaz: tool
+2008-04-29 20:52:44	spaz	bruenig, yeah that's what
+2008-04-29 20:52:46	spaz	you got mea ll figured out
+2008-04-29 20:52:50	spaz	since you're me after all :)
+2008-04-29 20:52:53	rpj8laptop	MrElendig: I'm really not sure how to do that. It has a step for that, but it doesn't work either.
+2008-04-29 20:53:01	bruenig	I don't need to be you to see through your transparent bullshit
+2008-04-29 20:53:06	rpj8laptop	tells me to hit in as root: # /usr/lib/libgphoto2/print-camera-list udev-rules mode 0660 version 0.98 group camera > /etc/udev/rules.d/90-libgphoto2.rules
+2008-04-29 20:53:08	spaz	rofl
+2008-04-29 20:53:13	*	spaz has better things to do than feed the troll
+2008-04-29 20:53:24	inpherno	bruenig, I like Arch, because it borrows a lot from BSD... which is the OS I'd be running if it were better supported generally
+2008-04-29 20:53:28	sykopomp	I didn't see where you complained about something
+2008-04-29 20:53:32	sykopomp	what's wrong with ff?
+2008-04-29 20:53:34	kelnoky	sometimes I don't know if bruenig is kidding or not...
+2008-04-29 20:53:40	sykopomp	I was jerkin' it, so I wasn't paying attention.
+2008-04-29 20:53:40	bruenig	inpherno: whatever you need to tell yourself
+2008-04-29 20:53:49	inpherno	hehe, you're just being stupid now
+2008-04-29 20:54:01	<--	avalan (n=avalan@host-89-230-243-206.paslek.mm.pl) has quit ("leaving")
+2008-04-29 20:54:04	bjorn`	why do i still have no font antialiasing after enabling autohinting and rgb blablabla in /etc/fonts/?
+2008-04-29 20:54:06	inpherno	how old are you? 12?
+2008-04-29 20:54:15	spaz	14:52 < sykopomp> what's wrong with ff?
+2008-04-29 20:54:19	spaz	sykopomp, 2 sec
+2008-04-29 20:54:19	bruenig	here comes the ad hominem, shocker
+2008-04-29 20:54:36	-->	vexterzim (n=vexterzi@200.171.100.244) has joined #archlinux
+2008-04-29 20:54:37	spaz	http://arch.kimag.es/share/9820276.png
+2008-04-29 20:54:39	spaz	there.
+2008-04-29 20:54:42	spaz	bruenig, shut up.
+2008-04-29 20:54:42	bruenig	just because I can see through your faux computer elitism, you troll me with stupid irrelevant questions
+2008-04-29 20:54:46	MrElendig	bjorn`: the font config has changed
+2008-04-29 20:54:47	spaz	/ignore bruenig
+2008-04-29 20:54:52	bjorn`	MrElendig: AGAIN?
+2008-04-29 20:54:53	sykopomp	ty, I didn't see that :P
+2008-04-29 20:54:56	bruenig	spaz: I am not talking to you
+2008-04-29 20:55:02	kelnoky	inpherno: spaz: you're both falling for him ;)
+2008-04-29 20:55:02	sykopomp	wtf happened lulz
+2008-04-29 20:55:04	<--	vexterzim (n=vexterzi@200.171.100.244) has left #archlinux ()
+2008-04-29 20:55:08	sykopomp	that's pretty weird
+2008-04-29 20:55:12	spaz	don't worry
+2008-04-29 20:55:14	spaz	i'm done
+2008-04-29 20:55:15	spaz	:)
+2008-04-29 20:55:20	inpherno	kelnoky, I know, sorry :P I'll stop feeding him now
+2008-04-29 20:55:21	kelnoky	^^
+2008-04-29 20:55:26	sykopomp	spaz: yaourt -S opera?
+2008-04-29 20:55:29	spaz	...
+2008-04-29 20:55:32	MrElendig	bjorn`: no
+2008-04-29 20:55:33	bruenig	kelnoky is just a killjoy
+2008-04-29 20:55:34	-->	trafim (n=reallyma@31-172-222-85.adsl.verat.net) has joined #archlinux
+2008-04-29 20:55:38	-->	catwell (n=catwell@maisel-gw.enst-bretagne.fr) has joined #archlinux
+2008-04-29 20:55:39	sykopomp	btw, did you try running it on terminal and seeing if there were any clues?
+2008-04-29 20:55:40	kelnoky	bruenig: ;)
+2008-04-29 20:55:40	tuxfusion	spaz, what timezone is this  ^_^
+2008-04-29 20:55:41	MrElendig	bjorn`: it's you that are still stuck in the old days
+2008-04-29 20:55:42	*	spaz bombards sykopomp with 1000 elipses
+2008-04-29 20:55:47	spaz	tuxfusion, what timezone am i in?
+2008-04-29 20:55:49	bjorn`	MrElendig: so what exactly is the wiki NOT tell me?
+2008-04-29 20:55:49	spaz	martes, 29 de abril de 2008, 14:55:14 EDT
+2008-04-29 20:55:50	spaz	EDT
+2008-04-29 20:56:02	MrElendig	[2007-12-18 18:53] The way fontconfig is configured has been changed.
+2008-04-29 20:56:03	MrElendig	[2007-12-18 18:53] Configuration is done via /etc/fonts/conf.avail and conf.d.
+2008-04-29 20:56:03	sykopomp	my first bet would be that something is wrong with your gtkrc/wherever your gtk settings are
+2008-04-29 20:56:05	MrElendig	[2007-12-18 18:53] Read /etc/fonts/conf.avail/README for more information.
+2008-04-29 20:56:13	spaz	sykopomp, that could be possible
+2008-04-29 20:56:18	kelnoky	spaz: I wish it would be that early here at my place -.-
+2008-04-29 20:56:25	MrElendig	bjorn`: update the wiki after you have solved your prob
+2008-04-29 20:56:26	MrElendig	:D
+2008-04-29 20:56:30	sykopomp	spaz: fx3 uses your gtk settings. Try backing up anything that has gtk stuff and restarting it.
+2008-04-29 20:56:34	spaz	hmm
+2008-04-29 20:56:37	sykopomp	start with clean gtk settings.
+2008-04-29 20:56:39	*	spaz tries xfce real quick
+2008-04-29 20:56:40	spaz	that could be it
+2008-04-29 20:56:41	MrElendig	[2007-12-18 18:53] Configuration via /etc/fonts/local.conf is still possible,
+2008-04-29 20:56:42	MrElendig	[2007-12-18 18:53] but is no longer recommended for options available in conf.avail.
+2008-04-29 20:56:44	sykopomp	also, do you have gtk installed?
+2008-04-29 20:56:50	sykopomp	or any special version of it?
+2008-04-29 20:56:54	spaz	since i installed a thing that applies my qt theme to gtk
+2008-04-29 20:56:55	bjorn`	MrElendig: *sigh*
+2008-04-29 20:56:59	bjorn`	that's what i'm using
+2008-04-29 20:57:02	spaz	i forgot the name of it
+2008-04-29 20:57:05	sykopomp	that might have to do with it
+2008-04-29 20:57:26	-->	jstad_ (n=jstad@12-217-247-56.client.mchsi.com) has joined #archlinux
+2008-04-29 20:57:30	*	spaz tries
+2008-04-29 20:57:37	bjorn`	MrElendig: symlinked 10-sub-pixel-rgb.conf to conf.d
+2008-04-29 20:57:40	bjorn`	WHAT MORE?
+2008-04-29 20:57:40	tuxfusion	Dream_Team, id like to give you this link for looking into alternative apps ,but it looks stalled right now ..  http://linuxappfinder.com/
+2008-04-29 20:57:41	sykopomp	spaz: I don't troll when people are genuinely asking for help with shit they can't figure out :P
+2008-04-29 20:57:47	spaz	hehe
+2008-04-29 20:57:50	sykopomp	I troll when poor souls don't understand the wonders of emacs.
+2008-04-29 20:57:53	Dream_Team	tuxfusion: thank you
+2008-04-29 20:57:55	spaz	uh oh
+2008-04-29 20:57:56	*	spaz hides
+2008-04-29 20:58:01	sykopomp	this channel is full of ignorant heathens, anyways.
+2008-04-29 20:58:04	-->	kasmol (n=kasmol@host190-255-dynamic.19-79-r.retail.telecomitalia.it) has joined #Archlinux
+2008-04-29 20:58:07	sykopomp	so I've grown used to it.
+2008-04-29 20:58:09	spaz	crap that iddn't work :(
+2008-04-29 20:58:10	spaz	didn't even
+2008-04-29 20:58:15	<--	esquiso (n=esquiso@195-23-162-81.net.novis.pt) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 20:58:17	sykopomp	xfce4?
+2008-04-29 20:58:21	spaz	yes.
+2008-04-29 20:58:23	spaz	tried it, same problem
+2008-04-29 20:58:27	sykopomp	then you found the problem
+2008-04-29 20:58:36	Denacke	:o
+2008-04-29 20:58:36	sykopomp	get rid of that shit that breaks your gtk
+2008-04-29 20:58:41	spaz	yep.
+2008-04-29 20:58:44	spaz	i forgot the name of the package
+2008-04-29 20:58:47	-->	avalan (n=avalan@host-89-230-243-206.paslek.mm.pl) has joined #archlinux
+2008-04-29 20:58:50	spaz	how can i list all installed packages on my system
+2008-04-29 20:58:55	Denacke	pacman -Q
+2008-04-29 20:59:03	sykopomp	yaourt -Q | grep gtk
+2008-04-29 20:59:10	MrElendig	bjorn`: sorry, my brain filled out the local.conf by itself
+2008-04-29 20:59:17	tuxfusion	spaz, you tried to marry qt with gtk hehe
+2008-04-29 20:59:39	tuxfusion	spaz, now they fight the divorce
+2008-04-29 20:59:42	spaz	hehe
+2008-04-29 20:59:44	spaz	:p
+2008-04-29 20:59:44	Torikun	use synaptic
+2008-04-29 20:59:45	Torikun	lol
+2008-04-29 20:59:47	spaz	...
+2008-04-29 20:59:47	jerryLUC	but how can i uninstall and delete packages with pacman?
+2008-04-29 20:59:52	spaz	sigh
+2008-04-29 20:59:53	sykopomp	also, tell the people in #firefox to go suck a cock
+2008-04-29 20:59:56	Torikun	pacman -R package name jerryLUC
+2008-04-29 20:59:58	sykopomp	a big, long, sloppy, wet one
+2008-04-29 21:00:14	zodmaner	sykopomp: Eww...
+2008-04-29 21:00:15	<--	sevenfourk (n=sevenfou@79.124.146.94) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 21:00:17	*	tuxfusion sighs at Hans poor ol' Hans
+2008-04-29 21:00:19	sykopomp	they deserve it
+2008-04-29 21:00:22	faemir	why?
+2008-04-29 21:00:24	*	zodmaner go wash his eyes
+2008-04-29 21:00:28	inpherno	for using all my ram?
+2008-04-29 21:00:31	Torikun	In soviet russia, Hans Journals you!
+2008-04-29 21:00:35	faemir	lol
+2008-04-29 21:00:37	-->	Arelis (n=arelis@195-241-90-109.ip.telfort.nl) has joined #archlinux
+2008-04-29 21:00:39	sykopomp	for telling spaz to switch distros over something this simple to solve.
+2008-04-29 21:00:41	tuxfusion	lol !
+2008-04-29 21:00:44	LSD`	Who has Hans killed now?
+2008-04-29 21:00:45	Torikun	his wife was hot
+2008-04-29 21:00:46	jerryLUC	Torikun: but that just uninstall, or....
+2008-04-29 21:00:48	spaz	damnit
+2008-04-29 21:00:49	sykopomp	bunch of ubuntards.
+2008-04-29 21:00:54	Torikun	jerryLUC: uninstall
+2008-04-29 21:00:56	sykopomp	spaz: did you find the name of the package?
+2008-04-29 21:00:56	Arelis	Okay, the virtual machine had too less diskspace. Should i just take the risk and install Arch on my PC, over ubuntu?
+2008-04-29 21:00:59	-->	nofxx (n=nofxx@unaffiliated/nofxx) has joined #archlinux
+2008-04-29 21:00:59	<--	gades (n=gades@190.33.62.19) has left #archlinux ("Saliendo")
+2008-04-29 21:01:01	spaz	sykopomp, yes, removed it too
+2008-04-29 21:01:03	spaz	same issue
+2008-04-29 21:01:07	sykopomp	of course
+2008-04-29 21:01:07	tuxfusion	it was linux he haited reiser from the start and notz dead  ..
+2008-04-29 21:01:08	Torikun	Ubuntu is linux sykopomp
+2008-04-29 21:01:09	lostarcher	yes, ubuntards! it's catching on!
+2008-04-29 21:01:09	Torikun	lol
+2008-04-29 21:01:10	spaz	i forgot where GTK keeps its crap.
+2008-04-29 21:01:11	tuxfusion	*linus
+2008-04-29 21:01:13	anakin_	Dream_Team: it's working
+2008-04-29 21:01:13	sykopomp	since you still have your gtk settings that way
+2008-04-29 21:01:15	comhack	take the chance
+2008-04-29 21:01:17	MrElendig	spaz: whipe your ~/.gtkrc*
+2008-04-29 21:01:21	*	Torikun liks that word ubuntards
+2008-04-29 21:01:24	Dream_Team	anakin_: \o/
+2008-04-29 21:01:25	jerryLUC	Torikun: but if i want to delete them to?
+2008-04-29 21:01:29	<--	rine_ (n=rine@24-230-dsl.kielnet.net) has quit ("leaving")
+2008-04-29 21:01:33	-->	Phleagor (n=Phleagor@p54A6100A.dip0.t-ipconnect.de) has joined #archlinux
+2008-04-29 21:01:37	tigrmesh	Arelis: do you have a spare partition?
+2008-04-29 21:01:39	<--	tombhadAC (n=tombhad@pD95DC52D.dip.t-dialin.net) has quit (Remote closed the connection)
+2008-04-29 21:01:40	Torikun	rm /var/cache/pacman/pkg/packagename
+2008-04-29 21:01:40	anakin_	Dream_Team: current limitations, it delays your status bar update by 1 second and still outputs in Bps
+2008-04-29 21:01:41	sykopomp	lostarcher: 'ubuntards' has been in use for quite a while.
+2008-04-29 21:01:50	Torikun	Archtards
+2008-04-29 21:01:50	Torikun	lol
+2008-04-29 21:01:55	sykopomp	archwipes
+2008-04-29 21:01:56	Arelis	tigrmesh, no
+2008-04-29 21:02:04	Arelis	tigrmesh, and if so, it's very small
+2008-04-29 21:02:05	<--	hbhth (n=hb@p5B1318A2.dip0.t-ipconnect.de) has quit (Client Quit)
+2008-04-29 21:02:05	jerryLUC	thanks
+2008-04-29 21:02:05	MrElendig	Arelis: can't say that's a risk
+2008-04-29 21:02:07	anders	the last 10 times i switched over to this window i've either seen "go back to ubuntu (newfag)" or "ubuntutard" used
+2008-04-29 21:02:07	Torikun	Archie: The gay arch user.
+2008-04-29 21:02:08	sykopomp	archwipes > archtards
+2008-04-29 21:02:14	anders	arsch linsux
+2008-04-29 21:02:20	-->	eldalion (n=ben@QMStudsDynamic-254-080.qmul.ac.uk) has joined #archlinux
+2008-04-29 21:02:22	Torikun	I am archist! Arch Power!
+2008-04-29 21:02:24	spaz	let's see
+2008-04-29 21:02:25	MrElendig	Arelis: just keep your /home if you got anything important on it
+2008-04-29 21:02:31	spaz	i nuked gtkrc from orbit
+2008-04-29 21:02:41	tuxfusion	anders,  ^^
+2008-04-29 21:02:42	Torikun	I am archist! Arch Power!
+2008-04-29 21:02:45	tigrmesh	Arelis: it was nice to keep a working system, when i installed arch before.
+2008-04-29 21:02:48	Arelis	MrBobBarker, i will
+2008-04-29 21:02:56	tuxfusion	spaz, gj! although you should have kciked qt
+2008-04-29 21:02:56	spaz	you have got to be kidding me
+2008-04-29 21:02:58	spaz	same problem
+2008-04-29 21:03:09	*	spaz nukes qt config from orbit too
+2008-04-29 21:03:22	MrElendig	anders: I only say that to people like spooky, that want to ubuntufy arch
+2008-04-29 21:03:22	spaz	arm the death star
+2008-04-29 21:03:36	sykopomp	spaz: there might still be some gtk settings elsewhere, so try running the apps now, then start deleting other stuff until it works
+2008-04-29 21:03:37	Arelis	so when i keep my /home it should be fine?
+2008-04-29 21:03:39	Torikun	Arch needs synaptic, it's so 2008
+2008-04-29 21:03:41	Torikun	lol
+2008-04-29 21:03:47	MrElendig	"arch sucks, pkg's shoud autconfigure themself, and start any daemon at install"
+2008-04-29 21:03:48	sykopomp	so... is it working now?
+2008-04-29 21:03:56	spaz	no >_<
+2008-04-29 21:03:56	anders	MrElendig, i just think it's getting a bit old now
+2008-04-29 21:04:01	sykopomp	sigh
+2008-04-29 21:04:14	Torikun	abs FTW
+2008-04-29 21:04:19	anders	not saying that i like ubuntu in any way, and if someone expects daemons to start at install... well screw them :D
+2008-04-29 21:04:19	MrElendig	Arelis: Arelisif /home is the only place you got stuff you want to keep, yes
+2008-04-29 21:04:21	anders	i hate that behavior
+2008-04-29 21:04:23	<--	hst (n=hst@dslb-084-063-013-207.pools.arcor-ip.net) has quit (Read error: 110 (Connection timed out))
+2008-04-29 21:04:30	sykopomp	spaz: ls -la | gtk
+2008-04-29 21:04:31	tigrmesh	Arelis: just create a new user.  copy your xorg.conf, resolv.conf and menu.lst to your /home
+2008-04-29 21:04:31	-->	hst (n=hst@dslb-084-063-018-152.pools.arcor-ip.net) has joined #archlinux
+2008-04-29 21:04:33	Torikun	Ubuntard: Linux for the needful
+2008-04-29 21:04:41	-->	esquiso (n=esquiso@195-23-162-81.net.novis.pt) has joined #archlinux
+2008-04-29 21:04:49	bruenig	here we go again, I am so cool because I don't use the popular distro
+2008-04-29 21:04:51	bruenig	har har
+2008-04-29 21:04:57	sykopomp	spaz: there might stiff be settings in .gconf and .gnome2
+2008-04-29 21:05:12	MrElendig	anders: what's getting old, is having a new thred every week with " arch shoud do/use foo cause everyone else does it"
+2008-04-29 21:05:13	Torikun	I am archist! Arch Power!
+2008-04-29 21:05:20	-->	stillunknown (n=stillunk@82-136-225-75.ip.telfort.nl) has joined #archlinux
+2008-04-29 21:05:21	bruenig	go put on your chuck taylor's and listen to your avant-garde music and tell me how awesome noam chomsky's latest critique of US hegemony abroad is
+2008-04-29 21:05:25	tigrmesh	Arelis: you can use gparted live cd to shrink ubuntu
+2008-04-29 21:05:26	Torikun	Arch should continue to being Arch!
+2008-04-29 21:05:27	sykopomp	bruenig: Heh. Ubuntu isn't a terrible distro, either. It's pretty good at what it set out to do.
+2008-04-29 21:05:28	MrElendig	likt the recent one claiming that arch shoud use upstart
+2008-04-29 21:05:38	comhack	I agree Torikun
+2008-04-29 21:05:47	comhack	the less ubuntu users the better
+2008-04-29 21:06:08	Arelis	oh what is wrong with ubuntu
+2008-04-29 21:06:08	spaz	who let these guys in here anyway?
+2008-04-29 21:06:12	sykopomp	Arch is pretty fantastic. There's no need to make it easier, since arch does an amazing job at what it set out to do. By the same token, there's no need to be bashing ubuntu so much.
+2008-04-29 21:06:13	<--	Dogma (n=Navi@ppp-70-244-161-56.dsl.rcsntx.swbell.net) has left #archlinux ()
+2008-04-29 21:06:14	lostarcher	I'd rather users be on Ubuntu than on windows,
+2008-04-29 21:06:20	rpj8laptop	MrElendig: I still get the same error even after messing with udev rules and reloading them.
+2008-04-29 21:06:21	comhack	nothing but its made for beginners
+2008-04-29 21:06:23	Evanlec	Torikun: I support ubuntu because it makes it easier for windows users to come over to *nix
+2008-04-29 21:06:31	Torikun	I agree Evanlec
+2008-04-29 21:06:33	Evanlec	lostarcher: my point exactly
+2008-04-29 21:06:35	sykopomp	and if someone wants to switch from ubuntu to arch, we should help them. Not hold their hand or anything, but help them get started.
+2008-04-29 21:06:37	comhack	i agree on that point
+2008-04-29 21:06:38	Torikun	Windows: The birth of Ubuntards
+2008-04-29 21:06:39	bruenig	spaz: good question, most of these people in here are transparent contrarians.
+2008-04-29 21:06:43	sykopomp	we were all noobtards at one point or another.
+2008-04-29 21:06:44	MrElendig	Arelis: you can use the same dir for your new users's home, as you had for the old one, but you might want to mv all the . files, since some of them are version dependent
+2008-04-29 21:06:47	Arelis	sykopomp, Help me :)
+2008-04-29 21:06:56	sykopomp	Arelis: what's your issue?
+2008-04-29 21:06:57	tigrmesh	Arelis: that way if you have problems setting up x, you can still read your email and surf the web
+2008-04-29 21:06:59	-->	maddog39 (n=maddog39@70.15.34.224.res-cmts.sm.ptd.net) has joined #archlinux
+2008-04-29 21:07:01	Evanlec	thats how i went, Windows --> buntu --> arch
+2008-04-29 21:07:02	comhack	but there some people who should not even run linux   I have a guy I converted and hes too stupid to even run ubuntu
+2008-04-29 21:07:11	Torikun	Evanlec: Same here lol
+2008-04-29 21:07:13	comhack	i try to help him but it dont work
+2008-04-29 21:07:18	Arelis	sykopomp, you said you would give all the information required to move from ubuntu to arch - well, i am planning just that
+2008-04-29 21:07:22	comhack	some people should stay the way they know
+2008-04-29 21:07:25	comhack	cool
+2008-04-29 21:07:45	spaz	poop still lo luck :(
+2008-04-29 21:07:46	lostarcher	Evanlec: Windows --> Fedora Core --> Arch, no Ubuntu back then
+2008-04-29 21:07:47	Evanlec	Arelis: grab the iso and get rockin ;p
+2008-04-29 21:07:48	<--	dav7 (n=dav7@121.223.223.219) has quit ("leaving")
+2008-04-29 21:07:49	Arelis	just checking it out though
+2008-04-29 21:08:00	comhack	remember you wont have X
+2008-04-29 21:08:05	Arelis	i know
+2008-04-29 21:08:06	sykopomp	Arelis: Read the Beginner's guide in the wiki. I'll get you a link, sec.
+2008-04-29 21:08:12	comhack	so you might want to have a spare machine to be able to read the wiki
+2008-04-29 21:08:21	tuxfusion	comhack, send a swat over to his house  =)
+2008-04-29 21:08:23	MrElendig	!give Arelis newtoarch
+2008-04-29 21:08:23	*	Nergar gives Arelis a microphone
+2008-04-29 21:08:23	phrik	Arelis: New to Arch Linux? Our wiki is an excellent resource. Try http://wiki.archlinux.org & http://wiki.archlinux.org/index.php/Beginners_Guide & http://wiki.archlinux.org/index.php/Official_Arch_Linux_Install_Guide & http://wiki.archlinux.org/index.php/Post_Installation_Tips
+2008-04-29 21:08:25	Arelis	i have one :)
+2008-04-29 21:08:28	<--	Absolute0 (n=rak02086@194.120.150.21) has left #archlinux ()
+2008-04-29 21:08:28	Evanlec	yea, or atleast print the beginners guide
+2008-04-29 21:08:31	tuxfusion	PHRIK!
+2008-04-29 21:08:33	Evanlec	thas what i did
+2008-04-29 21:08:34	comhack	lo
+2008-04-29 21:08:47	sykopomp	there, that's what you need
+2008-04-29 21:08:50	sunn	Or use a text-mode browser :P
+2008-04-29 21:08:50	comhack	evanlec I bet it was a lot of pages
+2008-04-29 21:08:53	MrElendig	tuxfusion: welcome to 1/2 a day ago
+2008-04-29 21:09:02	tuxfusion	im oldschool  =)
+2008-04-29 21:09:06	sykopomp	Arelis: read through that guide. It has everything you need to get started, including installing codecs, a desktop environment, etc.
+2008-04-29 21:09:08	<--	unstable (i=unstable@tor/regular/sid) has left #archlinux ()
+2008-04-29 21:09:08	Evanlec	comhack: it was ;p, actually i think i just printed the install guide
+2008-04-29 21:09:21	comhack	i would like to have it on paper
+2008-04-29 21:09:26	sykopomp	Arelis: I highly recommend you also install yaourt. I think it's mentioned in the guide.
+2008-04-29 21:09:28	MrElendig	actualy the beginners guide do need updating
+2008-04-29 21:09:29	comhack	but i printer died
+2008-04-29 21:09:29	Arelis	sykopomp, do you mean the installation guide or the wiki?
+2008-04-29 21:09:37	-->	slapshot (n=slapshot@host187-220-dynamic.16-87-r.retail.telecomitalia.it) has joined #archlinux
+2008-04-29 21:09:37	<--	jstad_ (n=jstad@12-217-247-56.client.mchsi.com) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 21:09:44	-->	TheGateKeeper (n=m@82-36-118-96.cable.ubr03.king.blueyonder.co.uk) has joined #archlinux
+2008-04-29 21:09:50	MrElendig	it's not updated for the new iso's
+2008-04-29 21:09:51	sykopomp	Arelis: http://wiki.archlinux.org/index.php/Beginners_Guide
+2008-04-29 21:09:52	<--	wizzo (n=wizzo@archlinux/trusteduser/WizzoMaFizzo) has quit
+2008-04-29 21:10:05	lostarcher	man, GRUB was the biggest hurdle for me, but this was back in 0.8 Vodoo days :P
+2008-04-29 21:10:08	sykopomp	that guide. Use it. You can figure pretty much everything out by reading through that.
+2008-04-29 21:10:11	comhack	why yaourt?   pacman is easy
+2008-04-29 21:10:21	tigrmesh	Arelis: also print out the wiki page for xorg
+2008-04-29 21:10:22	MrElendig	comhack: for aur
+2008-04-29 21:10:26	Torikun	yaourt is emerge
+2008-04-29 21:10:26	Torikun	lol
+2008-04-29 21:10:27	comhack	oh ok
+2008-04-29 21:10:37	MrElendig	nha
+2008-04-29 21:10:40	comhack	i didnt know that I just download the package and makepkg
+2008-04-29 21:10:41	tigrmesh	!givr Arelis wiki xorg
+2008-04-29 21:10:41	zodmaner	comhack: and it also have pretty colour :D
+2008-04-29 21:10:43	MrElendig	don't need an xorg.conf
+2008-04-29 21:10:45	<--	Blu3ness (n=Blu3ness@S0106001b11e6543e.ed.shawcable.net) has quit (Read error: 110 (Connection timed out))
+2008-04-29 21:10:53	MrElendig	xorg works just fien without it
+2008-04-29 21:10:55	tigrmesh	!give Arelis wiki xorg
+2008-04-29 21:10:55	*	Nergar gives Arelis a trout
+2008-04-29 21:10:56	sykopomp	comhack: yaourt falls back on pacman for a lot of things, but yaourt lets you install from AUR and manage those packages easier. It also makes pretty colors, and some extra useful info.
+2008-04-29 21:10:56	phrik	Arelis: Search took 0.20 seconds: ArchWiki :: Xorg - ArchWiki: <http://wiki.archlinux.org/index.php/Xorg>
+2008-04-29 21:10:57	<--	AssociateX (n=me@24-116-186-74.cpe.cableone.net) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 21:10:57	comhack	yeah so does pacman-color
+2008-04-29 21:10:58	MrElendig	fine
+2008-04-29 21:11:03	Arelis	i've used arch once (not completely set-up) but never used yaourt. what's it for?
+2008-04-29 21:11:11	sykopomp	comhack: it also lets you choose a list of packages to install from a search.
+2008-04-29 21:11:16	MrElendig	!yaourt
+2008-04-29 21:11:17	phrik	A wrapper for pacman/makepkg with AUR support and colorized output! For more info: http://archlinux.fr/yaourt-en/ & http://bbs.archlinux.org/viewtopic.php?id=25718&p=1
+2008-04-29 21:11:19	sykopomp	Arelis: We just answered that :P
+2008-04-29 21:11:22	-->	dav7 (n=dav7@121.223.223.219) has joined #archlinux
+2008-04-29 21:11:32	bruenig	Arelis: back to ubuntu
+2008-04-29 21:11:33	comhack	so does Pacman -Ss
+2008-04-29 21:11:36	Arelis	okay. And how do i get internet (wired) on the livecd?
+2008-04-29 21:11:42	comhack	you mean by groups?
+2008-04-29 21:11:48	spaz	:(
+2008-04-29 21:11:54	spaz	crap i've tried everything i can think of
+2008-04-29 21:11:58	spaz	still no luck with firefox 3
+2008-04-29 21:12:01	-->	{Nathan} (n=nathan@oh-76-2-79-39.dhcp.embarqhsd.net) has joined #archlinux
+2008-04-29 21:12:02	Evanlec	Arelis: if u got wired ethernet, should be no problem, dhcp ?
+2008-04-29 21:12:08	comhack	need to change device to dhcp in /etc/rc.conf
+2008-04-29 21:12:10	sykopomp	Arelis: anyways. No handholding, but arch is incredibly well-documented. You should search for stuff on the wiki before you ask questions here. We mostly do you-broke-it support.
+2008-04-29 21:12:19	Arelis	I think i'm sticking with arch IF my tablet works when i install linuxwacom using the AUR
+2008-04-29 21:12:19	<--	casperr (n=casperr@d38-178-58.home1.cgocable.net) has quit ("PEACE")
+2008-04-29 21:12:26	Arelis	sykopomp, okay
+2008-04-29 21:12:31	bruenig	comhack: not in live cd obviously, and all that does is direct init scripts which you can just do on your own
+2008-04-29 21:12:38	sykopomp	Arelis: and I highly recommend having a second computer around to have the guide up and google stuff from while you install.
+2008-04-29 21:12:49	Arelis	sykopomp, you-broke-it meaning, "You broke it yourself. Now fix it yourself, you piece of $h!t"?
+2008-04-29 21:12:50	comhack	oh ok
+2008-04-29 21:12:53	Evanlec	Arelis: why wouldn't it ?
+2008-04-29 21:12:55	<--	iGoth (n=mackitty@tx-71-1-47-136.sta.embarqhsd.net) has left #archlinux ()
+2008-04-29 21:13:01	MrElendig	pft
+2008-04-29 21:13:21	MrElendig	wiered networking works 99.7% of the time
+2008-04-29 21:13:21	<--	mo (n=mo@g227033159.adsl.alicedsl.de) has quit (Read error: 110 (Connection timed out))
+2008-04-29 21:13:23	bruenig	Arelis: if we are lucky
+2008-04-29 21:13:24	Evanlec	Arelis: linuxwacom = linuxwacom , not really matter your distro, i use linuxwacom and it works fine
+2008-04-29 21:13:27	sykopomp	you-broke-it means "there's no way you can follow a wiki to get it fixed, so we'll get you back on track"
+2008-04-29 21:13:27	comhack	arch has a live cd?
+2008-04-29 21:13:38	Arelis	Evanlec, except for in Ubuntu. you have to follow a hackish guide
+2008-04-29 21:13:41	sykopomp	anyways... I'm gonna go take a shit, take a shower, and take a break.
+2008-04-29 21:13:43	lostarcher	comhack: archie :P
+2008-04-29 21:13:43	MrElendig	comhack: several unofficial ones
+2008-04-29 21:13:44	comhack	oh ubuntu sorry?
+2008-04-29 21:13:45	sykopomp	toodles, my doves
+2008-04-29 21:13:46	Arelis	syazhani, ah, thanks :)
+2008-04-29 21:13:48	KyleS-work	>_>
+2008-04-29 21:13:48	MrElendig	comhack: e.g. faunos
+2008-04-29 21:13:54	comhack	ohk
+2008-04-29 21:13:56	KyleS-work	sykopomp, tmi
+2008-04-29 21:14:11	Arelis	no, the latest 2008.04 is a livecd
+2008-04-29 21:14:25	MrElendig	there are about 5 diff livecd's for arch
+2008-04-29 21:14:25	comhack	cool i didnt know that
+2008-04-29 21:14:31	comhack	its still in RC right?
+2008-04-29 21:14:36	sykopomp	Arelis: with a desktop environment?
+2008-04-29 21:14:42	Arelis	oh, i just burnt it.. does that mean its safe?
+2008-04-29 21:14:45	Arelis	sykopomp, nope. no xorg either
+2008-04-29 21:14:51	tuxfusion	spaz, i remember FF3 is the first FF to use native gtk isnall to display its stuff
+2008-04-29 21:14:51	-->	{Nathan}1 (n=nathan@oh-76-2-79-39.dhcp.embarqhsd.net) has joined #archlinux
+2008-04-29 21:14:56	sykopomp	that's not the kind of livecd we're talking about
+2008-04-29 21:14:58	MrElendig	comhack: the 2008.04 iso's don't have X tho
+2008-04-29 21:15:05	sykopomp	all the ubuntu cd does is give you an environment to install from.
+2008-04-29 21:15:07	comhack	i like it better that way
+2008-04-29 21:15:14	-->	sevenfourk (n=sevenfou@79.124.146.94) has joined #archlinux
+2008-04-29 21:15:16	<--	skate_estagio (n=fnxicd@unaffiliated/skateforever/x-2874) has quit ("CASA!! (www.cyberscript.org)")
+2008-04-29 21:15:23	*	Torikun perfers CLU
+2008-04-29 21:15:28	Arelis	okay, i burnt the cd.
+2008-04-29 21:15:28	comhack	install what i want ......... the arch way
+2008-04-29 21:15:30	sykopomp	comhack: they don't have much of anything. Only the stuff you need to get shit installed.
+2008-04-29 21:15:32	*	Torikun loves installing gentoo/ command line way
+2008-04-29 21:15:37	MrElendig	Torikun: s/clu/cli/
+2008-04-29 21:15:42	comhack	gentoo takes too damn long
+2008-04-29 21:15:48	spaz	15:14 < tuxfusion> spaz, i remember FF3 is the first FF to use native gtk isnall to display its stuff
+2008-04-29 21:15:52	-->	DaNiMoTh (n=UffI@83.181.177.44) has joined #archlinux
+2008-04-29 21:15:54	KyleS-work	I can have a fully working gentoo installation in 45 mins
+2008-04-29 21:15:55	spaz	well other stuff like pidgin works fine
+2008-04-29 21:15:59	comhack	to install the OS and any packages
+2008-04-29 21:16:03	comhack	how
+2008-04-29 21:16:03	comhack	?
+2008-04-29 21:16:06	<--	spY|da (i=psybnc@77.37.12.251) has quit (Client Quit)
+2008-04-29 21:16:09	KyleS-work	just the OS :P
+2008-04-29 21:16:13	KyleS-work	without an X environment
+2008-04-29 21:16:13	Bug2000	Umm. How do I use another X?
+2008-04-29 21:16:15	comhack	i have core2 duo with 3gb ram and it takes days
+2008-04-29 21:16:15	MrElendig	I can have a fully working arch install in 20 misn with X
+2008-04-29 21:16:19	Bug2000	So SDL application won't eat me?
+2008-04-29 21:16:19	<--	{Nathan} (n=nathan@oh-76-2-79-39.dhcp.embarqhsd.net) has quit (Client Quit)
+2008-04-29 21:16:20	<--	{Nathan}1 (n=nathan@oh-76-2-79-39.dhcp.embarqhsd.net) has quit (Client Quit)
+2008-04-29 21:16:22	comhack	oh ok
+2008-04-29 21:16:26	Torikun	http://rusher.webhop.org/wordpress/?p=87
+2008-04-29 21:16:31	Torikun	That is how I install arch
+2008-04-29 21:16:31	Arelis	okay, i have a working system next to me
+2008-04-29 21:16:35	Torikun	less than 30 min
+2008-04-29 21:16:35	Arelis	now i'm gonna install arch
+2008-04-29 21:16:36	-->	{Nathan} (n=nathan@oh-76-2-79-39.dhcp.embarqhsd.net) has joined #archlinux
+2008-04-29 21:16:39	KyleS-work	I can have a fully working gentoo install complete with X in about 2 days
+2008-04-29 21:16:39	-->	spY|da (i=psybnc@77.37.12.251) has joined #archlinux
+2008-04-29 21:16:42	-->	schischa_ (n=schischa@Ybcd0.y.pppool.de) has joined #archlinux
+2008-04-29 21:16:51	MrElendig	Torikun: 30 mins is slow ;D
+2008-04-29 21:16:52	comhack	2 days is too long
+2008-04-29 21:16:54	<--	slapshot (n=slapshot@host187-220-dynamic.16-87-r.retail.telecomitalia.it) has quit ("Download Edupup 2.00 at http://www.edupup.org")
+2008-04-29 21:16:56	tuxfusion	spaz,you're right
+2008-04-29 21:16:58	Evanlec	2 days lol
+2008-04-29 21:17:00	Torikun	it is actually 15 MrElendig
+2008-04-29 21:17:02	Torikun	lol
+2008-04-29 21:17:06	MrElendig	22 mins for my last install, with a slooooooow connection
+2008-04-29 21:17:07	Arelis	does yaourt take as long as in gentoo?
+2008-04-29 21:17:14	KyleS-work	yah >_< 2 days
+2008-04-29 21:17:18	<--	b0h (n=jheeney@12.0.36.222) has left #archlinux ()
+2008-04-29 21:17:19	MrElendig	3/4 of that was dl'ing
+2008-04-29 21:17:21	kelnoky	Arelis: huh?
+2008-04-29 21:17:23	MrElendig	boot to X
+2008-04-29 21:17:24	KyleS-work	but I have a complete arch system in about 1:30
+2008-04-29 21:17:26	Bug2000	MrElendig: How do I start an application and tell it to be on `VC8` [if Desktop it VC7]
+2008-04-29 21:17:26	kelnoky	Arelis: yaourt is for Aur
+2008-04-29 21:17:31	Evanlec	Arelis: yaourt = Arch
+2008-04-29 21:17:32	Arelis	AUR is compiling right?
+2008-04-29 21:17:33	comhack	arch in about 10 minutues         with x in another 5
+2008-04-29 21:17:35	kelnoky	Arelis: pacman is the normal packet manager
+2008-04-29 21:17:38	spaz	ls
+2008-04-29 21:17:39	spaz	oops
+2008-04-29 21:17:41	kelnoky	Arelis: yeah, that's compiling
+2008-04-29 21:17:42	KyleS-work	o.o how?
+2008-04-29 21:17:44	comhack	kinda compiling
+2008-04-29 21:17:48	MrElendig	Bug2000: man xinit
+2008-04-29 21:17:49	Arelis	kelnoky, so that is like in gentoo?
+2008-04-29 21:17:51	comhack	not like gentoo but yes
+2008-04-29 21:18:00	Arelis	so that takes as long as in gentoo?
+2008-04-29 21:18:03	KyleS-work	I always do ftp install, and it takes about 25 mins to completely install arch
+2008-04-29 21:18:12	comhack	it makes a package specific to your machine
+2008-04-29 21:18:14	kelnoky	Arelis: well, the actual compiling time depends on your PC...
+2008-04-29 21:18:15	KyleS-work	then another 30 mins to get X
+2008-04-29 21:18:21	KyleS-work	and the last 30 mins is me setting up meh stuff
+2008-04-29 21:18:26	Torikun	downloading packages are a waste of bandwith
+2008-04-29 21:18:31	comhack	well yeah not all my proggies
+2008-04-29 21:18:33	MrElendig	30 mins to get X is damn slow
+2008-04-29 21:18:36	Torikun	http://rusher.webhop.org/wordpress/?p=87  FTW!
+2008-04-29 21:18:39	SickHate	man so mutch bullsh*t...
+2008-04-29 21:18:41	*	rpj8laptop is ready to shoot someone in the foot.
+2008-04-29 21:18:41	comhack	just x  &nvidia
+2008-04-29 21:18:43	Arelis	KyleS-home, and then you have a completely working system, which you could run forever, tailored to your needs?
+2008-04-29 21:18:44	KyleS-work	well, gnome + xorg
+2008-04-29 21:18:49	tuxfusion	Bug2000 X -ac :1
+2008-04-29 21:18:58	comhack	kdemod or openbox
+2008-04-29 21:19:03	-->	douglas_ (n=douglas@ool-43503ed4.dyn.optonline.net) has joined #archlinux
+2008-04-29 21:19:25	<--	Arelis (n=arelis@195-241-90-109.ip.telfort.nl) has quit (Remote closed the connection)
+2008-04-29 21:19:28	MrElendig	pacman -S xorg gnome gnome-extra && echo "exec gnome-session" > ~.xinitrc && startx
+2008-04-29 21:19:30	<--	Daenyth (n=Daenyth@c-24-63-25-139.hsd1.ma.comcast.net) has quit (Read error: 110 (Connection timed out))
+2008-04-29 21:19:31	<--	douglas_ (n=douglas@ool-43503ed4.dyn.optonline.net) has left #archlinux ()
+2008-04-29 21:19:34	MrElendig	there you go
+2008-04-29 21:19:39	-->	Dougy (n=douglas@ool-43503ed4.dyn.optonline.net) has joined #archlinux
+2008-04-29 21:19:40	MrElendig	running X with gnome
+2008-04-29 21:19:43	Dougy	Hello
+2008-04-29 21:19:43	KyleS-work	I edit the inittab
+2008-04-29 21:19:50	Dougy	Does anyone use Arch with KDE or Gnome and si around?
+2008-04-29 21:19:52	KyleS-work	default init 5
+2008-04-29 21:19:55	Dougy	I use Fedora now and flash in any browser is very buggy
+2008-04-29 21:19:58	Dougy	Is it better on Arch?
+2008-04-29 21:19:59	MrElendig	!give Dougyask
+2008-04-29 21:20:00	*	Nergar gives Dougyask The Family Learning Channel
+2008-04-29 21:20:00	phrik	MrElendig: Error: Something's broken...
+2008-04-29 21:20:06	MrElendig	!give Dougy ask
+2008-04-29 21:20:07	*	Nergar gives Dougy a football team
+2008-04-29 21:20:07	phrik	Dougy: Don't ask to ask, or ask if anyone is here, or if anyone is alive, or if anyone uses something. Just ask!
+2008-04-29 21:20:07	KyleS-work	Dougy, you'd have to try for yourself
+2008-04-29 21:20:09	Torikun	Flash works great on Arch
+2008-04-29 21:20:13	Torikun	Flash works great on Arch
+2008-04-29 21:20:18	bruenig	Torikun: stfu
+2008-04-29 21:20:20	lostarcher	Dougy: flash with nspluginwrapper is very buggy :(
+2008-04-29 21:20:21	Dougy	Ever used Fedora, Torikun?
+2008-04-29 21:20:24	Dougy	Gah.
+2008-04-29 21:20:26	*	spaz gives up on firefox 3
+2008-04-29 21:20:28	Torikun	Dougy: Yes
+2008-04-29 21:20:30	Dougy	Opera plugin fails
+2008-04-29 21:20:32	Torikun	Dougy: Fedora sucks
+2008-04-29 21:20:34	MrElendig	Dougy: flash works just fine in FF3 on i686
+2008-04-29 21:20:34	Dougy	I knwo.
+2008-04-29 21:20:36	tiggerthump	Does Wine (in Extra) run on x86_64?
+2008-04-29 21:20:36	Dougy	know*
+2008-04-29 21:20:38	comhack	badfly
+2008-04-29 21:20:41	bruenig	flash works the same on every distro, don't be retarded please
+2008-04-29 21:20:43	tuxfusion	spaz FF3beta5 ftw !
+2008-04-29 21:20:45	Torikun	Dougy: Flash does not work with opera I thought
+2008-04-29 21:20:47	MrElendig	tiggerthump: ofcause not
+2008-04-29 21:20:48	Evanlec	tiggerthump: use bin32-wine from AUR
+2008-04-29 21:20:52	Dougy	It does, Torikun.
+2008-04-29 21:21:06	spaz	tuxfusion, i know
+2008-04-29 21:21:07	spaz	:(
+2008-04-29 21:21:09	-->	Daenyth (n=Daenyth@c-24-63-25-139.hsd1.ma.comcast.net) has joined #archlinux
+2008-04-29 21:21:10	spaz	but it's not working ><
+2008-04-29 21:21:12	spaz	*>_<
+2008-04-29 21:21:18	tuxfusion	spaz give up your bloated desktop
+2008-04-29 21:21:19	Torikun	Arch works great
+2008-04-29 21:21:22	spaz	tuxfusion, i did
+2008-04-29 21:21:22	Evanlec	Daenyth: massachussets ?
+2008-04-29 21:21:23	spaz	i tried
+2008-04-29 21:21:26	spaz	i tried xfce
+2008-04-29 21:21:26	MrElendig	tiggerthump: it can't work cause 1. no wine in extra on x86_64 2. wine is 32bit only
+2008-04-29 21:21:26	tuxfusion	hehe
+2008-04-29 21:21:28	spaz	and it's not working
+2008-04-29 21:21:31	Dougy	Torikun, stfu
+2008-04-29 21:21:32	-->	Arelis_ (n=Arelis_@195-241-90-109.ip.telfort.nl) has joined #archlinux
+2008-04-29 21:21:39	spaz	so i just completley give up
+2008-04-29 21:21:40	tuxfusion	rm -rf / ?
+2008-04-29 21:21:43	Dougy	Anyone have problems watching YouTube on Arch?
+2008-04-29 21:21:44	tiggerthump	﻿MrElendig: Sorry I meant would the PKGBUILD.
+2008-04-29 21:21:47	<--	stillunk1own (n=stillunk@vpn006063.vpn.utwente.nl) has quit (Connection timed out)
+2008-04-29 21:21:49	Torikun	Pacman: The heterosexual package management system, Pacman pounds Yum!
+2008-04-29 21:21:50	Evanlec	MrElendig: bin32-wine works fine
+2008-04-29 21:21:52	spaz	tuxfusion, i dare you to do that first
+2008-04-29 21:21:55	tiggerthump	﻿Evanlec, thanks
+2008-04-29 21:21:59	MrElendig	Dougy: uhm, why the stfu?
+2008-04-29 21:22:00	KyleS-work	I watch youtube just fine Dougy
+2008-04-29 21:22:01	tuxfusion	^^
+2008-04-29 21:22:02	lostarcher	Dougy: are you running x86_64?
+2008-04-29 21:22:06	Dougy	No. 32bit.
+2008-04-29 21:22:14	lostarcher	then i'll be fine :)
+2008-04-29 21:22:15	Dougy	I blame Fedora because it's shit (pardon my french)
+2008-04-29 21:22:17	lostarcher	*it'll
+2008-04-29 21:22:24	tuxfusion	but im pretty happy with openbox and FF3
+2008-04-29 21:22:28	Torikun	Dougy: Something we can agreeon =)
+2008-04-29 21:22:33	Dougy	Heh.
+2008-04-29 21:22:37	KyleS-work	lol fedora is turrible
+2008-04-29 21:22:42	Dougy	Does Arch have a desktop installer when you install it
+2008-04-29 21:22:43	MrElendig	Dougy: flash and opera is a bad combo. blame macromedia/adobe
+2008-04-29 21:22:45	Torikun	Gentoo is better than Fedora lol
+2008-04-29 21:22:47	Dougy	Like can you select it?
+2008-04-29 21:22:49	MrElendig	Dougy: no
+2008-04-29 21:22:50	ss2	it isn't even usable for torvalds ;)
+2008-04-29 21:22:52	Torikun	Dougy: Try Faun OS or Archie
+2008-04-29 21:23:02	tuxfusion	ss2,  =)
+2008-04-29 21:23:04	Dougy	faun os?
+2008-04-29 21:23:17	Torikun	Dougy: Faun OS is a live Arch based lcd
+2008-04-29 21:23:17	Bug2000	URGH!
+2008-04-29 21:23:19	MrElendig	Dougy: arch based live distro
+2008-04-29 21:23:21	Bug2000	I can't understand how to do it.
+2008-04-29 21:23:22	Dougy	Oh.
+2008-04-29 21:23:26	Dougy	Brb. I need to find some paperwork
+2008-04-29 21:23:27	MrElendig	targeting usb
+2008-04-29 21:23:32	Torikun	Dougy: Flash works great on Ubuntu
+2008-04-29 21:23:33	Torikun	lol
+2008-04-29 21:24:08	MrElendig	Bug2000: ?
+2008-04-29 21:24:13	<--	tigrmesh (n=arch@adsl-149-13-37.mia.bellsouth.net) has quit ("WeeChat 0.2.7-dev")
+2008-04-29 21:24:13	Dougy	Ubuntu is shit.
+2008-04-29 21:24:15	Dougy	I hate it.
+2008-04-29 21:24:18	Dougy	It's ugly and I don't like it.
+2008-04-29 21:24:31	-->	tigrmesh (n=arch@adsl-149-13-37.mia.bellsouth.net) has joined #archlinux
+2008-04-29 21:24:31	*	Torikun another thing we can agree on. But.... Theme can not determine if a distro is shit
+2008-04-29 21:24:31	Bug2000	MrElendig: Sorry. I can't understand from the man page how to do it :(
+2008-04-29 21:24:33	spaz	it's heavy as hell.
+2008-04-29 21:24:40	Dougy	spaz, ?
+2008-04-29 21:24:44	spaz	Dougy, ubuntu
+2008-04-29 21:24:50	spaz	it eats up as much ram as it can
+2008-04-29 21:24:53	MrElendig	Dougy: ubuntu isn't shit. And the only ugly thing on it is the .config and debs
+2008-04-29 21:24:56	Torikun	Ubuntu: Linux for Dougy
+2008-04-29 21:24:59	spaz	(though i am a KDE user, it's still very heavy)
+2008-04-29 21:25:03	-->	slapshot (n=slapshot@87.16.220.187) has joined #archlinux
+2008-04-29 21:25:09	MrElendig	Bug2000: what man page, and do what?
+2008-04-29 21:25:18	Torikun	!ubuntu
+2008-04-29 21:25:19	phrik	Ewww! Wipe that ubuntu off your shoes before it gets all over the carpet!
+2008-04-29 21:25:20	Bug2000	MrElendig: The xinit one?
+2008-04-29 21:25:20	tuxfusion	spaz, you said you killed kde  =)
+2008-04-29 21:25:21	spaz	lol
+2008-04-29 21:25:25	spaz	i did. :P
+2008-04-29 21:25:30	spaz	i nuked it from orbit
+2008-04-29 21:25:30	Dougy	i hate ubuntu
+2008-04-29 21:25:33	spaz	i was only trying out kdemod
+2008-04-29 21:25:34	spaz	i liked it
+2008-04-29 21:25:36	spaz	but meh
+2008-04-29 21:25:41	tuxfusion	spaz, oh okay
+2008-04-29 21:25:42	spaz	i don't like hte associated heaviness
+2008-04-29 21:25:51	bruenig	Dougy: stop being a fag like spaz with your bullshit uniqueness stance
+2008-04-29 21:25:59	MrElendig	Ubuntu is the new windows, when it comes to hateboyz
+2008-04-29 21:26:05	<--	paul_thujone (n=paul@host217-133-dynamic.32-79-r.retail.telecomitalia.it) has quit (Remote closed the connection)
+2008-04-29 21:26:12	MrElendig	"zomg ubuntu is the crap!!!111eleven"
+2008-04-29 21:26:13	-->	Pnevma (n=Klavious@cpe-76-190-250-117.neo.res.rr.com) has joined #archlinux
+2008-04-29 21:26:21	MrElendig	it's "in" to hate it
+2008-04-29 21:26:22	spaz	lol
+2008-04-29 21:26:39	spaz	i fled from ubuntu back in the gutsy days
+2008-04-29 21:26:43	spaz	err
+2008-04-29 21:26:45	spaz	edgy days
+2008-04-29 21:26:50	ss2	hopefully all windows power users will stay there, once they trippeld over ubuntu...
+2008-04-29 21:26:53	Evanlec	hmm
+2008-04-29 21:26:56	spaz	i noticed it was getting heavier and heavier
+2008-04-29 21:27:02	ss2	spaz: ah, me too ;)
+2008-04-29 21:27:03	Evanlec	which is perferable, Archie or Arch Live ?
+2008-04-29 21:27:17	MrElendig	ubuntu is alot better now that it was pre 7.10
+2008-04-29 21:27:28	bruenig	spaz: do you say these things to convince yourself or do you think anyone buys your bullshit
+2008-04-29 21:27:35	MrElendig	Evanlec: you forgot faunos
+2008-04-29 21:27:43	spaz	not really
+2008-04-29 21:27:45	spaz	it's gotten heavier and heavier
+2008-04-29 21:27:51	Evanlec	MrElendig: lol oh ya, faunos
+2008-04-29 21:27:53	spaz	and full of more stuff that i don't need or want
+2008-04-29 21:28:01	spaz	like compiz-fusion by default
+2008-04-29 21:28:15	ss2	MrElendig: yep, on dapper today: wanted to install smartmontools, and suddenly I had koffice :)
+2008-04-29 21:28:18	rpj8laptop	Someone seems to think arch messed up udev permissions
+2008-04-29 21:28:19	MrElendig	spaz: you do know that you can do an arch like install with ubuntu too?
+2008-04-29 21:28:26	tuxfusion	compiz-fusion isnt in by default i guess
+2008-04-29 21:28:41	Dougy	bruenig, no?
+2008-04-29 21:28:42	Dougy	shut up
+2008-04-29 21:28:43	MrElendig	spaz: it's no prob installing just a base system in ubuntu, and then build on it
+2008-04-29 21:28:44	Dougy	i didn't ask you :)
+2008-04-29 21:28:49	MrElendig	you can even do it over ftp
+2008-04-29 21:28:50	bruenig	oh lawdz, I don't like its defaults, let me pretend like that makes sense and that is a proper way to explain away what is actually elitist douchebaggery
+2008-04-29 21:28:58	KyleS-work	damn, dougy you're here for help, don't be hating on people
+2008-04-29 21:29:08	bruenig	hey I got another, I heard someone say bsd init once, let me repeat that as a reason
+2008-04-29 21:29:11	bruenig	dur
+2008-04-29 21:29:18	lostarcher	why the irrational hatered for ubuntu? o_O It's like hating Mandriva or Suse.
+2008-04-29 21:29:20	Torikun	Dougy: Please go to #ubuntu and get support for human beings
+2008-04-29 21:29:44	Torikun	Arch users are god-like
+2008-04-29 21:29:49	Torikun	j/k
+2008-04-29 21:29:53	<--	jan-portugal (n=jan@bl8-175-163.dsl.telepac.pt) has quit ("Leaving")
+2008-04-29 21:29:58	MrElendig	lostarcher: hating mandriva is almost ok, cause they did realy f. their users
+2008-04-29 21:30:03	spaz	15:28 < MrElendig> spaz: it's no prob installing just a base system in ubuntu, and then build on it
+2008-04-29 21:30:06	spaz	build on it?
+2008-04-29 21:30:06	Evanlec	MrElendig: FaunOS uses pacman but what else about it is Arch ?
+2008-04-29 21:30:09	spaz	haha
+2008-04-29 21:30:14	MrElendig	with the whole "mandrive club" and membership crap
+2008-04-29 21:30:16	Torikun	MrElendig: How did mandriva fuck their users
+2008-04-29 21:30:17	spaz	you have got to be kidding me :p
+2008-04-29 21:30:19	<--	mit3z (n=unusual@balticom-144-56.balticom.lv) has quit ("Err::module "mit3z" is not supported by your kernel")
+2008-04-29 21:30:23	MrElendig	spaz: no
+2008-04-29 21:30:24	spaz	what is there to add?
+2008-04-29 21:30:25	ss2	mandrake was cool
+2008-04-29 21:30:27	Torikun	Faun OS = 100% arch
+2008-04-29 21:30:34	Torikun	<--my first distro was mandrake 6
+2008-04-29 21:30:37	ss2	showed me the first time how repositories can work
+2008-04-29 21:30:38	MrElendig	spaz: you didn't read what I said
+2008-04-29 21:30:45	Bug2000	MrElendig: So, any ideas how to do it?
+2008-04-29 21:30:47	<--	slapshot (n=slapshot@87.16.220.187) has quit ("Download Edupup 2.00 at http://www.edupup.org")
+2008-04-29 21:30:48	Evanlec	Torikun: is that so?
+2008-04-29 21:30:51	ss2	although it still sucked imho
+2008-04-29 21:30:53	Torikun	yup
+2008-04-29 21:30:55	spaz	MrElendig, it's still not worth it
+2008-04-29 21:30:59	spaz	apt is crap as it is
+2008-04-29 21:31:04	Torikun	Evanlec: That was when we bought Linux
+2008-04-29 21:31:09	MrElendig	spaz: apt isn't crap
+2008-04-29 21:31:12	spaz	it is.
+2008-04-29 21:31:14	Evanlec	Torikun: huh?
+2008-04-29 21:31:18	MrElendig	it's the 3.rd best package manager out there
+2008-04-29 21:31:22	spaz	try building something from source without making a package.
+2008-04-29 21:31:28	Torikun	emerge: it works
+2008-04-29 21:31:28	spaz	then installing stuff
+2008-04-29 21:31:32	MrElendig	only beaten by pacman and pkgsrx
+2008-04-29 21:31:34	spaz	it won't see that you BUILT that stuff
+2008-04-29 21:31:38	MrElendig	pkgsrc*
+2008-04-29 21:31:42	rpj8laptop	Ok, which one of you broked udev
+2008-04-29 21:31:42	spaz	and will try to install it's own crap from source
+2008-04-29 21:31:43	<--	schischa (n=schischa@BAH5c47.bah.pppool.de) has quit (Read error: 113 (No route to host))
+2008-04-29 21:31:49	spaz	s/source/a package/
+2008-04-29 21:32:03	Torikun	makepkg kde
+2008-04-29 21:32:13	Evanlec	Torikun: so FaunOS is preferred over Archie/Arch-Live ?
+2008-04-29 21:32:27	Torikun	Evanlec: I think FAUN has gui installer
+2008-04-29 21:32:34	Torikun	!google faunos
+2008-04-29 21:32:35	phrik	Torikun: Search took 0.22 seconds: FaunOS : The Portable Operating Environment: <http://www.faunos.com/>
+2008-04-29 21:32:36	MrElendig	spaz: don't go around and talk crap about any distro without having gotten into how it realy works
+2008-04-29 21:32:41	Evanlec	im talking about just in terms of Live Systems
+2008-04-29 21:32:49	Torikun	I would say so
+2008-04-29 21:32:55	Torikun	Evanlec: FaunOS also has usb images
+2008-04-29 21:33:06	--	nofxx is now known as nofyy
+2008-04-29 21:33:10	MrElendig	Evanlec: I prefer faunos, but that's mostly cause it woks better on usb
+2008-04-29 21:33:11	Evanlec	right
+2008-04-29 21:33:11	-->	ech0s7_ (n=ech0s7@host211-51-dynamic.37-79-r.retail.telecomitalia.it) has joined #archlinux
+2008-04-29 21:33:12	spaz	MrElendig, uh i used ubuntu for over a year
+2008-04-29 21:33:15	Torikun	nofyy lol
+2008-04-29 21:33:16	Evanlec	ok
+2008-04-29 21:33:25	spaz	i fled ubuntu for freebsd, i got sick of it
+2008-04-29 21:33:29	--	delroth is now known as delrawth
+2008-04-29 21:33:35	spaz	anyway no use talking to a fanboy :)
+2008-04-29 21:33:36	MrElendig	spaz: how long you use something has nothing to do with how well you know it
+2008-04-29 21:33:37	Evanlec	MrElendig: well thats a pretty good reason, if ur goonna use a live distro, might as well be on a writeable media
+2008-04-29 21:33:38	spaz	(goes for both me and you)
+2008-04-29 21:33:42	Torikun	GNU is really different from BSD
+2008-04-29 21:33:50	spaz	<3 freebsd
+2008-04-29 21:34:03	Torikun	I want to use haiku
+2008-04-29 21:34:03	<--	nobbs (n=nobbs@manz-590c3d84.pool.einsundeins.de) has quit (Read error: 113 (No route to host))
+2008-04-29 21:34:06	Torikun	Haiku looks cool
+2008-04-29 21:34:07	spaz	i have freebsd on all my boxes, and arch dual booted on one of them
+2008-04-29 21:34:12	MrElendig	Torikun: works in vbox
+2008-04-29 21:34:31	Evanlec	!google Haiku
+2008-04-29 21:34:32	phrik	Evanlec: Search took 0.15 seconds: Haiku - Wikipedia, the free encyclopedia: <http://en.wikipedia.org/wiki/Haiku>
+2008-04-29 21:34:35	Evanlec	mah
+2008-04-29 21:34:36	Torikun	MrElendig: BeOS may do to Linux what Linux did to Windows
+2008-04-29 21:34:37	Evanlec	what is Haiku
+2008-04-29 21:34:44	MrElendig	I find plan9 to be alot more intresting tho
+2008-04-29 21:34:51	Torikun	Haiku is the resurrection of BeOS
+2008-04-29 21:34:58	ss2	spaz: I keep looking a freebsd, but never manage to get further with it
+2008-04-29 21:35:00	MrElendig	Evanlec: free version of BeOs
+2008-04-29 21:35:01	Torikun	BeOS was supposed to be MaxOSX
+2008-04-29 21:35:05	<--	Arelis_ (n=Arelis_@195-241-90-109.ip.telfort.nl) has left #archlinux ()
+2008-04-29 21:35:07	MrElendig	and it's sucsessor
+2008-04-29 21:35:09	spaz	hehe
+2008-04-29 21:35:13	patogen	What about Hurd? Never going to become anything
+2008-04-29 21:35:15	patogen	?
+2008-04-29 21:35:16	Evanlec	BeOS is BSD ?
+2008-04-29 21:35:17	spaz	ss2, it does have a sharp learning curve
+2008-04-29 21:35:19	spaz	but i love it now
+2008-04-29 21:35:19	-->	drf__ (n=drf__@adsl-ull-33-149.47-151.net24.it) has joined #archlinux
+2008-04-29 21:35:21	Torikun	Arch Hurd
+2008-04-29 21:35:23	Torikun	lol
+2008-04-29 21:35:23	<--	ruepelor (n=ruepelor@dslb-084-059-075-070.pools.arcor-ip.net) has quit (Read error: 113 (No route to host))
+2008-04-29 21:35:24	spaz	which is part of the reason i love arch
+2008-04-29 21:35:28	Torikun	GNU/Arch Hurd
+2008-04-29 21:35:32	bjorn`	I seriously need a hint. what more than symlinking 10-autohinting.conf and 10-*rgb.conf has to be done for font smoothing to work?
+2008-04-29 21:35:35	spaz	because it's the most BSD like linux distro out there
+2008-04-29 21:35:36	-->	Arelis_ (n=Arelis_@195-241-90-109.ip.telfort.nl) has joined #archlinux
+2008-04-29 21:35:36	MrElendig	patogen: they are still not decided on what micro kernel to use :/
+2008-04-29 21:35:37	spaz	well maybe gentoo
+2008-04-29 21:35:39	<--	mayday_jay (n=mayday_j@gimel.nas.net) has quit (Read error: 110 (Connection timed out))
+2008-04-29 21:35:39	spaz	but gentoo is crap
+2008-04-29 21:35:40	<--	eldalion (n=ben@QMStudsDynamic-254-080.qmul.ac.uk) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 21:35:47	spaz	portage is just ghetto ports.
+2008-04-29 21:35:50	<--	Arelis_ (n=Arelis_@195-241-90-109.ip.telfort.nl) has left #archlinux ()
+2008-04-29 21:35:56	Torikun	ports FTW
+2008-04-29 21:35:58	patogen	MrElendig: Ok. I think the concept of hurd seems nice
+2008-04-29 21:36:02	-->	eldalion (n=ben@QMStudsDynamic-254-080.qmul.ac.uk) has joined #archlinux
+2008-04-29 21:36:09	-->	Arelis (n=Arelis_@195-241-90-109.ip.telfort.nl) has joined #archlinux
+2008-04-29 21:36:10	-->	Tarinaky (n=Tarinaky@bazjacob.plus.com) has joined #archlinux
+2008-04-29 21:36:11	Torikun	pkg_add YOU!
+2008-04-29 21:36:13	ss2	the freebsd documentation is nice, no other linux distri has manged yet to bring out such a feature complete documentation in one site :)
+2008-04-29 21:36:15	spaz	i love ports
+2008-04-29 21:36:22	Arelis	i can talk again
+2008-04-29 21:36:28	Torikun	ss2: Arch and gentoo have great pages
+2008-04-29 21:36:29	spaz	i wish that ports was supported on more platforms :(
+2008-04-29 21:36:37	MrElendig	ss2: The reason for that is simple. BSD is a whole os
+2008-04-29 21:36:44	ss2	right
+2008-04-29 21:36:49	Torikun	There is a GNU OS that uses the BSD kernel
+2008-04-29 21:36:53	spaz	ewww
+2008-04-29 21:36:55	MrElendig	spaz: pkgsrc > ports
+2008-04-29 21:36:57	spaz	there are several
+2008-04-29 21:36:57	ss2	called debian...
+2008-04-29 21:36:59	spaz	and i would never use them
+2008-04-29 21:37:01	spaz	eww
+2008-04-29 21:37:09	MrElendig	imo
+2008-04-29 21:37:16	spaz	MrElendig, it's ok i s'pose
+2008-04-29 21:37:19	spaz	i'm not a big fan of it
+2008-04-29 21:37:42	-->	mayday_jay (n=mayday_j@gimel.nas.net) has joined #archlinux
+2008-04-29 21:37:47	tuxfusion	bjorn, i just used the wiki for tft fonts for instance low level support  =) http://wiki.archlinux.org/index.php/Fonts#.22LCD.22_packages
+2008-04-29 21:37:49	MrElendig	it's multi platform, can actualy handle bin's well, it's less "hacky", and it's faster
+2008-04-29 21:37:55	<--	eldalion (n=ben@QMStudsDynamic-254-080.qmul.ac.uk) has quit (Remote closed the connection)
+2008-04-29 21:37:59	Torikun	BSD has a Linux plugin
+2008-04-29 21:38:00	Arelis	Linux would maybe become better if someone merged the two desktop environments together and gave option to simplicity AND/OR power AND/OR speed AND/OR minimalism, and rose one distribution to the top and supported everything there is in Linux
+2008-04-29 21:38:00	Torikun	lol
+2008-04-29 21:38:00	shining	ports rule as much as gentoo does
+2008-04-29 21:38:02	MrElendig	only thing it lacks is an upgrade function
+2008-04-29 21:38:08	-->	slapshot (n=slapshot@host187-220-dynamic.16-87-r.retail.telecomitalia.it) has joined #archlinux
+2008-04-29 21:38:08	spaz	well i suppose MrElendig :p
+2008-04-29 21:38:09	spaz	heh
+2008-04-29 21:38:11	spaz	yeah
+2008-04-29 21:38:28	MrElendig	currently upgrade is remove && install
+2008-04-29 21:38:35	*	tuxfusion saves the beer from the freezer
+2008-04-29 21:38:37	Torikun	Atleast BSD does not have a name issue like Linux and GNU !!!!!!!!
+2008-04-29 21:38:39	ss2	freebsd doesn't have an upgrade function?
+2008-04-29 21:38:45	MrElendig	by hand
+2008-04-29 21:38:47	Torikun	ss2: Free BSD does
+2008-04-29 21:38:48	MrElendig	pacman does the same, but wraps it in one command
+2008-04-29 21:38:53	Torikun	ss2: you have to compile everything
+2008-04-29 21:38:58	MrElendig	ss2: freebsd don't use pkgsrc
+2008-04-29 21:39:01	lostarcher	I thought Linux and desktop environments were completely seperate, Linux is fine.
+2008-04-29 21:39:15	Torikun	We all here use the GNU OS with the Linux kernel
+2008-04-29 21:39:25	spaz	GNU userland + linux kernel
+2008-04-29 21:39:28	spaz	more appropriately
+2008-04-29 21:39:38	MrElendig	open and netbsd uses pkgsrc, but they are not the same pkgsrc's :D
+2008-04-29 21:39:41	shining	linux looks 90's, freebsd looks 80's
+2008-04-29 21:39:58	spaz	what's wrong with retro? ;)
+2008-04-29 21:40:00	Torikun	Mac Looks 08's
+2008-04-29 21:40:04	spaz	eww mac
+2008-04-29 21:40:06	MrElendig	shining: and vista looks net2.0
+2008-04-29 21:40:10	-->	ech0s7__ (n=ech0s7@host104-149-dynamic.36-79-r.retail.telecomitalia.it) has joined #archlinux
+2008-04-29 21:40:10	tuxfusion	Torikun, my kernels name is tux
+2008-04-29 21:40:12	spaz	mac is the vista of unix
+2008-04-29 21:40:16	-->	ichbinesderelch (n=david@88-117-100-65.adsl.highway.telekom.at) has joined #archlinux
+2008-04-29 21:40:22	MrElendig	or rather
+2008-04-29 21:40:25	shining	MrElendig: vista doesnt even look anything
+2008-04-29 21:40:25	Torikun	KDE4 is the child of Leopard and Vista
+2008-04-29 21:40:33	bjorn`	tuxfusion: actually i installed those too, just now. but it makes no difference. :/
+2008-04-29 21:40:40	MrElendig	web2.0 with more frames and blink tags
+2008-04-29 21:40:55	spaz	hehe
+2008-04-29 21:40:58	<--	[vEX] (n=vex@90-227-34-127-no42.tbcn.telia.com) has quit ("http://niechift.com")
+2008-04-29 21:41:00	Torikun	KDE4 is the child of Leopard and Vista
+2008-04-29 21:41:01	<--	comhack (n=comhack@78.32.188.72.cfl.res.rr.com) has quit (Read error: 110 (Connection timed out))
+2008-04-29 21:41:16	MrElendig	nja
+2008-04-29 21:41:22	shining	Torikun: what did you say?
+2008-04-29 21:41:31	MrElendig	nha*
+2008-04-29 21:41:34	shining	there are so many noises , I can't hear
+2008-04-29 21:41:43	Torikun	KDE4 looks like vista  and the file manager looks like OS X
+2008-04-29 21:41:45	MrElendig	kde4 is kde done right (when it just reatch maturity)
+2008-04-29 21:41:58	-->	linfan (n=linfan@c80-216-131-154.bredband.comhem.se) has joined #archlinux
+2008-04-29 21:42:10	shining	I read that as kde4 is kde done wrong
+2008-04-29 21:42:19	Torikun	kdemod is how kde4 should be
+2008-04-29 21:42:21	MrElendig	who cares about de's anyway
+2008-04-29 21:42:29	Skitt	elinks ftw
+2008-04-29 21:42:34	MrElendig	tliers owns them when it comes to usability
+2008-04-29 21:42:36	Torikun	lynx FTW
+2008-04-29 21:42:38	Torikun	lol
+2008-04-29 21:42:41	MrElendig	tilers*
+2008-04-29 21:42:44	Skitt	elinks > lynx
+2008-04-29 21:42:50	-->	shields_ (n=chatzill@cpe-24-59-70-95.twcny.res.rr.com) has joined #archlinux
+2008-04-29 21:42:50	Torikun	yeagh
+2008-04-29 21:42:52	Torikun	=)
+2008-04-29 21:42:55	patogen	MrElendig: Why not combine? xfce + xmonad :D
+2008-04-29 21:42:56	Torikun	I wanted to be more elite
+2008-04-29 21:43:01	MrElendig	links -g > links / elinks / lynx
+2008-04-29 21:43:03	shining	w3m ftw
+2008-04-29 21:43:12	MrElendig	patogen: I used xmonad + gnome for a bit
+2008-04-29 21:43:16	Evanlec	MrElendig: u mean productivity ;p
+2008-04-29 21:43:18	MrElendig	jus to try
+2008-04-29 21:43:24	Torikun	Gnome 2 FTW
+2008-04-29 21:43:25	MrElendig	just*
+2008-04-29 21:43:30	MrElendig	Evanlec: I meen usability
+2008-04-29 21:43:34	patogen	MrElendig: How did you like it?
+2008-04-29 21:43:39	Dougy	i seee an arch iso
+2008-04-29 21:43:41	Dougy	its 190 MB
+2008-04-29 21:43:44	Dougy	is that really all arch is?
+2008-04-29 21:43:45	Evanlec	MrElendig: well, not in terms of learning curve ..
+2008-04-29 21:43:53	Torikun	Dougy: The arch cd is a minimal environment
+2008-04-29 21:43:58	Torikun	Dougy: you install what you need later
+2008-04-29 21:44:00	Evanlec	Dougy: thats correct
+2008-04-29 21:44:02	lostarcher	meh, i'm set with KDEMod and Yakuake :P
+2008-04-29 21:44:20	MrElendig	patogen: not very mutch. Don't realy need a panel and desktop with a tiler
+2008-04-29 21:44:39	patogen	MrElendig: OK. I like the panel. That's why I use it basically.
+2008-04-29 21:44:44	Torikun	any eee users here with kdemod or kde4?
+2008-04-29 21:44:44	MrElendig	Dougy: the old ftp iso is 37mb
+2008-04-29 21:44:49	Evanlec	yea, mixing tilers with gnome is kinda silly,
+2008-04-29 21:44:51	linfan	Would be glad if somebody would look at my output from /var/log/errors.log at http://rafb.net/p/43HbZq44.html. What is the system trying to tell me?
+2008-04-29 21:45:08	Evanlec	patogen: just use a tiling wm and run gnome-panel then
+2008-04-29 21:45:17	Torikun	linfan: All your base are belong to us! !google All your base are belong to us!
+2008-04-29 21:45:23	MrElendig	patogen: a task bar don't make sence with a tiler, dmenu > panel menu, and trays ain't that usefull
+2008-04-29 21:45:23	patogen	Evanlec: That's basically what I do.
+2008-04-29 21:45:24	Torikun	!google All your base are belong to us!
+2008-04-29 21:45:26	phrik	Torikun: Search took 0.16 seconds: All your base are belong to us - Wikipedia, the free encyclopedia: <http://en.wikipedia.org/wiki/All_your_base_are_belong_to_us>
+2008-04-29 21:45:31	<--	buggu (n=buggu_@pD9E2DBB4.dip.t-dialin.net) has quit (Client Quit)
+2008-04-29 21:46:29	Evanlec	Torikun: take some ritalin? ;p
+2008-04-29 21:46:47	tuxfusion	http://img.phraktured.net/funny/killinyourdudes.jpg
+2008-04-29 21:46:48	MrElendig	http://arch.har-ikkje.net/gfx/ss/2008-04-28-002258_1680x1050_scrot.png
+2008-04-29 21:46:54	linfan	I am desperately trying to find some error message as to why netcfg2 fails all the time
+2008-04-29 21:47:17	MrElendig	linfan: can you bring it up by hand?
+2008-04-29 21:47:40	MrElendig	patogen: http://arch.har-ikkje.net/gfx/ss/xmonad-gnome3.png
+2008-04-29 21:47:45	-->	plut0nium (n=plut0niu@83.101.10.61) has joined #archlinux
+2008-04-29 21:47:56	MrElendig	patogen: 1 and 2 shows floting and clean
+2008-04-29 21:47:57	linfan	after about 20 tries yes with netcfg2 foo and /etc/rc.d/net-profiles restart
+2008-04-29 21:48:06	MrElendig	linfan: ....
+2008-04-29 21:48:17	MrElendig	I said: can you bring it up by hand?
+2008-04-29 21:48:31	<--	ech0s7 (n=ech0s7@host213-13-dynamic.30-79-r.retail.telecomitalia.it) has quit (Connection timed out)
+2008-04-29 21:48:38	MrElendig	aka iwconfig/ifconfig/dhcpcd
+2008-04-29 21:48:40	jerryLUC	is it necessary to have all the snd-* modules running?
+2008-04-29 21:48:50	linfan	not with iwconfig
+2008-04-29 21:48:58	MrElendig	jerryLUC: not if you don't care about oss compat
+2008-04-29 21:48:59	--	delrawth is now known as delroth
+2008-04-29 21:49:07	<--	DaNiMoTh (n=UffI@83.181.177.44) has quit (Remote closed the connection)
+2008-04-29 21:49:14	MrElendig	linfan: if iwconfig fails then  it's _not_ netcfg
+2008-04-29 21:49:18	MrElendig	ffs
+2008-04-29 21:49:33	sykopomp	patogen: I run xfce4-panel
+2008-04-29 21:49:39	linfan	well i just try to do iwconfig wlan0 essid foo
+2008-04-29 21:49:45	MrElendig	don't go and blaim netcfg when you can't even do it by hand
+2008-04-29 21:49:46	sykopomp	patogen: with xmonad. Works wonderfully, and it gives me a nice pager.
+2008-04-29 21:49:52	linfan	but it won't appoint any ap
+2008-04-29 21:49:56	Torikun	iwconfig wlan0 essid fo KEY BAR
+2008-04-29 21:50:01	<--	KaMa (n=kama@87.19.115.69) has quit (Remote closed the connection)
+2008-04-29 21:50:06	sykopomp	patogen: You can also install a plugin that lets you use gnome plugins with xfce-panel
+2008-04-29 21:50:07	Torikun	iwconfig wlan0 essid fo key bar
+2008-04-29 21:50:08	<--	Asgaroth (n=morgoth@fuld-590d1e3b.pool.einsundeins.de) has quit (Read error: 113 (No route to host))
+2008-04-29 21:50:11	Torikun	dhcpcd wlan0
+2008-04-29 21:50:19	rpj8laptop	SO someone  told me that arch linux broke their udev rules and that's the reason why I can't seem to get to my camera without being root. Is this valid
+2008-04-29 21:50:47	sykopomp	question...
+2008-04-29 21:50:49	-->	data_jepp (n=data_jep@25.80-202-101.nextgentel.com) has joined #archlinux
+2008-04-29 21:50:59	MrElendig	rpj8laptop: the udev rules are a bit buggy, my suggestion: remove all the camera rules, and then make one that fits your camera
+2008-04-29 21:50:59	-->	Fluxboxtremist (n=flx@190.7.74.74) has joined #archlinux
+2008-04-29 21:51:00	linfan	should i put some OPTS="dhcpcd wlan0" in /etc/network.d/foo or what are you trying to tell me
+2008-04-29 21:51:04	sykopomp	if I rm -rf a directory, and it has, say... a hard link to /
+2008-04-29 21:51:04	<--	Dannyarr (n=danny@78-2-86-254.adsl.net.t-com.hr) has quit (Client Quit)
+2008-04-29 21:51:04	<--	ichbinesderelch (n=david@88-117-100-65.adsl.highway.telekom.at) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 21:51:07	sykopomp	is that bad? :P
+2008-04-29 21:51:16	MrElendig	linfan: no
+2008-04-29 21:51:27	-->	jkpakayag (n=jkpakaya@dialup-4.227.112.208.Dial1.Dallas1.Level3.net) has joined #archlinux
+2008-04-29 21:51:27	<--	AquaFox (n=aquafox@85.154.8.156) has quit (Remote closed the connection)
+2008-04-29 21:52:04	linfan	well i will reboot once again and start xchat from the wired puter and then tell you what happens, ok?
+2008-04-29 21:52:12	rpj8laptop	MrElendig: Is there any kind of priority to se them up correctly?
+2008-04-29 21:52:19	<--	linfan (n=linfan@c80-216-131-154.bredband.comhem.se) has quit ("Leaving")
+2008-04-29 21:52:21	rpj8laptop	MrElendig: Or is it all just a crap shoot for a long time now
+2008-04-29 21:52:24	-->	lolEee (n=john@cpc3-leds2-0-0-cust55.leed.cable.ntl.com) has joined #archlinux
+2008-04-29 21:53:20	<--	zodmaner (n=smith@ppp-58-10-128-186.revip2.asianet.co.th) has quit ("leaving")
+2008-04-29 21:53:21	tuxfusion	sykopomp, rm shouldnt follow any links no ?
+2008-04-29 21:53:24	-->	linfan (n=linfan@linfan.broker.freenet6.net) has joined #archlinux
+2008-04-29 21:53:36	linfan	ok, wired now and rebooting the laptop
+2008-04-29 21:53:51	lostarcher	networkmanager ftw!
+2008-04-29 21:53:51	wide-eye	meh, first evolution-data-server was hammering my disk, now it's hammering my cpu
+2008-04-29 21:54:12	Denacke	is networkmanager better than wicd?
+2008-04-29 21:54:18	wide-eye	just doing gettimeofday and poll according to strace
+2008-04-29 21:54:22	linfan	and the laptop failed when it tried to connect to the wireless profile
+2008-04-29 21:54:34	Denacke	i'm quite happy with wicd, but it doesn't seem to do well on my school
+2008-04-29 21:54:35	<--	esquiso (n=esquiso@195-23-162-81.net.novis.pt) has quit (Read error: 110 (Connection timed out))
+2008-04-29 21:54:38	lostarcher	Denacke: never tried wicd, never had problems with networkmanager though
+2008-04-29 21:54:39	Denacke	they have numerous access points
+2008-04-29 21:54:50	Denacke	for one wireless network
+2008-04-29 21:54:58	MrElendig	rpj8laptop: mv the 54- rule somewhere then make a 45-camera rule that only targets your camera
+2008-04-29 21:55:02	Denacke	but wicd can't set one profile for all those access points
+2008-04-29 21:55:03	<--	mauriku (n=mauriku@g13.dkm.cz) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 21:55:05	-->	BinkyTheClown (i=be90a356@gateway/web/ajax/mibbit.com/x-8d6e6addb8bd8146) has joined #archlinux
+2008-04-29 21:55:13	lostarcher	wireless runs fine on networkmanager,
+2008-04-29 21:55:16	Denacke	so i end up configuring it all the time :p
+2008-04-29 21:55:25	linfan	so, MrElendig - what to try now - I have su'ed the laptop
+2008-04-29 21:55:35	<--	ech0s7_ (n=ech0s7@host211-51-dynamic.37-79-r.retail.telecomitalia.it) has quit (Read error: 110 (Connection timed out))
+2008-04-29 21:55:38	patogen	The police is next door to my school, you can see there wlan ... they used to run it unencrypted ...
+2008-04-29 21:55:39	rpj8laptop	MrElendig: Ok... I'm a bit new to udev so not quite sure how to do that, but I'll try it... is a 45 higher priority than 54 or something?
+2008-04-29 21:55:40	patogen	good work.
+2008-04-29 21:55:59	lostarcher	point and clickyty
+2008-04-29 21:56:02	MrElendig	rpj8laptop: lowest number get's read first
+2008-04-29 21:56:08	-->	comhack (n=comhack@78.32.188.72.cfl.res.rr.com) has joined #archlinux
+2008-04-29 21:56:21	-->	Hail_Spacecake (n=krikeysa@slo-76-223.ResHall.Berkeley.EDU) has joined #archlinux
+2008-04-29 21:56:27	MrElendig	imo custom rules shoud go before the default ones
+2008-04-29 21:56:55	wide-eye	yeah, or they dont get used
+2008-04-29 21:56:55	MrElendig	linfan: iwconfig wlan0 essid your_network
+2008-04-29 21:56:55	linfan	how should i set up iwconfig by hand?
+2008-04-29 21:56:58	tuxfusion	"rm follow symlink" in google points to archforum i wonder if google monitors my behaviour of clicks and presents arch firs palce or arch jsut simply rules the web/world
+2008-04-29 21:57:03	MrElendig	then dhcpcd wlan0
+2008-04-29 21:57:14	MrElendig	tuxfusion: man rm
+2008-04-29 21:57:23	tuxfusion	done
+2008-04-29 21:57:26	Hail_Spacecake	what are peoples' favorite bittorrent clients?
+2008-04-29 21:57:32	tuxfusion	deluge
+2008-04-29 21:57:38	comhack	ktorrent
+2008-04-29 21:57:46	comhack	ncurses-bittorrent
+2008-04-29 21:57:46	patogen	Hail_Spacecake: rtorrent, utorrent, deluge. In that order.
+2008-04-29 21:57:47	lostarcher	kmldonkey :P
+2008-04-29 21:57:53	Part`	rtorrent, transmission
+2008-04-29 21:57:56	MrElendig	argh
+2008-04-29 21:57:57	SickHate	rtorrent is the best Hail_Spacecake
+2008-04-29 21:58:07	Hail_Spacecake	utorrent runs on linux?
+2008-04-29 21:58:10	MrElendig	the symlink behavior is in teh info page, not man page
+2008-04-29 21:58:15	SickHate	Hail_Spacecake @ noooooo dude
+2008-04-29 21:58:18	comhack	does rtorrent support NAT?
+2008-04-29 21:58:30	MrElendig	Hail_Spacecake: azureus or rtorrent
+2008-04-29 21:58:36	skarface	Hail_Spacecake: people actually put it in wine sometimes...
+2008-04-29 21:58:39	MrElendig	comhack: the torrent client dosn't care
+2008-04-29 21:58:41	skarface	no idea why...
+2008-04-29 21:58:46	linfan	errr, wlan0: timed out ....
+2008-04-29 21:58:49	comhack	ok
+2008-04-29 21:58:51	Hail_Spacecake	azureus has been crashing on my lately
+2008-04-29 21:58:58	Hail_Spacecake	which is why I'm looking for a different client
+2008-04-29 21:59:00	MrElendig	linfan: what card/driver
+2008-04-29 21:59:02	SickHate	azureus is too heavy
+2008-04-29 21:59:06	patogen	skarface: Some torrents ban ALL clients except for utorrent
+2008-04-29 21:59:08	MrElendig	and, what encryption
+2008-04-29 21:59:11	skarface	Hail_Spacecake: rtorrent is really handy once you get the hang of it
+2008-04-29 21:59:24	MrElendig	patogen: those trackers shoudn't be used
+2008-04-29 21:59:26	skarface	patogen: you mean trackers? lame. next tracker please ;)
+2008-04-29 21:59:36	MrElendig	SickHate: azureus gives you teh best speed tho
+2008-04-29 21:59:41	skarface	you could probably spoof the client
+2008-04-29 21:59:41	vegai	impulse tracker <3
+2008-04-29 21:59:43	patogen	skarface: Yeah I mean trackers
+2008-04-29 21:59:46	comhack	private trackers are the best
+2008-04-29 21:59:50	Hail_Spacecake	it's got to be trivial to spoof the client
+2008-04-29 22:00:04	rpj8laptop	Do I reload the udev after adding a new .rules file? If so how do I go about that?
+2008-04-29 22:00:04	-->	Strangelet (n=nicholas@c-68-32-22-150.hsd1.nj.comcast.net) has joined #archlinux
+2008-04-29 22:00:05	comhack	or Demonoid
+2008-04-29 22:00:07	SickHate	ya but still sucks...its like a hog on wheels
+2008-04-29 22:00:14	Hail_Spacecake	I wonder why they'd ban everything but utorrent, though
+2008-04-29 22:00:23	tuxfusion	Hail_Spacecake, u will ahve same behavoiurs in deluge like in azureus jsut without java
+2008-04-29 22:00:24	MrElendig	relativly easy for the tracker to find out if you are spoofing the client
+2008-04-29 22:00:25	skarface	Hail_Spacecake: because they're lamefucks?
+2008-04-29 22:00:32	Hail_Spacecake	unless it's out of a 'everyone should use utorrent everything else sucks!' sense of fanboyishness
+2008-04-29 22:00:35	MrElendig	Hail_Spacecake: cause they are complete morons
+2008-04-29 22:00:41	linfan	MrElendig - some say ar5006eg, others ar5007eg - hwd -e says ar242x - and i have ndiswrapper -i net5416.inf installed - which is the only one i can get to work and turn the lamp blue
+2008-04-29 22:00:49	Hail_Spacecake	tuxfusion: does it have a swarm diagram?
+2008-04-29 22:00:55	skarface	same reason people design websites just for IE? lazy, lame, myopic...
+2008-04-29 22:01:03	Hail_Spacecake	honestly, that's half the reason I use azureus, I like to look at the swarm diagram :)
+2008-04-29 22:01:13	tuxfusion	Hail_Spacecake, it has plaent of plugins , not per default i guess
+2008-04-29 22:01:21	<--	shining (n=xav@unaffiliated/shining) has quit (Read error: 110 (Connection timed out))
+2008-04-29 22:01:26	-->	jra (n=byte@unaffiliated/jra) has joined #archlinux
+2008-04-29 22:01:27	MrElendig	linfan: that was 1/2 of what I asked
+2008-04-29 22:01:36	<--	ech0s7__ (n=ech0s7@host104-149-dynamic.36-79-r.retail.telecomitalia.it) has quit (Read error: 110 (Connection timed out))
+2008-04-29 22:02:14	MrElendig	another reason to use azureus is actualy working http seeding
+2008-04-29 22:02:21	linfan	home i use wpa-psk, at work wep and over at my friends eth0 - just now i try with wpa
+2008-04-29 22:02:31	-->	p_ (n=p@bas2-toronto48-1279607819.dsl.bell.ca) has joined #archlinux
+2008-04-29 22:02:37	MrElendig	linfan: then you need to use wpasuplicant ofcause
+2008-04-29 22:02:43	jra	using azureus? insane.
+2008-04-29 22:02:49	linfan	i have it all configured
+2008-04-29 22:02:55	-->	funkyou_ (n=janm@e179128094.adsl.alicedsl.de) has joined #archlinux
+2008-04-29 22:02:59	MrElendig	and hope that the driver actualy support it
+2008-04-29 22:03:00	SickHate	sure azureus has alot of features but still rtorrent is basic simple and it feats the torrent sucking
+2008-04-29 22:03:01	linfan	with wpa-passphrase and all
+2008-04-29 22:03:04	<--	p_ (n=p@bas2-toronto48-1279607819.dsl.bell.ca) has left #archlinux ()
+2008-04-29 22:03:23	-->	ravster (n=p@bas2-toronto48-1279607819.dsl.bell.ca) has joined #archlinux
+2008-04-29 22:03:25	linfan	and essid and secret phrase
+2008-04-29 22:03:34	tuxfusion	deluge has PKBUILD on there website
+2008-04-29 22:03:40	tuxfusion	+G
+2008-04-29 22:03:47	MrElendig	might be the driver/card that is crap, and that you need to specify the ap
+2008-04-29 22:03:48	<--	turska (n=turska@a91-155-128-180.elisa-laajakaista.fi) has quit ("leaving")
+2008-04-29 22:03:56	SickHate	what the major difference on deluge-0.6?
+2008-04-29 22:04:04	<--	uzyszkodnik (n=uzyszkod@bnl228.neoplus.adsl.tpnet.pl) has quit (Read error: 110 (Connection timed out))
+2008-04-29 22:04:06	MrElendig	tuxfusion: to bad the client is kind of bad
+2008-04-29 22:04:13	wide-eye	rpj8laptop, udevadm control --reload_rules, and reinsert the device or maybe a udevadm trigger
+2008-04-29 22:04:18	linfan	where do i specify the ap and how do i specify the ap?
+2008-04-29 22:04:27	bruenig	iwconfig
+2008-04-29 22:04:32	MrElendig	linfan: man iwconfig
+2008-04-29 22:04:46	--	spaz is now known as Kittens
+2008-04-29 22:04:48	tuxfusion	u got kicked out of #deluge , kinda noobs  =) , dunno cleint has some flaws but less then azureus to me
+2008-04-29 22:04:52	tuxfusion	*I
+2008-04-29 22:05:06	linfan	well just running iwconfig wlan0 essid foo won't get attached
+2008-04-29 22:05:41	MrElendig	deluge ate more ram with 15 torrents than azureus do, the last time I tested it
+2008-04-29 22:05:53	tomkx	linfan - when someone says "man iwconfig", it is understood to mean "read the iwconfig man page"
+2008-04-29 22:06:16	<--	Fubarovic (n=fubar@83.101.2.174) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 22:06:28	-->	Fubarovic (n=fubar@83.101.2.174) has joined #archlinux
+2008-04-29 22:07:01	sykopomp	hey guys, when's wine gonna get updated to 9.60?
+2008-04-29 22:07:08	sykopomp	It's out of date, have you noticed?
+2008-04-29 22:07:13	sykopomp	by like a month! :-o
+2008-04-29 22:07:21	sykopomp	wait, no. 2 months
+2008-04-29 22:07:31	jra	that's normal schedule
+2008-04-29 22:07:37	wide-eye	nope I've never noticed
+2008-04-29 22:07:40	Arelis	okay, this is a good sign: Right after arch rebooted, still the ATI drivers aren't acting flaky
+2008-04-29 22:07:44	jra	less wine releases = less breakage
+2008-04-29 22:08:06	-->	jan-portugal (n=jan@bl8-175-163.dsl.telepac.pt) has joined #archlinux
+2008-04-29 22:08:06	skarface	less wine = less breakage
+2008-04-29 22:08:16	sykopomp	I needs me some gaems
+2008-04-29 22:08:23	linfan	set failed on AP Address: Operation not supported
+2008-04-29 22:08:30	skarface	sykopomp: tux racer doesn't do it for you?
+2008-04-29 22:08:43	sykopomp	because I'm a hardcore gamer. linux is a sacrifice, but I might reboot into vista and stop messing around with this toy os that can't run real apps.
+2008-04-29 22:08:53	*	skarface snorts at real apps
+2008-04-29 22:08:54	Arelis	!yaourt
+2008-04-29 22:08:55	phrik	A wrapper for pacman/makepkg with AUR support and colorized output! For more info: http://archlinux.fr/yaourt-en/ & http://bbs.archlinux.org/viewtopic.php?id=25718&p=1
+2008-04-29 22:08:56	sykopomp	maybe when linux has real programs I'll use it
+2008-04-29 22:08:57	<--	maki_d (n=chatzill@77.28.72.33) has quit (Read error: 110 (Connection timed out))
+2008-04-29 22:09:03	skarface	sykopomp: maybe when we give a shit we'll ask
+2008-04-29 22:09:09	wide-eye	buh bye!
+2008-04-29 22:09:18	<--	ravster (n=p@bas2-toronto48-1279607819.dsl.bell.ca) has left #archlinux ("Ex-Chat")
+2008-04-29 22:09:39	<--	slapshot (n=slapshot@host187-220-dynamic.16-87-r.retail.telecomitalia.it) has quit ("Download Edupup 2.00 at http://www.edupup.org")
+2008-04-29 22:09:46	sykopomp	u guys shouldn't use linux either. Enjoy your toy os that doesn't do anything useful lololo
+2008-04-29 22:09:47	jra	Dude. phrik!
+2008-04-29 22:09:52	jra	!rq
+2008-04-29 22:09:52	phrik	jra: <gerrybar> the command im using is "command | less"
+2008-04-29 22:09:57	skarface	sykopomp: k thanks bye
+2008-04-29 22:09:58	sykopomp	I'm gonna enjoy my GAMES (the ones you don't have lolololo)
+2008-04-29 22:10:01	MrElendig	sykopomp: hardcore gamers use xp
+2008-04-29 22:10:01	<--	lostarcher (n=opera@d57-9-63.home.cgocable.net) has left #archlinux ()
+2008-04-29 22:10:03	wide-eye	!aursearch alice
+2008-04-29 22:10:04	phrik	wide-eye: Search took 0.09 seconds: AUR (en) - synce-odccm: <http://aur.archlinux.org/packages.php?do_Details=1&ID=10817&O=&L=&C=&K=&SB=&SO=&PP=&do_Orphans=&SeB=>
+2008-04-29 22:10:11	sykopomp	MrElendig: vista >>>>>> xp
+2008-04-29 22:10:15	skarface	yeah I wasn't aware anything actually worked on vista hehe
+2008-04-29 22:10:15	sykopomp	only noobs use xp lol
+2008-04-29 22:10:16	MrElendig	sykopomp: lies
+2008-04-29 22:10:27	<--	Login_Here (n=login@53dbc561.dragonfaltet.cust.skycom.se) has quit ("leaving")
+2008-04-29 22:10:28	MrElendig	sykopomp: 30% less fps on average
+2008-04-29 22:10:30	Denacke	damn lies
+2008-04-29 22:10:39	Denacke	and statistics..
+2008-04-29 22:10:41	sykopomp	MrElendig: ur just too stupid to optimize your vista to be faster than xp because it can.
+2008-04-29 22:10:49	wide-eye	damn him for naming his pc alice
+2008-04-29 22:10:49	Gigamo	priceless :))
+2008-04-29 22:10:51	MrElendig	I only use vista for crysis
+2008-04-29 22:10:53	MrElendig	:D
+2008-04-29 22:11:02	MrElendig	wide-eye: My box is Alice
+2008-04-29 22:11:04	MrElendig	_:p
+2008-04-29 22:11:04	skarface	I only use vista for a reminder of why I don't use vista
+2008-04-29 22:11:16	wide-eye	!aursearch alice.org
+2008-04-29 22:11:17	Arelis	!pacman-color
+2008-04-29 22:11:18	phrik	wide-eye: No matches found. (Search took 0.17 seconds)
+2008-04-29 22:11:26	Gigamo	!give sykopomp fail
+2008-04-29 22:11:26	phrik	sykopomp: Gigamo wanted you to have this fail: http://img.phraktured.net/funny/fail.jpg
+2008-04-29 22:11:27	wide-eye	:(
+2008-04-29 22:11:28	*	Nergar gives sykopomp posse of townsfolk, yellin' for yer blood!
+2008-04-29 22:11:29	Arelis	!pkg pacman-color
+2008-04-29 22:11:34	SickHate	skarface @ u just have to look at a screenshot to know that XD
+2008-04-29 22:11:36	Arelis	!info pacman-color
+2008-04-29 22:11:47	Torikun	SynapticMan
+2008-04-29 22:11:48	skarface	SickHate: heh
+2008-04-29 22:11:49	MrElendig	Arelis: archlinuxfr got it
+2008-04-29 22:11:53	MrElendig	and it's also in aur
+2008-04-29 22:11:56	Arelis	My question was: is pacman-color safe to use?
+2008-04-29 22:11:57	-->	maki_d (n=chatzill@77.28.68.11) has joined #archlinux
+2008-04-29 22:12:01	MrElendig	Arelis: yes
+2008-04-29 22:12:02	-->	mgroman (n=stansmit@adsl-68-252-62-180.dsl.wotnoh.ameritech.net) has joined #archlinux
+2008-04-29 22:12:03	Arelis	or does pacman have color on it's own?
+2008-04-29 22:12:03	linfan	well, nothing much to do - but to rerun netcfg2 foo til it starts kickin' - thanx any way
+2008-04-29 22:12:06	tuxfusion	http://wiki.archlinux.org/index.php/Colored_Pacman_output
+2008-04-29 22:12:19	mgroman	IronPython...its a trap!
+2008-04-29 22:12:27	MrElendig	linfan: get some none-ghey hardware
+2008-04-29 22:12:33	jra	!aursearch pacman-contrib
+2008-04-29 22:12:34	phrik	RSS Update: aurpkgs: instantclient-basic || peg
+2008-04-29 22:12:36	phrik	jra: Search took 0.09 seconds: AUR (en) - pacman-contrib: <http://aur.archlinux.org/packages.php?ID=15326>
+2008-04-29 22:12:37	skarface	pacman in color is a little too much excitement for me
+2008-04-29 22:12:40	MrElendig	instead of the wannabe winwifi card
+2008-04-29 22:12:52	Torikun	pacman-color FAIL
+2008-04-29 22:12:52	<--	TheGateKeeper (n=m@82-36-118-96.cable.ubr03.king.blueyonder.co.uk) has quit ("Leaving")
+2008-04-29 22:12:58	MrElendig	Torikun: no
+2008-04-29 22:13:08	<--	errdil (n=vlad@host-91-192-91-202.elomza.pl) has quit ("Leaving.")
+2008-04-29 22:13:09	MrElendig	it works
+2008-04-29 22:13:21	Torikun	=0 I mean it is not really needed
+2008-04-29 22:13:31	skarface	neither is IRC and yet here you are ;P
+2008-04-29 22:13:34	MrElendig	Torikun: it's nice
+2008-04-29 22:13:38	Torikun	I need IRC for boredom
+2008-04-29 22:13:45	skarface	yeah it does accomplish that
+2008-04-29 22:13:53	Torikun	MrElendig: It should be by de fault =)
+2008-04-29 22:14:00	tuxfusion	half frozen beer works too
+2008-04-29 22:14:01	sykopomp	linux is for poor people that can't buy a real os like they should and neckbeards that can't get laid lol
+2008-04-29 22:14:12	Torikun	<--married and unlaid
+2008-04-29 22:14:16	MrElendig	Torikun: there is a thred on the forum to why it won't
+2008-04-29 22:14:19	tuxfusion	lol
+2008-04-29 22:14:22	rpj8laptop	MrElendig: Creating my own .rules file worked. Why would this work while the default would not?
+2008-04-29 22:14:29	sykopomp	Torikun: unlaid? O.O
+2008-04-29 22:14:38	Arelis	!make
+2008-04-29 22:14:38	phrik	make: *** No rule to make target `'. Stop
+2008-04-29 22:14:43	Arelis	!build
+2008-04-29 22:14:47	<--	nifelheim (n=chili@83.223.19.212) has quit (Client Quit)
+2008-04-29 22:14:48	Torikun	!failo
+2008-04-29 22:14:49	<--	zaggy-nl (n=zaggynl@87.195.60.182) has quit (No route to host)
+2008-04-29 22:14:50	Torikun	!fail
+2008-04-29 22:14:51	phrik	Torikun wanted you to have this fail: http://img.phraktured.net/funny/fail.jpg
+2008-04-29 22:14:59	MrElendig	Arelis: what are you looking for?
+2008-04-29 22:14:59	Arelis	!compiling
+2008-04-29 22:15:06	sykopomp	Torikun: how's that work?
+2008-04-29 22:15:11	Arelis	MrElendig: I am installing linuxwacom from yaourt
+2008-04-29 22:15:14	MrElendig	use /q instead of spamming teh channel
+2008-04-29 22:15:17	Arelis	yet, i don't have make
+2008-04-29 22:15:17	Gigamo	sykopomp: stop embarrassing yourself :)
+2008-04-29 22:15:17	Torikun	sykopomp: ?
+2008-04-29 22:15:18	Arelis	and okay
+2008-04-29 22:15:19	<--	kani (n=kani@p4FD54F1E.dip.t-dialin.net) has quit ("Lost terminal")
+2008-04-29 22:15:27	jra	!rq jra
+2008-04-29 22:15:28	phrik	jra: <jra> I like killing.
+2008-04-29 22:15:28	MrElendig	Arelis: -S base-devel
+2008-04-29 22:15:37	--	rvg_ is now known as rvg
+2008-04-29 22:15:39	Arelis	MrElendig: thanks
+2008-04-29 22:15:41	<--	zaggy-nl_ (n=zaggy-nl@87.195.60.182) has quit (Read error: 113 (No route to host))
+2008-04-29 22:15:44	rvg	hey, its phrik again :)
+2008-04-29 22:15:47	Torikun	emerge --update --newuse world
+2008-04-29 22:15:51	Torikun	!phrik
+2008-04-29 22:15:51	phrik	That's my name, don't wear it out.
+2008-04-29 22:15:52	<--	linfan (n=linfan@linfan.broker.freenet6.net) has quit ("Leaving")
+2008-04-29 22:15:53	Arelis	!quote Arelis
+2008-04-29 22:15:53	phrik	Arelis: <Arelis> sykopomp: alias pacman="echo 'A train is going to overrun your computer in about 3 minutes. Have a nice day.'; sleep 60; sleep 60; sleep 59; echo -ne 'Creating train...'; sleep 1; echo -e '\t\t\t[DONE]'; sleep 2; echo -ne 'Driving it over your computer...'; sleep 1; echo -e '\t[FAIL]'"
+2008-04-29 22:16:04	tuxfusion	Arelis, install arch wiki search to your FF searchengines and enjoy !
+2008-04-29 22:16:36	MrElendig	tuxfusion: ironicaly, it's in aur
+2008-04-29 22:16:44	sykopomp	you need to add that threadbomb to the end of it.
+2008-04-29 22:17:00	Arelis	threadbomb?
+2008-04-29 22:17:25	-->	FlaPer87 (n=FlaPer87@unaffiliated/flaper87) has joined #archlinux
+2008-04-29 22:17:42	MrElendig	he ment forkbomb
+2008-04-29 22:17:52	-->	omp (n=omp@gentoo/developer/omp) has joined #archlinux
+2008-04-29 22:18:01	tuxfusion	community/arch-firefox-search itz in community too
+2008-04-29 22:18:01	mgroman	Torikun: unlaid??
+2008-04-29 22:18:05	-->	ech0s7 (n=ech0s7@host170-137-dynamic.32-79-r.retail.telecomitalia.it) has joined #archlinux
+2008-04-29 22:18:05	rpj8laptop	MrElendig: ALright, the single line worked. Any idea why though? I mean, the line was in the other rules folder.
+2008-04-29 22:18:07	MrElendig	but forkbombs won't kill a system with sane limits tho
+2008-04-29 22:18:07	mgroman	Torikun: How does that work?
+2008-04-29 22:18:08	Torikun	lol
+2008-04-29 22:18:13	Torikun	mgroman: lol
+2008-04-29 22:18:14	rpj8laptop	MrElendig: Is there a chance it just skipped over it before?
+2008-04-29 22:18:18	mgroman	sorry
+2008-04-29 22:18:32	rpj8laptop	MrElendig: I ask because I'd like to avoid this problem in the future
+2008-04-29 22:19:09	-->	slapshot (n=slapshot@host187-220-dynamic.16-87-r.retail.telecomitalia.it) has joined #archlinux
+2008-04-29 22:20:03	comhack	anyone know why rtorrent wont let me use dht    it says command not found
+2008-04-29 22:20:13	comhack	the syntax is right I went by the Archwiki
+2008-04-29 22:20:22	<--	funkyou (n=janm@e179139039.adsl.alicedsl.de) has quit (Connection timed out)
+2008-04-29 22:20:24	MrElendig	rpj8laptop: probably some conflicting rules or something like that. Dunno. Havn't had the need or will to look into the udev rules on arch
+2008-04-29 22:20:32	Denacke	hmm E17 doesn't look as beautiful as it claims it is :p
+2008-04-29 22:20:34	<--	tigrmesh (n=arch@adsl-149-13-37.mia.bellsouth.net) has left #archlinux ("WeeChat 0.2.7-dev")
+2008-04-29 22:20:38	mgroman	Denacke: Agreed!
+2008-04-29 22:20:40	-->	lynucs (n=lynucs@pD9E384AE.dip.t-dialin.net) has joined #archlinux
+2008-04-29 22:20:48	lynucs	hello
+2008-04-29 22:20:48	MrElendig	comhack: use the devel branche or rtorrent
+2008-04-29 22:20:54	comhack	ok thanks
+2008-04-29 22:20:57	MrElendig	lynucs: hi
+2008-04-29 22:21:00	rpj8laptop	MrElendig: I see. Well I'll read up on udev at a later date.
+2008-04-29 22:21:07	rpj8laptop	But for now, all is well in this household.
+2008-04-29 22:21:10	rpj8laptop	See yah guys
+2008-04-29 22:21:14	rpj8laptop	Thanks again for the help
+2008-04-29 22:21:19	<--	rpj8laptop (n=rpj8@c-71-230-51-186.hsd1.pa.comcast.net) has quit ("Lost terminal")
+2008-04-29 22:21:23	<--	Hail_Spacecake (n=krikeysa@slo-76-223.ResHall.Berkeley.EDU) has quit ("Leaving")
+2008-04-29 22:21:27	<--	ilgufo (n=Matteo@host249-183-dynamic.0-87-r.retail.telecomitalia.it) has quit ("So Long, and Thanks For All the Fish")
+2008-04-29 22:21:29	-->	esquiso (n=esquiso@195-23-162-7.net.novis.pt) has joined #archlinux
+2008-04-29 22:21:42	<--	Bonzodog (n=bonzodog@pdpc/supporter/monthlybronze/bonzodog) has quit ("WeeChat 0.2.6")
+2008-04-29 22:22:32	-->	tigrmesh (n=arch@adsl-149-13-37.mia.bellsouth.net) has joined #archlinux
+2008-04-29 22:22:41	mgroman	!hi lynucs
+2008-04-29 22:22:52	comhack	when you say rtorrent-devel do you mean the svn or the 0.7.8.1 in AUR?
+2008-04-29 22:23:00	mgroman	comhack: SVN
+2008-04-29 22:23:02	MrElendig	svn
+2008-04-29 22:23:04	comhack	thanks
+2008-04-29 22:23:15	comhack	building now
+2008-04-29 22:23:16	-->	_ke (n=dgsiegel@e181116185.adsl.alicedsl.de) has joined #archlinux
+2008-04-29 22:23:22	Torikun	Stable Branch is defined as the packages hackers no longer cares about
+2008-04-29 22:23:44	MrElendig	the dht is quite new in rtorrent, so getting the svn is the best, since it got the latest updates for it
+2008-04-29 22:23:44	<--	tigrmesh (n=arch@adsl-149-13-37.mia.bellsouth.net) has left #archlinux ("WeeChat 0.2.7-dev")
+2008-04-29 22:23:54	comhack	thanks
+2008-04-29 22:23:56	lynucs	guys, i installed archlinux, but unfortunately on partitioning of hd with fdisk i choosed 100 sectors instead of 100mb for boot partition.. now i ended up with ~700mb boot part on a 40gb drive :)
+2008-04-29 22:24:04	Torikun	lol
+2008-04-29 22:24:05	Torikun	lol
+2008-04-29 22:24:09	<--	w00p]wakeup (n=wakeup@bonn-4db46b52.pool.einsundeins.de) has quit (Client Quit)
+2008-04-29 22:24:10	-->	Borromini (n=stijn@d5153823C.access.telenet.be) has joined #archlinux
+2008-04-29 22:24:19	Torikun	lynucs: used parted or Gparted
+2008-04-29 22:24:27	<--	Oxyd (n=Oxyd@unaffiliated/oxyd) has quit ("Vanitas vanitatum et omnia vanitas.")
+2008-04-29 22:24:29	MrElendig	lynucs: that's why you shoud use cfdisk
+2008-04-29 22:24:41	lynucs	MrElendig: i used fdisk because lvm
+2008-04-29 22:24:47	lynucs	Torikun: would that work with lvm?
+2008-04-29 22:24:52	MrElendig	lynucs: dosn't make sence
+2008-04-29 22:24:54	Torikun	lynucs: I dunno
+2008-04-29 22:25:13	MrElendig	lvm don't use partions
+2008-04-29 22:25:15	MrElendig	anyway
+2008-04-29 22:25:23	lynucs	MrElendig: i thought cfdisk can't create lvm ?
+2008-04-29 22:25:42	Zom	URxvt.perl-ext-common: default,matcher
+2008-04-29 22:25:42	Zom	URxvt.urlLauncher: iceweasel
+2008-04-29 22:25:44	MrElendig	lynucs: you don't use fdisk to create lvm partiones either
+2008-04-29 22:25:47	<--	Pnevma (n=Klavious@cpe-76-190-250-117.neo.res.rr.com) has quit (Client Quit)
+2008-04-29 22:25:47	Zom	Whoops
+2008-04-29 22:25:48	Zom	Sorry
+2008-04-29 22:25:50	-->	virhilo (n=virhilo@host-79.173.17.237.tesatnet.pl) has joined #archlinux
+2008-04-29 22:26:22	MrElendig	you create one /boot paartion, and one other partion spanning the whole disk
+2008-04-29 22:26:31	<--	virhilo (n=virhilo@host-79.173.17.237.tesatnet.pl) has quit (Client Quit)
+2008-04-29 22:26:36	Torikun	<--does not use /boot only /
+2008-04-29 22:26:38	MrElendig	then you run pvcrate on the "holder" partion
+2008-04-29 22:26:41	-->	virhilo (n=virhilo@host-79.173.17.237.tesatnet.pl) has joined #archlinux
+2008-04-29 22:26:50	virhilo	can i add version number here? provides=('x264') ?
+2008-04-29 22:27:01	MrElendig	virhilo: yes
+2008-04-29 22:27:06	<--	zmj|Zileo (n=zj1992@c-76-99-219-2.hsd1.nj.comcast.net) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 22:27:12	Arelis	I am not finding any good documentation on getting the wacom bamboo fun tablet to work in Arch, i installed the AUR package but /dev/input/wacom is not there
+2008-04-29 22:27:17	lynucs	MrElendig: meister but creating partition type for it
+2008-04-29 22:27:18	Arelis	and yes i did modprobe wacom
+2008-04-29 22:27:22	virhilo	MrElendig: how?
+2008-04-29 22:27:27	<--	profsnuggles2 (n=profsnug@c-68-45-51-177.hsd1.nj.comcast.net) has quit (Client Quit)
+2008-04-29 22:27:28	MrElendig	Arelis: dmesg
+2008-04-29 22:27:39	MrElendig	virhilo: you just add the version
+2008-04-29 22:27:39	Evanlec	wacom bamboo fun tablet ?
+2008-04-29 22:27:46	Evanlec	lol
+2008-04-29 22:28:00	Torikun	module intelligence  not found
+2008-04-29 22:28:00	Zom	I wonder why e17 doesn't want to use my custom colours for files in urxvt
+2008-04-29 22:28:01	tuxfusion	like joy-stick !
+2008-04-29 22:28:06	MrElendig	virhilo: man PKGBUILD
+2008-04-29 22:28:12	<--	angvp (n=angel@unaffiliated/angvp) has quit ("Sto andando via")
+2008-04-29 22:28:12	MrElendig	then /provides
+2008-04-29 22:28:12	virhilo	provides=('x264-20080429') that?
+2008-04-29 22:28:13	Zom	The colours work in xterm
+2008-04-29 22:28:22	Zom	And in urxvt in any other wm
+2008-04-29 22:28:32	Arelis	"drivers/input/tablet/wacom_sys.c: v1.47:USB Wacom Graphire and Wacom Intuos tablet driver"
+2008-04-29 22:28:39	<--	giantpez (n=squonk@host248-184-dynamic.1-79-r.retail.telecomitalia.it) has quit (".... e l'ultimo spenga la luce.")
+2008-04-29 22:28:41	lynucs	MrElendig: anyway, the questionwas not about how to create lvm and isntall arch on it, but wether there is a possibility to make smaller boot partition without loosing data and crashing lvm
+2008-04-29 22:28:48	Arelis	"usbcore: registered new interface driver wacom"
+2008-04-29 22:28:51	virhilo	MrElendig: ok i found in manual
+2008-04-29 22:28:52	Fluxboxtremist	#freebsd-mx
+2008-04-29 22:28:57	MrElendig	Zom: xrdb -merge ~/.Xdefaults
+2008-04-29 22:29:01	MrElendig	then restart the term
+2008-04-29 22:29:12	Arelis	that's all in dmesg that's interesting and has to do with the tablet
+2008-04-29 22:29:32	<--	Dougy (n=douglas@ool-43503ed4.dyn.optonline.net) has quit ("ProjectIRC IRC :: irc.projectirc.net #chat")
+2008-04-29 22:29:47	<--	Lachmeister (n=Lachmeis@dsbg-4db7b0d4.pool.einsundeins.de) has quit
+2008-04-29 22:29:47	Arelis	well, i'll put this aside for later. first to make my base system work
+2008-04-29 22:29:57	-->	Daenyth_ (n=Daenyth@c-24-63-25-139.hsd1.ma.comcast.net) has joined #archlinux
+2008-04-29 22:30:18	Zom	MrElendig: No go
+2008-04-29 22:30:38	MrElendig	Zom: you did start a new term?
+2008-04-29 22:30:47	Zom	MrElendig: Using urxvtd+urxvtc, did a killall urxvtd from a xterm
+2008-04-29 22:30:55	<--	Skitt (n=holger@i59F5F3FC.versanet.de) has quit (Remote closed the connection)
+2008-04-29 22:31:14	MrElendig	Zom: spawn a normal urxvt, not client/server
+2008-04-29 22:31:25	<--	FlaPer87 (n=FlaPer87@unaffiliated/flaper87) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 22:31:35	Zom	MrElendig: No go
+2008-04-29 22:31:38	lynucs	anyone has some experience on making partitions smaller with lvm on the hd?
+2008-04-29 22:31:40	MrElendig	:/
+2008-04-29 22:31:52	lynucs	i mean, wether it would crash all data
+2008-04-29 22:32:09	Arelis	hold on - i'm at the point of choosing a desktop environment
+2008-04-29 22:32:13	MrElendig	lynucs: depends on the filesystem on the logical partion
+2008-04-29 22:32:21	<--	BinkyTheClown (i=be90a356@gateway/web/ajax/mibbit.com/x-8d6e6addb8bd8146) has left #archlinux ()
+2008-04-29 22:32:25	lynucs	MrElendig: ext3
+2008-04-29 22:32:26	MrElendig	only ext3 and reiser supports scrinking
+2008-04-29 22:32:31	Arelis	I don't think i'll choose GNOME - and i like KDE, but maybe its a little heavyweight - what do you guys recommend?
+2008-04-29 22:32:46	tuxfusion	Arelis, personaly openbox
+2008-04-29 22:32:50	Zom	I should probably ask in the e17 channel, but they can be touchy with those kind of things
+2008-04-29 22:32:58	Fluxboxtremist	Arelis, fluxbox
+2008-04-29 22:32:58	MrElendig	lynucs: tldp.org got a howto on lvm, it includes crinking ext3 partions on lvm
+2008-04-29 22:33:02	Zom	Most likely response? "Use a different terminal!!"
+2008-04-29 22:33:04	glguy	can't "what DE do you guys recommend" just be an FAQ on the wiki?
+2008-04-29 22:33:07	<--	ExxonValdeez (n=ExxonVal@cpe-76-186-34-155.tx.res.rr.com) has quit (Read error: 110 (Connection timed out))
+2008-04-29 22:33:10	lynucs	MrElendig: and if boot is a primary with ext2 on it?
+2008-04-29 22:33:32	-->	roadboy (i=roadboy@my.g0d.is.b33r.net) has joined #archlinux
+2008-04-29 22:33:38	MrElendig	ext2 can scrink too
+2008-04-29 22:33:44	lynucs	MrElendig: pheww :)
+2008-04-29 22:33:46	mgroman	LOL
+2008-04-29 22:33:53	tuxfusion	http://tldp.org/HOWTO/LVM-HOWTO/reducelv.html
+2008-04-29 22:34:04	MrElendig	if it's not on the lvm, then you need to use parted
+2008-04-29 22:34:08	MrElendig	and be realy carefull
+2008-04-29 22:34:09	mgroman	hey will you guys check out my web site?  www.lifehacker.org
+2008-04-29 22:34:14	-->	FlaPer87 (n=FlaPer87@unaffiliated/flaper87) has joined #archlinux
+2008-04-29 22:34:17	-->	AkiraYuki (n=unknown@85-18-14-4.fastres.net) has joined #archlinux
+2008-04-29 22:34:19	Strangelet	The only difference between ext3 and ext2 that I know of is that ext3 supports journaling
+2008-04-29 22:34:20	lynucs	Zom: what do you want to know about e17? just interesting
+2008-04-29 22:34:21	glguy	What makes shrinking a partition with LVM easier than doing the same without?
+2008-04-29 22:34:27	mgroman	it will teach you how to hack life!
+2008-04-29 22:34:30	MrElendig	if you scrink the partion to something smaller than the fs,then you are fucked
+2008-04-29 22:34:33	-->	Maphor (n=soul@p54945602.dip.t-dialin.net) has joined #archlinux
+2008-04-29 22:34:34	lynucs	Zom: used it for a while before going to ion3
+2008-04-29 22:34:43	comhack	i cannot build libtorrent-svn for some reason Here is the output: http://pastie.caboo.se/188896
+2008-04-29 22:34:57	MrElendig	glguy: it's totaly dynamic, the partion layout dosn't matter
+2008-04-29 22:35:21	glguy	MrElendig: so partitions don't need contiguous disk space?
+2008-04-29 22:35:24	<--	GCN (n=GCN@2a01:e35:2eeb:1680:213:d4ff:fef5:8f46) has quit ("ZzZzZzzz")
+2008-04-29 22:35:29	glguy	in lvm
+2008-04-29 22:35:37	Zom	lynucs: The problem I have is that my custom colours for certain filetypes (Like, *.rar, *.tar.gz) doesn't work in urxvt in e17. Works in xterm though
+2008-04-29 22:35:37	MrElendig	you can take space from partion 5 and add it to partion 2 if you want
+2008-04-29 22:35:39	comhack	getting error: make: *** No targets specified and no makefile found.  Stop.
+2008-04-29 22:35:51	Zom	lynucs: It does work in urxvt under other window managers
+2008-04-29 22:36:05	Torikun	http://repo.archlinux.fr/i686/ <--lots of good shit!
+2008-04-29 22:36:18	Torikun	including a flash plugin for opera!
+2008-04-29 22:36:19	MrElendig	Torikun: welcome to last year
+2008-04-29 22:36:20	lynucs	Zom: ah.. sorry, no idea
+2008-04-29 22:36:23	glguy	MrElendig: so: BEGINDISK <partition 2> <partition 3> <partition 4> <rest of partition 2>  END
+2008-04-29 22:36:27	glguy	could work?
+2008-04-29 22:36:34	MrElendig	Zom: sounds like an e17 issue :/
+2008-04-29 22:36:44	Torikun	!swiftweasel
+2008-04-29 22:36:46	tuxfusion	mgroman, great ! it has google !
+2008-04-29 22:36:49	comhack	any ideals on why libtorrent-svn wont build?
+2008-04-29 22:36:49	MrElendig	glguy: yep
+2008-04-29 22:36:50	Zom	lynucs: Funny thing though, I'm currently running e17 with itask-ng and xfce-panel ;D
+2008-04-29 22:36:52	Torikun	!google swiftweasel
+2008-04-29 22:36:54	phrik	Torikun: Search took 0.27 seconds: swiftweasel: <http://swiftweasel.sourceforge.net/>
+2008-04-29 22:37:03	comhack	trying to install rtorrent-svn
+2008-04-29 22:37:08	MrElendig	glguy: you can span a partion over several physical hd's too
+2008-04-29 22:37:37	lynucs	Zom: i hope it was your will :)
+2008-04-29 22:37:46	Zom	lynucs: Yeah, it's quite nice really
+2008-04-29 22:37:49	MrElendig	so, if you buy a new hd and want to add the space to /home, then you don't need the symlink farm, or mounting it as a folder under home
+2008-04-29 22:37:56	lynucs	Zom: screenshot :)
+2008-04-29 22:38:04	MrElendig	you can just grow home to include the new disc
+2008-04-29 22:38:10	Denacke	srsly?
+2008-04-29 22:38:18	Denacke	that's hawt
+2008-04-29 22:38:20	tuxfusion	Torikun, is there a swiftFF3b5 ?
+2008-04-29 22:38:27	MrElendig	tuxfusion: yes
+2008-04-29 22:38:37	<--	esquiso (n=esquiso@195-23-162-7.net.novis.pt) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 22:38:38	MrElendig	b4 atleast
+2008-04-29 22:38:44	tuxfusion	couldnt wait for the page to load , sry  =)
+2008-04-29 22:38:45	<--	slapshot (n=slapshot@host187-220-dynamic.16-87-r.retail.telecomitalia.it) has quit ("Sto andando via")
+2008-04-29 22:38:54	-->	esquiso (n=esquiso@195-23-162-7.net.novis.pt) has joined #archlinux
+2008-04-29 22:38:56	<--	Devourer (n=devo@pool-71-170-53-118.dllstx.fios.verizon.net) has quit (Remote closed the connection)
+2008-04-29 22:39:05	<--	kelnoky (n=shao@p5481ED76.dip.t-dialin.net) has quit ("Look behind you, a three-headed monkey!")
+2008-04-29 22:39:07	Arelis	What is a good (GUI/CLI) irc client?
+2008-04-29 22:39:16	MrElendig	Arelis: irssi/weechat
+2008-04-29 22:39:18	tuxfusion	irssi
+2008-04-29 22:39:20	ighea	irssi
+2008-04-29 22:39:22	MrElendig	there are no good gui clients
+2008-04-29 22:39:29	comhack	weechat
+2008-04-29 22:39:34	Arelis	but i want to control them with my tablet
+2008-04-29 22:39:36	comhack	or xchat if you want gui
+2008-04-29 22:39:43	-->	tigrmesh (n=arch@adsl-149-13-37.mia.bellsouth.net) has joined #archlinux
+2008-04-29 22:39:47	<--	plut0nium (n=plut0niu@83.101.10.61) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 22:39:55	tuxfusion	Arelis, tablets are doomed
+2008-04-29 22:40:01	MrElendig	irssi is older, got more features, but weechat has mutch nicer configs and api
+2008-04-29 22:40:02	-->	plut0nium (n=plut0niu@83.101.10.61) has joined #archlinux
+2008-04-29 22:40:06	Arelis	tuxfusion: i do not think so
+2008-04-29 22:40:07	<--	fivre (n=Five@pool-115-156.res.carleton.edu) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 22:40:09	lynucs	MrElendig: so starting from a livecd and shrinking primary-ext2-bootpart and enlarging lvm partition space with gparted would work?
+2008-04-29 22:40:20	MrElendig	lynucs: no
+2008-04-29 22:40:28	MrElendig	don't toutch the partions that lvm are on
+2008-04-29 22:40:32	<--	shrp (n=shrp@a82-197-15-149.mpynet.fi) has quit (Client Quit)
+2008-04-29 22:40:33	Zom	lynucs: http://img143.imageshack.us/img143/9651/screenshotdw4.jpg
+2008-04-29 22:40:43	MrElendig	reduce the /boot and make a new partion on the empthy space
+2008-04-29 22:40:45	<--	Fluxboxtremist (n=flx@190.7.74.74) has quit ("Saliendo")
+2008-04-29 22:40:54	MrElendig	pvcreate it, and add it to your volume group
+2008-04-29 22:40:56	comhack	anyone with rtorrent-svn installed, how was it built? I can build it
+2008-04-29 22:41:01	glguy	Zom: if that's yours you have some work to do on your fonts ;)
+2008-04-29 22:41:07	MrElendig	then extend the lv you want to it
+2008-04-29 22:41:11	-->	Rasi_ (n=carnager@e182053115.adsl.alicedsl.de) has joined #archlinux
+2008-04-29 22:41:14	Arelis	Zom: what DE is that?
+2008-04-29 22:41:18	<--	Daenyth (n=Daenyth@c-24-63-25-139.hsd1.ma.comcast.net) has quit (Read error: 110 (Connection timed out))
+2008-04-29 22:41:23	glguy	(the foot in the corner gives it away)
+2008-04-29 22:41:25	-->	zovjet (n=zovjet@pD9FF6E1B.dip.t-dialin.net) has joined #archlinux
+2008-04-29 22:41:34	MrElendig	_never_ toutch lvm with any other tools than the lvm tools
+2008-04-29 22:41:36	Arelis	yeah but i mean the panel on the bottom
+2008-04-29 22:41:41	MrElendig	unless you want to loose all your data
+2008-04-29 22:41:46	Zom	glguy: Not a font problem, a panel problem
+2008-04-29 22:41:57	<--	roadboy (i=roadboy@my.g0d.is.b33r.net) has quit ("Leaving")
+2008-04-29 22:41:57	lynucs	MrElendig: ah.. now i understand
+2008-04-29 22:42:00	Zom	glguy: But yeah, should fix it
+2008-04-29 22:42:02	lynucs	MrElendig: thank you
+2008-04-29 22:42:05	Arelis	hold on
+2008-04-29 22:42:05	<--	Arelis (n=Arelis_@195-241-90-109.ip.telfort.nl) has left #archlinux ()
+2008-04-29 22:42:08	Zom	Arelis: It's e17 with itask-ng
+2008-04-29 22:42:17	MrElendig	lynucs: go to tldp.org and read how lvm works
+2008-04-29 22:42:20	-->	zoryfl (n=zoryfl@p5B167B81.dip.t-dialin.net) has joined #archlinux
+2008-04-29 22:42:20	-->	kelnoky (n=shao@p5481ED76.dip.t-dialin.net) has joined #archlinux
+2008-04-29 22:42:20	lynucs	Zom: thx
+2008-04-29 22:42:24	-->	slapshot (n=slapshot@host187-220-dynamic.16-87-r.retail.telecomitalia.it) has joined #archlinux
+2008-04-29 22:42:25	-->	Arelis (n=arelis@195-241-90-109.ip.telfort.nl) has joined #archlinux
+2008-04-29 22:42:32	Zom	Arelis: It's e17 with itask-ng
+2008-04-29 22:42:36	MrElendig	it's a bit old, but most of the info is still good
+2008-04-29 22:42:37	Zom	Arelis: With xfce4-panel
+2008-04-29 22:42:41	Arelis	okay, hold on
+2008-04-29 22:42:42	<--	Arelis (n=arelis@195-241-90-109.ip.telfort.nl) has quit (Client Quit)
+2008-04-29 22:42:45	MrElendig	and all the low level stuff is still the same
+2008-04-29 22:43:21	-->	Arelis (n=arelis@195-241-90-109.ip.telfort.nl) has joined #archlinux
+2008-04-29 22:43:32	MrElendig	lvm is one of the tools you shoud understand before you (try) to use it :D
+2008-04-29 22:43:33	lynucs	Zom: looks great
+2008-04-29 22:43:40	MrElendig	else things can turn realy nasty
+2008-04-29 22:43:58	Zom	lynucs: Yeah, I think so too ;b
+2008-04-29 22:44:00	<--	Strangelet (n=nicholas@c-68-32-22-150.hsd1.nj.comcast.net) has quit (Remote closed the connection)
+2008-04-29 22:44:03	<--	jihsro (n=john@125-238-254-239.broadband-telecom.global-gateway.net.nz) has quit (Remote closed the connection)
+2008-04-29 22:44:21	rpj8	So any idea why this: http://rafb.net/p/bAB3Li32.html works, while this http://rafb.net/p/EKnotc70.html , which is generated by the steps on the wiki, fails?
+2008-04-29 22:44:22	-->	jihsro (n=john@125-238-254-239.broadband-telecom.global-gateway.net.nz) has joined #archlinux
+2008-04-29 22:44:56	MrElendig	Zom: localization fails :D
+2008-04-29 22:45:19	MrElendig	having a mix on swedish and english = stupid :D
+2008-04-29 22:45:54	patogen	Having anything else but English is fail.
+2008-04-29 22:46:09	MrElendig	rpj8: you shoud paste stuff like that in just one pastebin
+2008-04-29 22:46:16	MrElendig	makes it easier to compare
+2008-04-29 22:46:23	<--	hdoria (n=hdoria@archlinux/trusteduser/hdoria) has quit ("Leaving")
+2008-04-29 22:46:26	MrElendig	pastie supports sections
+2008-04-29 22:46:42	<--	zovjet (n=zovjet@pD9FF6E1B.dip.t-dialin.net) has quit (Client Quit)
+2008-04-29 22:46:51	rpj8	MrElendig: I apologize. this was done over ssh with nopaste
+2008-04-29 22:47:01	rpj8	MrElendig: I'm not too sure how to do that with nopaste
+2008-04-29 22:47:03	MrElendig	rpj8: can still past it as one
+2008-04-29 22:47:15	Zom	MrElendig: What? Where?
+2008-04-29 22:47:23	<--	louipc (n=louipc@bas8-toronto63-1096669531.dsl.bell.ca) has left #archlinux (" ")
+2008-04-29 22:47:28	MrElendig	just merge them into one file, dicided by e.g. ===================================
+2008-04-29 22:47:30	MrElendig	then nopaste
+2008-04-29 22:47:50	mgroman	your fail fails
+2008-04-29 22:47:51	rpj8	MrElendig: You are wise. Very wise.
+2008-04-29 22:47:53	MrElendig	Zom: if you poke around the coreutils, I bet you will get some in swedish and some in english
+2008-04-29 22:48:06	MrElendig	same for gui apps that ain't translated
+2008-04-29 22:48:06	-->	Fluxboxtremist (n=flx@190.7.74.74) has joined #archlinux
+2008-04-29 22:48:22	Zom	MrElendig: Not many really, most are actually localized
+2008-04-29 22:48:31	<--	Fluxboxtremist (n=flx@190.7.74.74) has quit (Client Quit)
+2008-04-29 22:48:37	MrElendig	when I tried nn_NO I got a mix of english, german, nederlansk, swedish, and norwegian
+2008-04-29 22:48:43	MrElendig	:D
+2008-04-29 22:48:47	Zom	I was actually suprised to see how much was translated
+2008-04-29 22:48:48	-->	Fluxboxtremist (n=flx@190.7.74.74) has joined #archlinux
+2008-04-29 22:49:00	andrewy	are there any programs I can use to check the validity of an ebuild? makepkg creates if correctly, but AUR gives me 'Unknown file format for uploaded file.'
+2008-04-29 22:49:02	Zom	MrElendig: Well, nobody speaks norweigan anyways ;b
+2008-04-29 22:49:12	<--	zels (n=zels@unaffiliated/zels) has quit (Read error: 110 (Connection timed out))
+2008-04-29 22:49:12	Zom	Naw
+2008-04-29 22:49:16	MrGrim	andrewy: that was a hell of a slip
+2008-04-29 22:49:19	MrElendig	andrewy: arch don't sue ebuilds
+2008-04-29 22:49:20	Zom	But that was pretty weird
+2008-04-29 22:49:30	<--	rupogo (n=rupogo@bl5-65-73.dsl.telepac.pt) has quit (Remote closed the connection)
+2008-04-29 22:49:38	MrElendig	use*
+2008-04-29 22:49:38	andrewy	haha, that was a horrible slip
+2008-04-29 22:49:45	Zom	Hm
+2008-04-29 22:49:49	Zom	My god
+2008-04-29 22:49:50	flanders	andrewy, to upload a pkg to the aur just tar cvfz pkg.tar.gz pkg/
+2008-04-29 22:49:56	flanders	make sure you don't have any bins there
+2008-04-29 22:49:58	MrElendig	andrewy: read the aur faq
+2008-04-29 22:50:09	Zom	Font hinting is awful on a LCD!
+2008-04-29 22:50:11	MrElendig	you got to tar.gz the build dir
+2008-04-29 22:50:29	MrElendig	and: don't have any source or build stuff in it
+2008-04-29 22:50:40	MrElendig	and no built pkg
+2008-04-29 22:50:49	andrewy	MrElendig: yeah, I realized I was bzipping it instead of gzipping right after I said that :|
+2008-04-29 22:50:54	andrewy	habbit
+2008-04-29 22:50:58	MrElendig	just the PKGBUILD, and any patches, .install and so on
+2008-04-29 22:51:04	Zom	Oh well, gonna drive about 500 km tomorrow, better get in bed early
+2008-04-29 22:51:05	Zom	Gnight
+2008-04-29 22:51:10	MrElendig	night
+2008-04-29 22:51:15	MrElendig	drive safe
+2008-04-29 22:51:22	Zom	:)
+2008-04-29 22:51:26	<--	avalan (n=avalan@host-89-230-243-206.paslek.mm.pl) has quit ("leaving")
+2008-04-29 22:51:27	-->	userek (n=userek@unaffiliated/userek) has joined #archlinux
+2008-04-29 22:51:29	<--	comhack (n=comhack@78.32.188.72.cfl.res.rr.com) has quit ("WeeChat 0.2.6")
+2008-04-29 22:51:42	userek	hi damn it
+2008-04-29 22:51:45	-->	|igor_ (n=igor@79.125.248.76) has joined #archlinux
+2008-04-29 22:51:48	MrElendig	killing yourself just to arrive 3 mins early = fail
+2008-04-29 22:52:04	tuxfusion	hi damnit !
+2008-04-29 22:52:09	userek	:)
+2008-04-29 22:52:10	MrElendig	or even worse, if you kill someone else
+2008-04-29 22:52:25	MrElendig	!give userek hi
+2008-04-29 22:52:26	*	Nergar gives userek a perl script
+2008-04-29 22:52:26	phrik	userek: Welcome to #archlinux. Please say !rules for channel rules and information about how you can help us help you. Make sure to read http://www.catb.org/~esr/faqs/smart-questions.html before asking.
+2008-04-29 22:52:29	-->	skate_forever (n=leandro@unaffiliated/skateforever/x-2874) has joined #archlinux
+2008-04-29 22:52:35	MrElendig	:p
+2008-04-29 22:52:55	-->	comhack (n=comhack@78.32.188.72.cfl.res.rr.com) has joined #archlinux
+2008-04-29 22:52:57	<--	Shirakawasuna (n=nick@71-217-26-84.tukw.qwest.net) has quit (Connection timed out)
+2008-04-29 22:53:02	userek	so, thats how you treat noobs here eh? :P
+2008-04-29 22:53:13	MrElendig	nha
+2008-04-29 22:53:15	MrElendig	only you
+2008-04-29 22:53:37	<--	Rasi (n=carnager@e181175222.adsl.alicedsl.de) has quit (Read error: 110 (Connection timed out))
+2008-04-29 22:53:39	*	tuxfusion has folded his first protein to 70 %
+2008-04-29 22:54:07	userek	so, whats goin on
+2008-04-29 22:54:53	-->	p| (n=pi@62.13.169.90) has joined #archlinux
+2008-04-29 22:54:58	MrElendig	just the same as always
+2008-04-29 22:54:59	tuxfusion	first uk only CL final
+2008-04-29 22:55:37	<--	koq (n=koq@p549D75C5.dip.t-dialin.net) has quit (Remote closed the connection)
+2008-04-29 22:55:52	MrElendig	linfan doing his best to be a noob, a random foo vs bar flamewar, bruenig being an elitist asshole, some dude trying to upload an ebuild to aur
+2008-04-29 22:56:04	rpj8	MrElendig: There's the comparison: http://rafb.net/p/faodLx76.html
+2008-04-29 22:56:11	rpj8	gah
+2008-04-29 22:56:12	Arelis	well, my system isn't set up yet, not even halfway there i think, and about 1:30 hours have passed
+2008-04-29 22:56:17	rpj8	I probably should have put the shorter at the top
+2008-04-29 22:56:19	rpj8	goshdarnit
+2008-04-29 22:56:24	-->	scarn (n=scarn@adsl-75-42-233-88.dsl.mdsnwi.sbcglobal.net) has joined #archlinux
+2008-04-29 22:56:27	bruenig	MrElendig: I am not an elitist, I attack the elitists
+2008-04-29 22:56:44	userek	hahahha
+2008-04-29 22:56:46	ebirtaid	bruenig represents the proletariat
+2008-04-29 22:56:47	userek	sounds like fun!
+2008-04-29 22:56:50	MrElendig	Arelis: 22 mins from I booted the install cd till I had wmii running, on a  slow line :D
+2008-04-29 22:56:54	bruenig	do i ever
+2008-04-29 22:57:23	bruenig	we will not stand for this bourgosie bullshit any longer
+2008-04-29 22:57:27	Arelis	I am running fluxbox right now on an Xorg that works (had to use xorgcfg) running irssi in screen in mrxvt while installing openoffice.org and after that going to install kopete and mplayer
+2008-04-29 22:57:47	ebirtaid	If you want to get started programming, you need to learn visual basics. Get the hang of thinking logical. Visual basics is a programming language, and is very important to learn. after you understand that, which could take 1 year or so, pick another language, like flux or flash, or if your ready, Java. Linux programs uses all these different languages and more. But seriously, learn visual basics!
+2008-04-29 22:57:53	ebirtaid	lol
+2008-04-29 22:57:53	<--	Zeqadious (n=zeqadiou@rrcs-24-39-72-194.nys.biz.rr.com) has quit ("Ex-Chat")
+2008-04-29 22:58:04	MrElendig	hahahaha
+2008-04-29 22:58:25	MrElendig	I woud learn basic before visual basic
+2008-04-29 22:58:25	MrElendig	wait...
+2008-04-29 22:58:25	MrElendig	already did that
+2008-04-29 22:58:35	-->	bavardage (n=ben@87.113.100.153.plusnet.pte-ag2.dyn.plus.net) has joined #archlinux
+2008-04-29 22:58:37	MrElendig	>_>
+2008-04-29 22:59:18	<--	Torikun (n=386426@75-171-130-164.hlrn.qwest.net) has quit (Remote closed the connection)
+2008-04-29 22:59:19	tuxfusion	cant find kopete in reps ?
+2008-04-29 22:59:23	MrElendig	(learn BASIC, that is)
+2008-04-29 22:59:38	<--	TecnoVM64 (n=vmrh@vaslibre/staff/TecnoVM64) has quit (Read error: 110 (Connection timed out))
+2008-04-29 22:59:39	MrElendig	tuxfusion: it's a part of another kde pkg
+2008-04-29 23:00:00	lynucs	my third day of arch, and i like it, even if i still have to do things maually like ifconfig interface up :D
+2008-04-29 23:00:06	Arelis	MrElendig: which?
+2008-04-29 23:00:12	<--	NevroPus (n=martin@cm-84.215.109.78.getinternet.no) has quit (Remote closed the connection)
+2008-04-29 23:00:12	<--	scarn (n=scarn@adsl-75-42-233-88.dsl.mdsnwi.sbcglobal.net) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 23:00:18	Caleb	lynucs: you didnt edit rc.conf to use dhcp
+2008-04-29 23:00:21	MrElendig	lynucs: rc.conf: eth0="dhcp"
+2008-04-29 23:00:29	MrElendig	problem solved
+2008-04-29 23:00:32	Caleb	yep
+2008-04-29 23:00:36	-->	scarn (n=scarn@adsl-75-42-233-88.dsl.mdsnwi.sbcglobal.net) has joined #archlinux
+2008-04-29 23:00:36	<--	heavenquake (n=halfdan@unaffiliated/heavenquake) has quit (Read error: 104 (Connection reset by peer))
+2008-04-29 23:00:39	lynucs	curious thing, donÄt know why, but ff3 is eating only half of ram that it ate on debian and ubuntu
+2008-04-29 23:00:41	tuxfusion	Arelis, i actuallly wanted to say y u use a kde messenger if you use fluxbox ?
+2008-04-29 23:00:50	MrElendig	Arelis: extra/kdenetwork probably
+2008-04-29 23:00:51	Arelis	tuxfusion: i prefer kopete
+2008-04-29 23:00:52	lynucs	MrElendig: i did, but only on eth0.. not on wlan0
+2008-04-29 23:00:54	jerryLUC	where is crontab located?
+2008-04-29 23:01:08	MrElendig	!give lynucs wireless setup
+2008-04-29 23:01:08	*	Nergar gives lynucs a football stadium
+2008-04-29 23:01:14	<--	ispy_ (n=ispyhuma@67.59.59.227) has quit ("Leaving.")
+2008-04-29 23:01:14	MrElendig	!give lynucs wiki wireless setup
+2008-04-29 23:01:14	*	Nergar gives lynucs a yellow marshmallow
+2008-04-29 23:01:16	phrik	lynucs: Search took 0.13 seconds: ArchWiki :: Wireless Setup - ArchWiki: <http://wiki.archlinux.org/index.php/Wireless_Setup>
+2008-04-29 23:01:38	lynucs	whoah...
+2008-04-29 23:01:46	lynucs	was there :)
+2008-04-29 23:01:56	Arelis	MrElendig: nope
+2008-04-29 23:01:58	tuxfusion	Arelis, you installed irssi right ? check out bitlbee !
+2008-04-29 23:02:04	Arelis	!give arelis wiki kopete
+2008-04-29 23:02:05	*	Nergar gives arelis a laptop
+2008-04-29 23:02:06	phrik	arelis: Search took 0.17 seconds: ArchWiki :: Webcam Setup - ArchWiki: <http://wiki.archlinux.org/index.php/Webcam_Setup>
+2008-04-29 23:02:10	Caleb	bitlbee ftw
+2008-04-29 23:02:11	lynucs	i think i'll try teh netcfg
+2008-04-29 23:02:17	Arelis	No, i prefer kopete
+2008-04-29 23:02:18	tuxfusion	Caleb bah
+2008-04-29 23:02:26	Caleb	kopete is fugly
+2008-04-29 23:02:32	ebirtaid	qt is fugly
+2008-04-29 23:02:36	Caleb	indeed
+2008-04-29 23:02:36	<--	seemawn (n=seemawn@p4FD3F148.dip.t-dialin.net) has quit (Remote closed the connection)
+2008-04-29 23:02:49	Arelis	well i won't use bitlbee
+2008-04-29 23:02:51	Arelis	anything else?
+2008-04-29 23:02:52	tuxfusion	it has a "bee" in it must be good
+2008-04-29 23:02:54	Caleb	pidgin
+2008-04-29 23:03:02	ebirtaid	pidgin is ok
+2008-04-29 23:03:03	Arelis	nope, no pidgin. i prefer kopete over that
+2008-04-29 23:03:08	MrElendig	Arelis: you can get kopete more or less "standalone" from aur
+2008-04-29 23:03:08	Caleb	well use it then
+2008-04-29 23:03:10	-->	astro76 (n=jtaji@unaffiliated/astro76) has joined #archlinux
+2008-04-29 23:03:11	ebirtaid	what network do you use
+2008-04-29 23:03:15	tuxfusion	sudo rm -rf Arelis
+2008-04-29 23:03:16	Arelis	ebirtaid: MSN
+2008-04-29 23:03:21	Caleb	use it if thats all you like
+2008-04-29 23:03:21	ebirtaid	use could use amsn
+2008-04-29 23:03:22	tuxfusion	whoops
+2008-04-29 23:03:23	Caleb	shit man
+2008-04-29 23:03:28	Arelis	is it good?
+2008-04-29 23:03:30	ebirtaid	but if you like kopete dont switch to be different
+2008-04-29 23:03:31	Caleb	no
+2008-04-29 23:03:33	Caleb	use kopete
+2008-04-29 23:03:35	MrElendig	tuxfusion: that woud be deluser
+2008-04-29 23:03:35	Fluxboxtremist	Aramroth, i recomend emesene
+2008-04-29 23:03:41	MrElendig	or userdel
+2008-04-29 23:03:41	Fluxboxtremist	Arelis,
+2008-04-29 23:03:49	MrElendig	if you don't have the wrapper script
+2008-04-29 23:03:58	Fluxboxtremist	Arelis, are u female?
+2008-04-29 23:04:03	Arelis	no
+2008-04-29 23:04:05	Caleb	lol
+2008-04-29 23:04:09	tuxfusion	Arelis try psi
+2008-04-29 23:04:14	Arelis	psi is jabber
+2008-04-29 23:04:15	Caleb	blah
+2008-04-29 23:04:18	tuxfusion	so ?
+2008-04-29 23:04:25	Arelis	i don't use jabber
+2008-04-29 23:04:29	Caleb	well
+2008-04-29 23:04:37	Caleb	just in case you didnt know
+2008-04-29 23:04:37	Fluxboxtremist	Arelis, emesene
+2008-04-29 23:04:40	Caleb	msn blows ass
+2008-04-29 23:04:45	<--	jerryLUC (n=jerry@28.80-202-219.nextgentel.com) has quit (Remote closed the connection)
+2008-04-29 23:04:48	Gigamo	MrElendig: any idea why urxvt doesn't want to tile in wmii? :p it just spawns with the width it gets from Xdefaults
+2008-04-29 23:04:49	Caleb	but
+2008-04-29 23:04:52	Gigamo	xterm and any other apps work fine tho
+2008-04-29 23:04:54	ebirtaid	myspace messenger is the only decent one noobs
+2008-04-29 23:04:58	Caleb	thats just how i feel
+2008-04-29 23:04:58	Gigamo	width and lenght*
+2008-04-29 23:05:00	Arelis	all my buddies use it - and i don't think they want to change networks - so i'm using msn
+2008-04-29 23:05:07	MrElendig	Gigamo: don't set the width
+2008-04-29 23:05:15	-->	Gigamo_ (n=Gigamo@201-42-170-157.dsl.telesp.net.br) has joined #archlinux
+2008-04-29 23:05:16	anakin_	Gigamo: it happened to me also
+2008-04-29 23:05:17	-->	esquiso_ (n=esquiso@195.23.235.43) has joined #archlinux
+2008-04-29 23:05:29	anakin_	Gigamo: it was the borderless propertie
+2008-04-29 23:05:31	<--	Gigamo_ (n=Gigamo@201-42-170-157.dsl.telesp.net.br) has quit (Client Quit)
+2008-04-29 23:05:34	anakin_	property*
+2008-04-29 23:05:39	MrElendig	if you set the geometry, it will start floating
+2008-04-29 23:05:43	Gigamo	aah
+2008-04-29 23:05:48	MrElendig	! the line
+2008-04-29 23:05:53	lynucs	ppl using msn ae not my friendss :)
+2008-04-29 23:06:12	ebirtaid	hm does hotmail have free forwarding
+2008-04-29 23:06:16	JoinTheHell	any program to unpack *.bins (uhm.. cue ^^)
+2008-04-30 20:57:22	-->	mihairu (n=mihairu@213.155.227.225) has joined #archlinux
+2008-04-30 20:57:22	--	Topic for #archlinux is: "[ Welcome to #archlinux (!rules) || Warning: 2007.08 iso's should not be used; use these instead:  http://www.archlinux.org/news/389/ ]"
+2008-04-30 20:57:22	--	Topic set by MrElendig on Sun Apr 27 21:33:30 2008
+2008-04-30 20:57:22	--	Nicks #archlinux: [[digit] [vEX] \pub\bash0r _megaTherion _nalle _V_ Aakko AC`97 acez acura adlan AerialX afonic`oFF Ahadiel ahelon AkiraYuki akurashy al- alfauros alkasteve amee2k amelia amki amon_ anakin_ andash andrewy AndyWxy angvp anrxc Antti_Alien apeiro Aperculum AquaFox Aramroth Arelis Asgaroth AssociateX astro76 avalan b0h b52 BadAtom bassM bigkeith biio Bjoern-Erik bjohan bjorn` blokkie blubbo BluntBox bobgill bobgill2_ bomaroast Bonzodog Borbus brian bruenig bud^ Bug2000 buggs Bylkki Cain_ Caleb catwell ce_geek cento cerebra1 CF chii chmielu Chrysalis chwi cifvts cnwdup CoarseSand codemac codethief crazyindian cromo crouse daaku Daenyth_ Dan39 danalien DaNiMoTh Dannyarr dared_ DarkJesus darkmeerkat DarthShrine dashua_ dashua` dav7 DazWiLLiE dcraven delroth Devourer Dieter DigitalKiwi Dirhael Ditzi dodo1122 drag0nl0rd drc822 Dream_Team DuClare e47 ebbeyes ebirtaid EinarDogfin elasticdog eldawlion elstupidos Emess enderst Entasis_ eNTi esquiso_ eth0 etretyak Evanlec evaryont F F-eeks faemir fajmoh fean0r FedeB femeref fester64 fignew firsm fivre FlaPer87 flx- fophillips fredforfaen Freduardo frugo3000 Fryguy-- Fubarovic funkyou g10k gangsterlicious gcarrier GCN gecko^| gejr GGLucas Ghost1227 Gigamo glguy glith gorus grefven gregorovius gridl0ck grte grubby hayaka hdoria HeatHawk[LI] heathen heavenquake hekel HelloMeow henno henriknj hesperaux hifi hobbynutte HokieTux hrist hst Huijari Husio idjut iggly ighea ilgufo iluvgrlzwglasses imachine Industrial inpherno irCuBiC isak JADS jason^ jbsnake_ jeebusmobile jerryLUC jfl1 jkpakayag jmip John_Priest johntramp JoinTheHell jonkristian jonth jos junckritter jvoorhis jwbirdsong K4rP4D Kamus_H_Zwisch kani kasmol kekimmo keks_ kelnoky_ kenen kennae kennyt KentControl keytoaster Kittens knownbad kolmodin kutio KyleS-work L1nus larson999 lartza lburton leprechau lessthanjake lilltiger Linked LinuxLefty ljacob Login_Here lokedk lolman` LSD` lydgate lyld lynucs m[a]tt maddog39 magma_ca1el maki_d Man_of_Wax manveru marant mauriku mavez mayday_jay Mazaev mc meister mekius method_ mgroman mihairu Mindless` mit3z mockfrog mogunus__ monshin monstar-x morgoth_ mort Mozz MrBobBarker MrGrim mrsa mtl muiro muscov mwti mykhal n00dl3 Navi_ Nekos_ neotuli Nergar neri neur0fx Neverther Nikke nofxx NoOneImportant nopper nothlit`core notplus_M nwatson oc^ OgMaciel oipat p3nguin p[j]aN Part` parti patogen patson Paul-S_ paulez peakperformance peh penguinflavored pfleidi85 pharaonpso PhilKC phlpp phoenixh phrearch phrik pierluigi piie piroko PRAEDO profoX` purch pyther quad3d-dbi quarks radius ragdi ramoneur Rasi raw_ rE reaVer RedShift Revellion richiefrich rikur rine robber49 rochus romano2k roodie roxazer rpag rphillips rson451 rvg s4msung sabooky Sacro sagattarii sandsmark Sashi sati scarn schischa sco50000 sega01 Sememmon serrghi sevenfourk shining Shirakawasuna sier Silvershine skarface Skee Skitt skorpan slapshot Slashbunny slubman snL20 snmp soran soul9 sparkybean SpineShank spiorf SportChick sputters spY|da ss2 sscj ssimon stansmith steve___ stillunknown stojic_ Storlek streuselkuchen Strog sunn Superbaloo svinkels SyaZ symtab Tallen Tarinaky TAsn TBCOOL TecnoVM64 tensai457 tha theneb thenew42 Theoden thiago_a tiggerthump timtux tmm1 Tobsan tomkx toofishes Torikun toshi trafim troxor_ tumult tuopppi_ tuxfusion twifkak tyle3 Una^ unix_infidel uriahheep userek usv uwolfer uzyszkodnik Vardyr Vargen2003 varl Vaxu_ vegai VeXocide vorlok w00p]wakeup wahooooo wakrelmix waldzell whoppix wide-eye wizzo Wraithan XanK XazZ xenol xhanjian xmpp ZaB|SHC| zaggy-nl zels zer0cool Zlasher zodmaner Zom zoryfl zukka zybl0re {Nathan} {Phoinix}]
+2008-04-30 20:57:22	--	Channel #archlinux: 454 přezdívky (0 op, 0 částečný-op, 0 voice, 454 normální)
+2008-04-30 20:57:22	--	Channel created on Sun Feb 15 06:08:31 2004
+2008-04-30 20:57:52	-->	sykopomp (n=user@66.251.26.104) has joined #archlinux
+2008-04-30 20:58:06	mihairu	ho guys i have installed ABS and want to install packages with srcpac...but srcpac -Sybu gives mi Error: The ABSROOT environment variable is not defined. even after reboot
+2008-04-30 20:58:34	<--	XanK (n=carlos@190.36.233.93) has quit (Connection timed out)
+2008-04-30 20:58:47	-->	Exodus (n=Exodus@200.8.42.131) has joined #archlinux
+2008-04-30 20:58:48	richiefrich	Torikun: i hear that
+2008-04-30 20:58:57	Exodus	!rules
+2008-04-30 20:58:58	phrik	http://wiki.archlinux.org/index.php/ArchChannel
+2008-04-30 20:59:08	richiefrich	tomg its on the wiki
+2008-04-30 20:59:13	richiefrich	-t
+2008-04-30 20:59:26	richiefrich	Exodus: there are rules here?
+2008-04-30 20:59:37	*	richiefrich didnt know 
+2008-04-30 20:59:37	Exodus	Apparently, first thing I read on the topic.
+2008-04-30 20:59:42	richiefrich	lol
+2008-04-30 20:59:58	stojic_	hm, slightly offtopic, but would it be possible to run winxp in qemu without gui (no qemu window), and ssh (or something similar) into it from the host system?
+2008-04-30 21:00:16	bruenig	doubt it
+2008-04-30 21:00:23	stojic_	grr
+2008-04-30 21:00:46	Exodus	stojic_: when you say no qemu window, do you mean no qemu graphical window, or no X server?
+2008-04-30 21:01:19	stojic_	Exodus: no window, this is possible with qemu, the ssh-in part is what troubles me
+2008-04-30 21:01:30	stojic_	damn thing is so inflexible
+2008-04-30 21:01:33	Exodus	Just find an ssh server for windows.
+2008-04-30 21:01:45	stojic_	hm, I'll try that
+2008-04-30 21:01:56	<--	paulez (n=paulez@ezvan.fr) has quit ("Ex-Chat")
+2008-04-30 21:02:04	stansmith	jw
+2008-04-30 21:02:07	skarface	ye olde cygwin
+2008-04-30 21:02:09	Exodus	stojic_: http://sshwindows.sourceforge.net/
+2008-04-30 21:02:16	-->	paulez (n=paulez@ezvan.fr) has joined #archlinux
+2008-04-30 21:02:29	stojic_	Exodus: thanks, I'll try that
+2008-04-30 21:02:32	Dream_Team	colinux !
+2008-04-30 21:02:33	--	delroth is now known as delrawth
+2008-04-30 21:03:52	<--	glguy (n=eric@unaffiliated/glguy) has quit (Remote closed the connection)
+2008-04-30 21:03:59	-->	giusef (n=Zmax@217.202.75.189) has joined #archlinux
+2008-04-30 21:04:00	-->	buggu (n=buggu_@pD9E2E12D.dip.t-dialin.net) has joined #archlinux
+2008-04-30 21:04:06	<--	hst (n=hst@dslb-084-063-018-152.pools.arcor-ip.net) has quit (Read error: 110 (Connection timed out))
+2008-04-30 21:04:11	-->	hst (n=hst@dslb-084-063-095-008.pools.arcor-ip.net) has joined #archlinux
+2008-04-30 21:04:41	stojic_	damn closed source, you need a single closed source app and voila - you're drowning in shit
+2008-04-30 21:04:51	*	stojic_ cools down
+2008-04-30 21:05:05	<--	Kamus_H_Zwisch (n=xxxxxx@unaffiliated/xxxxxx) has quit (Remote closed the connection)
+2008-04-30 21:06:05	lynucs	what might be the reason, for not switching keyboardlayout (XkbLayout) and XkbVariant with grp:ctrls_toggle ?
+2008-04-30 21:06:14	lynucs	anyone an idea where to dig?
+2008-04-30 21:06:50	vegai	stojic_: have you ever tried installing a gnome application? :)
+2008-04-30 21:07:13	stojic_	vegai: yes, evince, why?
+2008-04-30 21:07:14	<--	Evanlec (n=evan@cpe-66-65-251-53.ne.res.rr.com) has quit (Read error: 110 (Connection timed out))
+2008-04-30 21:07:18	<--	jerryLUC (n=jerry@28.80-202-219.nextgentel.com) has quit ("Lost terminal")
+2008-04-30 21:07:26	-->	dvx (n=dvx@88.83.244.242) has joined #archlinux
+2008-04-30 21:07:40	vegai	umm
+2008-04-30 21:07:49	-->	MrElendig (n=oh@9.84-48-95.nextgentel.com) has joined #archlinux
+2008-04-30 21:07:50	vegai	[bad joke about drowning in shit and gnome]
+2008-04-30 21:07:53	-->	jerryLUC (n=jerry@28.80-202-219.nextgentel.com) has joined #archlinux
+2008-04-30 21:07:59	piroko	badum ching
+2008-04-30 21:08:05	-->	technilogica (n=chatzill@adsl-75-35-243-198.dsl.bcvloh.sbcglobal.net) has joined #archlinux
+2008-04-30 21:08:07	stojic_	I see
+2008-04-30 21:08:40	technilogica	Is there any way to block all network access from a box except for that from, say, America?
+2008-04-30 21:08:41	stojic_	I guess it's the lack of my sense of humour atm ...
+2008-04-30 21:09:11	-->	unix_lappy (n=blue@unaffiliated/unixinfidel/x-8383745) has joined #archlinux
+2008-04-30 21:10:12	<--	fredforfaen (n=amos@149-224-214.oke2-bras6.adsl.tele2.no) has quit ("P0rn, i can't define it, but i know it when I see it")
+2008-04-30 21:10:12	<--	esquiso_ (n=esquiso@195-23-162-117.net.novis.pt) has quit (Read error: 104 (Connection reset by peer))
+2008-04-30 21:10:29	-->	esquiso (n=esquiso@195-23-162-117.net.novis.pt) has joined #archlinux
+2008-04-30 21:11:07	Exodus	technilogica: yes.
+2008-04-30 21:11:17	-->	LukeL_ (n=Guest@unaffiliated/lukel) has joined #archlinux
+2008-04-30 21:11:23	Rasi	just block all in hosts.deny
+2008-04-30 21:11:37	technilogica	Rasi: Doesn't that only work for apps that use tcp_wrappers?
+2008-04-30 21:11:43	<--	Asgaroth (n=morgoth@fuld-590d1e3b.pool.einsundeins.de) has quit (Read error: 113 (No route to host))
+2008-04-30 21:11:57	Dream_Team	iptables ?
+2008-04-30 21:12:24	<--	John_Priest (n=John_Pri@unaffiliated/johnpriest/x-916748) has quit ("Lost terminal")
+2008-04-30 21:12:37	<--	LukeL_ (n=Guest@unaffiliated/lukel) has left #archlinux ()
+2008-04-30 21:13:03	Exodus	technilogica:  just get all the class ip's outside of america and make an iptables filter on them.
+2008-04-30 21:13:23	technilogica	Exodus: okay. I think I can figure that out
+2008-04-30 21:13:36	-->	Siyo (i=DemoMan@cmb23-94.dial-up.arnes.si) has joined #archlinux
+2008-04-30 21:15:02	<--	sparkybean (n=ian@cpc3-sout4-0-0-cust829.sotn.cable.ntl.com) has quit ("Leaving.")
+2008-04-30 21:15:44	Exodus	Anybody here know spanish?
+2008-04-30 21:15:57	Torikun	Exodus: No hable here
+2008-04-30 21:15:58	phrik	RSS Update: aurpkgs: urlview
+2008-04-30 21:16:30	Exodus	Torikun: ?
+2008-04-30 21:16:35	anakin_	Exodus: I do
+2008-04-30 21:16:38	jkpakayag	﻿Exodus: http://world.altavista.com/
+2008-04-30 21:16:49	Torikun	nippon-go wa?
+2008-04-30 21:17:08	Exodus	I'm currently translating the Arch Linux Installation Guide to spanish
+2008-04-30 21:17:22	Exodus	And I was wondering if any other spanish/english speaker would like to collaborate.
+2008-04-30 21:18:14	anakin_	oh, I'm not qualified then, I can understand and speak but my native language is portuguese
+2008-04-30 21:18:15	<--	buggu (n=buggu_@pD9E2E12D.dip.t-dialin.net) has quit (Client Quit)

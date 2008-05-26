@@ -1,0 +1,61 @@
+Xcursor.theme:	        whiteglass 
+ 
+urxvt*urlLauncher:	firefox3
+urxvt*matcher.button:	1
+urxvt*perl-ext-common:	matcher
+urxvt*loginShell:	true
+urxvt*scrollBar:        false
+urxvt*background:	#000000
+urxvt*foreground:	#eeeeec
+urxvt*saveLines:	30000
+#urxvt*font:		xft:ProggyTiny:pixelsize=10:antialias=true
+
+
+urxvt*font: -*-proggytiny-*-*-*-*-10-*-*-*-*-*-*-1
+urxvt*boldFont: -*-proggytinysz-bold-*-*-*-10-*-*-*-*-*-*-*
+urxvt*italicFont: -*-proggytinysz-*-*-*-*-10-*-*-*-*-*-*-*
+urxvt*boldItalicFont: -*-proggytinysz-bold-*-*-*-10-*-*-*-*-*-*-*
+
+urxvt*title:            Mihairu's Terminal
+urxvt*internalBorder:   0
+
+urxvt*geometry: 110x74+5+40
+
+! black
+ urxvt*color0:             #242424
+ urxvt*color8:             #cdb5cd
+
+! ! red
+urxvt*color1:           #ef0000
+urxvt*color9:           #cc0000
+
+! ! green
+urxvt*color2:           #70e200
+urxvt*color10:          #73d216
+
+! ! yellow
+urxvt*color3:           #fce000
+urxvt*color11:          #edd400
+
+! ! blue
+ urxvt*color4:             #005fbe
+ urxvt*color12:            #004dd9
+
+! ! magenta
+ urxvt*color5:             #d96700
+ urxvt*color13:            #d1d900
+
+! ! cyan
+ urxvt*color6:             #00cdc2
+ urxvt*color14:            #00cdc2
+
+! ! white
+ urxvt*color7:             #ffffff
+ urxvt*color15:            #dedede
+
+ 
+urxvt*colorBD:		#ffffff
+!! Underlined text color
+urxvt*colorUL:		#fcaf3e
+
+Xft.dpi:                80

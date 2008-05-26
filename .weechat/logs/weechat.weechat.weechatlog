@@ -1,0 +1,287 @@
+2008-04-29 20:03:27		Plugin "logger" loaded
+2008-04-29 20:03:27		perl: loading script "/home/mihairu/.weechat/perl/autoload/layout.pl"
+2008-04-29 20:03:28	=!=	perl: unable to parse file "/home/mihairu/.weechat/perl/autoload/layout.pl"
+2008-04-29 20:03:28	=!=	perl: error: Bareword "weechat::PLUGIN_RC_OK" not allowed while "strict subs" in use at (eval 2) line 220.
+2008-04-29 20:03:28		perl: loading script "/home/mihairu/.weechat/perl/autoload/sound.pl"
+2008-04-29 20:03:28	=!=	perl: unable to parse file "/home/mihairu/.weechat/perl/autoload/sound.pl"
+2008-04-29 20:03:28	=!=	perl: error: Bareword "weechat::PLUGIN_RC_OK" not allowed while "strict subs" in use at (eval 2) line 71.
+2008-04-29 20:03:28		perl: loading script "/home/mihairu/.weechat/perl/autoload/channels.pl"
+2008-04-29 20:03:28		perl: registered script "channels", version 0.1 (Channels demo bar for WeeChat 0.2.7, enjoy!)
+2008-04-29 20:03:28	=!=	perl: wrong arguments for function "bar_new"
+2008-04-29 20:03:28		Plugin "perl" loaded
+2008-04-29 20:03:28		Plugin "alias" loaded
+2008-04-29 20:03:44		Plugin "alias" unloaded
+2008-04-29 20:03:44		perl: unloading script "channels"
+2008-04-29 20:03:44		Plugin "perl" unloaded
+2008-04-29 20:03:51		Plugin "logger" loaded
+2008-04-29 20:03:51		perl: loading script "/home/mihairu/.weechat/perl/autoload/layout.pl"
+2008-04-29 20:03:51	=!=	perl: unable to parse file "/home/mihairu/.weechat/perl/autoload/layout.pl"
+2008-04-29 20:03:51	=!=	perl: error: Bareword "weechat::PLUGIN_RC_OK" not allowed while "strict subs" in use at (eval 2) line 220.
+2008-04-29 20:03:51		perl: loading script "/home/mihairu/.weechat/perl/autoload/sound.pl"
+2008-04-29 20:03:51	=!=	perl: unable to parse file "/home/mihairu/.weechat/perl/autoload/sound.pl"
+2008-04-29 20:03:51	=!=	perl: error: Bareword "weechat::PLUGIN_RC_OK" not allowed while "strict subs" in use at (eval 2) line 71.
+2008-04-29 20:03:51		perl: loading script "/home/mihairu/.weechat/perl/autoload/channels.pl"
+2008-04-29 20:03:51		perl: registered script "channels", version 0.1 (Channels demo bar for WeeChat 0.2.7, enjoy!)
+2008-04-29 20:03:51	=!=	perl: wrong arguments for function "bar_new"
+2008-04-29 20:03:51		Plugin "perl" loaded
+2008-04-29 20:03:51		Plugin "alias" loaded
+2008-04-29 20:04:07		All servers:
+2008-04-29 20:04:07		   freenode
+2008-04-29 20:06:29		[startup] (weechat.conf)
+2008-04-29 20:06:29		  weechat.startup.command_after_plugins = ""
+2008-04-29 20:06:29		  weechat.startup.command_before_plugins = ""
+2008-04-29 20:06:29		  weechat.startup.display_logo = on
+2008-04-29 20:06:29		  weechat.startup.display_version = on
+2008-04-29 20:06:29		  weechat.startup.weechat_slogan = "the geekest IRC client!"
+2008-04-29 20:06:29		[look] (weechat.conf)
+2008-04-29 20:06:29		  weechat.look.buffer_time_format = "[%H:%M:%S]"
+2008-04-29 20:06:29		  weechat.look.color_nicks_number = 10
+2008-04-29 20:06:29		  weechat.look.color_real_white = off
+2008-04-29 20:06:29		  weechat.look.day_change = on
+2008-04-29 20:06:29		  weechat.look.day_change_time_format = "%a, %d %b %Y"
+2008-04-29 20:06:29		  weechat.look.hotlist_names_count = 3
+2008-04-29 20:06:29		  weechat.look.hotlist_names_length = 0
+2008-04-29 20:06:29		  weechat.look.hotlist_names_level = 12
+2008-04-29 20:06:29		  weechat.look.hotlist_sort = group_time_asc
+2008-04-29 20:06:29		  weechat.look.infobar = on
+2008-04-29 20:06:29		  weechat.look.infobar_delay_highlight = 7
+2008-04-29 20:06:29		  weechat.look.infobar_seconds = on
+2008-04-29 20:06:29		  weechat.look.infobar_time_format = "%B, %A %d %Y"
+2008-04-29 20:06:29		  weechat.look.input_format = "[%n(%m)] "
+2008-04-29 20:06:29		  weechat.look.item_time_format = "%H:%M"
+2008-04-29 20:06:29		  weechat.look.nick_complete_first = off
+2008-04-29 20:06:29		  weechat.look.nick_completion_ignore = "[]-^"
+2008-04-29 20:06:29		  weechat.look.nick_completor = ":"
+2008-04-29 20:06:29		  weechat.look.nicklist = on
+2008-04-29 20:06:29		  weechat.look.nicklist_max_size = 0
+2008-04-29 20:06:29		  weechat.look.nicklist_min_size = 0
+2008-04-29 20:06:29		  weechat.look.nicklist_position = right
+2008-04-29 20:06:29		  weechat.look.nicklist_separator = on
+2008-04-29 20:06:29		  weechat.look.nickmode = on
+2008-04-29 20:06:29		  weechat.look.nickmode_empty = off
+2008-04-29 20:06:29		  weechat.look.paste_max_lines = 3
+2008-04-29 20:06:29		  weechat.look.prefix_action = "*"
+2008-04-29 20:06:29		  weechat.look.prefix_align = right
+2008-04-29 20:06:29		  weechat.look.prefix_align_max = 0
+2008-04-29 20:06:29		  weechat.look.prefix_error = "=!="
+2008-04-29 20:06:29		  weechat.look.prefix_join = "-->"
+2008-04-29 20:06:29		  weechat.look.prefix_network = "--"
+2008-04-29 20:06:29		  weechat.look.prefix_quit = "<--"
+2008-04-29 20:06:29		  weechat.look.prefix_suffix = "|"
+2008-04-29 20:06:29		  weechat.look.read_marker = dotted-line
+2008-04-29 20:06:29		  weechat.look.save_on_exit = on
+2008-04-29 20:06:29		  weechat.look.scroll_amount = 3
+2008-04-29 20:06:29		  weechat.look.set_title = on
+2008-04-29 20:06:29		[color] (weechat.conf)
+2008-04-29 20:06:29		  weechat.color.chat = default
+2008-04-29 20:06:29		  weechat.color.chat_bg = default
+2008-04-29 20:06:29		  weechat.color.chat_buffer = white
+2008-04-29 20:06:29		  weechat.color.chat_channel = white
+2008-04-29 20:06:29		  weechat.color.chat_delimiters = green
+2008-04-29 20:06:29		  weechat.color.chat_highlight = yellow
+2008-04-29 20:06:29		  weechat.color.chat_host = cyan
+2008-04-29 20:06:29		  weechat.color.chat_nick = lightcyan
+2008-04-29 20:06:29		  weechat.color.chat_nick_color01 = cyan
+2008-04-29 20:06:29		  weechat.color.chat_nick_color02 = magenta
+2008-04-29 20:06:29		  weechat.color.chat_nick_color03 = green
+2008-04-29 20:06:29		  weechat.color.chat_nick_color04 = brown
+2008-04-29 20:06:29		  weechat.color.chat_nick_color05 = lightblue
+2008-04-29 20:06:29		  weechat.color.chat_nick_color06 = default
+2008-04-29 20:06:29		  weechat.color.chat_nick_color07 = lightcyan
+2008-04-29 20:06:29		  weechat.color.chat_nick_color08 = lightmagenta
+2008-04-29 20:06:29		  weechat.color.chat_nick_color09 = lightgreen
+2008-04-29 20:06:29		  weechat.color.chat_nick_color10 = blue
+2008-04-29 20:06:29		  weechat.color.chat_nick_other = default
+2008-04-29 20:06:29		  weechat.color.chat_nick_self = white
+2008-04-29 20:06:29		  weechat.color.chat_prefix_action = white
+2008-04-29 20:06:29		  weechat.color.chat_prefix_error = yellow
+2008-04-29 20:06:29		  weechat.color.chat_prefix_join = lightgreen
+2008-04-29 20:06:29		  weechat.color.chat_prefix_more = lightmagenta
+2008-04-29 20:06:29		  weechat.color.chat_prefix_network = magenta
+2008-04-29 20:06:29		  weechat.color.chat_prefix_quit = lightred
+2008-04-29 20:06:29		  weechat.color.chat_prefix_suffix = green
+2008-04-29 20:06:29		  weechat.color.chat_read_marker = magenta
+2008-04-29 20:06:29		  weechat.color.chat_read_marker_bg = default
+2008-04-29 20:06:29		  weechat.color.chat_server = brown
+2008-04-29 20:06:29		  weechat.color.chat_time = default
+2008-04-29 20:06:29		  weechat.color.chat_time_delimiters = brown
+2008-04-29 20:06:29		  weechat.color.info = default
+2008-04-29 20:06:29		  weechat.color.info_aborted = lightred
+2008-04-29 20:06:29		  weechat.color.info_active = lightblue
+2008-04-29 20:06:29		  weechat.color.info_bg = default
+2008-04-29 20:06:29		  weechat.color.info_connecting = yellow
+2008-04-29 20:06:29		  weechat.color.info_done = lightgreen
+2008-04-29 20:06:29		  weechat.color.info_failed = lightred
+2008-04-29 20:06:29		  weechat.color.info_waiting = lightcyan
+2008-04-29 20:06:29		  weechat.color.infobar = black
+2008-04-29 20:06:29		  weechat.color.infobar_bg = cyan
+2008-04-29 20:06:29		  weechat.color.infobar_delimiters = blue
+2008-04-29 20:06:29		  weechat.color.infobar_highlight = white
+2008-04-29 20:06:29		  weechat.color.input = default
+2008-04-29 20:06:29		  weechat.color.input_actions = lightgreen
+2008-04-29 20:06:29		  weechat.color.input_bg = default
+2008-04-29 20:06:29		  weechat.color.input_channel = white
+2008-04-29 20:06:29		  weechat.color.input_delimiters = cyan
+2008-04-29 20:06:29		  weechat.color.input_nick = lightcyan
+2008-04-29 20:06:29		  weechat.color.input_server = brown
+2008-04-29 20:06:29		  weechat.color.input_text_not_found = red
+2008-04-29 20:06:29		  weechat.color.nicklist = default
+2008-04-29 20:06:29		  weechat.color.nicklist_away = cyan
+2008-04-29 20:06:29		  weechat.color.nicklist_bg = default
+2008-04-29 20:06:29		  weechat.color.nicklist_group = green
+2008-04-29 20:06:29		  weechat.color.nicklist_more = lightmagenta
+2008-04-29 20:06:29		  weechat.color.nicklist_prefix1 = lightgreen
+2008-04-29 20:06:29		  weechat.color.nicklist_prefix2 = lightmagenta
+2008-04-29 20:06:29		  weechat.color.nicklist_prefix3 = yellow
+2008-04-29 20:06:29		  weechat.color.nicklist_prefix4 = blue
+2008-04-29 20:06:29		  weechat.color.nicklist_prefix5 = brown
+2008-04-29 20:06:29		  weechat.color.nicklist_separator = blue
+2008-04-29 20:06:29		  weechat.color.separator = blue
+2008-04-29 20:06:29		  weechat.color.status = default
+2008-04-29 20:06:29		  weechat.color.status_bg = blue
+2008-04-29 20:06:29		  weechat.color.status_category = lightgreen
+2008-04-29 20:06:29		  weechat.color.status_data_highlight = lightmagenta
+2008-04-29 20:06:29		  weechat.color.status_data_msg = yellow
+2008-04-29 20:06:29		  weechat.color.status_data_other = default
+2008-04-29 20:06:29		  weechat.color.status_data_private = lightgreen
+2008-04-29 20:06:29		  weechat.color.status_delimiters = cyan
+2008-04-29 20:06:29		  weechat.color.status_more = yellow
+2008-04-29 20:06:29		  weechat.color.status_name = white
+2008-04-29 20:06:29		  weechat.color.status_number = yellow
+2008-04-29 20:06:29		  weechat.color.title = default
+2008-04-29 20:06:29		  weechat.color.title_bg = blue
+2008-04-29 20:06:29		  weechat.color.title_more = lightmagenta
+2008-04-29 20:06:29		[history] (weechat.conf)
+2008-04-29 20:06:29		  weechat.history.display_default = 5
+2008-04-29 20:06:29		  weechat.history.max_commands = 100
+2008-04-29 20:06:29		  weechat.history.max_lines = 4096
+2008-04-29 20:06:29		[proxy] (weechat.conf)
+2008-04-29 20:06:29		  weechat.proxy.address = ""
+2008-04-29 20:06:29		  weechat.proxy.ipv6 = off
+2008-04-29 20:06:29		  weechat.proxy.password = ""
+2008-04-29 20:06:29		  weechat.proxy.port = 3128
+2008-04-29 20:06:29		  weechat.proxy.type = http
+2008-04-29 20:06:29		  weechat.proxy.use = off
+2008-04-29 20:06:29		  weechat.proxy.username = ""
+2008-04-29 20:06:29		[plugin] (weechat.conf)
+2008-04-29 20:06:29		  weechat.plugin.autoload = "*"
+2008-04-29 20:06:29		  weechat.plugin.extension = ".so"
+2008-04-29 20:06:29		  weechat.plugin.path = "%h/plugins"
+2008-04-29 20:06:29		  weechat.plugin.save_config_on_unload = on
+2008-04-29 20:06:29		[var] (plugins.conf)
+2008-04-29 20:06:29		  plugins.var.fifo.fifo = "on"
+2008-04-29 20:06:29		  plugins.var.logger.backlog = "20"
+2008-04-29 20:06:29		  plugins.var.logger.info_lines = "off"
+2008-04-29 20:06:29		  plugins.var.logger.name_lower_case = "on"
+2008-04-29 20:06:29		  plugins.var.logger.path = "%h/logs/"
+2008-04-29 20:06:29		  plugins.var.logger.time_format = "%Y-%m-%d %H:%M:%S"
+2008-04-29 20:06:29		  plugins.var.perl.check_license = "on"
+2008-04-29 20:06:29		  plugins.var.python.check_license = "on"
+2008-04-29 20:06:29		  plugins.var.ruby.check_license = "on"
+2008-04-29 20:06:29		[default] (charset.conf)
+2008-04-29 20:06:29		  charset.default.decode = "iso-8859-1"
+2008-04-29 20:06:29		  charset.default.encode = ""
+2008-04-29 20:06:29		[look] (irc.conf)
+2008-04-29 20:06:29		  irc.look.display_away = local
+2008-04-29 20:06:29		  irc.look.highlight = ""
+2008-04-29 20:06:29		  irc.look.nick_completion_smart = on
+2008-04-29 20:06:29		  irc.look.nick_prefix = ""
+2008-04-29 20:06:29		  irc.look.nick_suffix = ""
+2008-04-29 20:06:29		  irc.look.notice_as_pv = off
+2008-04-29 20:06:29		  irc.look.one_server_buffer = off
+2008-04-29 20:06:29		  irc.look.open_near_server = off
+2008-04-29 20:06:29		  irc.look.show_away_once = on
+2008-04-29 20:06:29		[network] (irc.conf)
+2008-04-29 20:06:29		  irc.network.anti_flood = 2
+2008-04-29 20:06:29		  irc.network.away_check = 0
+2008-04-29 20:06:29		  irc.network.away_check_max_nicks = 0
+2008-04-29 20:06:29		  irc.network.colors_receive = on
+2008-04-29 20:06:29		  irc.network.colors_send = on
+2008-04-29 20:06:29		  irc.network.default_msg_part = "WeeChat %v"
+2008-04-29 20:06:29		  irc.network.default_msg_quit = "WeeChat %v"
+2008-04-29 20:06:29		  irc.network.lag_check = 60
+2008-04-29 20:06:29		  irc.network.lag_disconnect = 5
+2008-04-29 20:06:29		  irc.network.lag_min_show = 1
+2008-04-29 20:06:29		  irc.network.send_unknown_commands = off
+2008-04-29 20:06:29		[dcc] (irc.conf)
+2008-04-29 20:06:29		  irc.dcc.auto_accept_chats = off
+2008-04-29 20:06:29		  irc.dcc.auto_accept_files = off
+2008-04-29 20:06:29		  irc.dcc.auto_rename = on
+2008-04-29 20:06:29		  irc.dcc.auto_resume = on
+2008-04-29 20:06:29		  irc.dcc.blocksize = 65536
+2008-04-29 20:06:29		  irc.dcc.convert_spaces = on
+2008-04-29 20:06:29		  irc.dcc.download_path = "%h/dcc"
+2008-04-29 20:06:29		  irc.dcc.fast_send = on
+2008-04-29 20:06:29		  irc.dcc.own_ip = ""
+2008-04-29 20:06:29		  irc.dcc.port_range = ""
+2008-04-29 20:06:29		  irc.dcc.timeout = 300
+2008-04-29 20:06:29		  irc.dcc.upload_path = "~"
+2008-04-29 20:06:29		[log] (irc.conf)
+2008-04-29 20:06:29		  irc.log.auto_log_channel = off
+2008-04-29 20:06:29		  irc.log.auto_log_private = off
+2008-04-29 20:06:29		  irc.log.auto_log_server = off
+2008-04-29 20:06:29		  irc.log.hide_nickserv_pwd = on
+2008-04-29 20:06:29		[server_default] (irc.conf)
+2008-04-29 20:06:29		  irc.server_default.addresses = ""
+2008-04-29 20:06:29		  irc.server_default.autoconnect = off
+2008-04-29 20:06:29		  irc.server_default.autojoin = ""
+2008-04-29 20:06:29		  irc.server_default.autoreconnect = on
+2008-04-29 20:06:29		  irc.server_default.autoreconnect_delay = 30
+2008-04-29 20:06:29		  irc.server_default.autorejoin = off
+2008-04-29 20:06:29		  irc.server_default.command = ""
+2008-04-29 20:06:29		  irc.server_default.command_delay = 0
+2008-04-29 20:06:29		  irc.server_default.hostname = ""
+2008-04-29 20:06:29		  irc.server_default.ipv6 = off
+2008-04-29 20:06:29		  irc.server_default.nicks = "mihairu,mihairu1,mihairu2,mihairu3,mihairu4"
+2008-04-29 20:06:29		  irc.server_default.notify_levels = ""
+2008-04-29 20:06:29		  irc.server_default.password = ""
+2008-04-29 20:06:29		  irc.server_default.realname = "mihairu"
+2008-04-29 20:06:29		  irc.server_default.ssl = off
+2008-04-29 20:06:29		  irc.server_default.username = "mihairu"
+2008-04-29 20:06:29		[server] (irc.conf)
+2008-04-29 20:06:29		  irc.server.freenode.addresses = "chat.freenode.net/6667"
+2008-04-29 20:06:29		[cmd] (alias.conf)
+2008-04-29 20:06:29		  alias.cmd.BYE = "quit"
+2008-04-29 20:06:29		  alias.cmd.C = "buffer clear"
+2008-04-29 20:06:29		  alias.cmd.CHAT = "dcc chat"
+2008-04-29 20:06:29		  alias.cmd.CL = "buffer clear"
+2008-04-29 20:06:29		  alias.cmd.CLOSE = "buffer close"
+2008-04-29 20:06:29		  alias.cmd.EXIT = "quit"
+2008-04-29 20:06:29		  alias.cmd.IG = "ignore"
+2008-04-29 20:06:29		  alias.cmd.J = "join"
+2008-04-29 20:06:29		  alias.cmd.K = "kick"
+2008-04-29 20:06:29		  alias.cmd.KB = "kickban"
+2008-04-29 20:06:29		  alias.cmd.LEAVE = "part"
+2008-04-29 20:06:29		  alias.cmd.M = "msg"
+2008-04-29 20:06:29		  alias.cmd.MUB = "unban *"
+2008-04-29 20:06:29		  alias.cmd.N = "names"
+2008-04-29 20:06:29		  alias.cmd.Q = "query"
+2008-04-29 20:06:29		  alias.cmd.REDRAW = "window refresh"
+2008-04-29 20:06:29		  alias.cmd.SAY = "msg *"
+2008-04-29 20:06:29		  alias.cmd.SIGNOFF = "quit"
+2008-04-29 20:06:29		  alias.cmd.T = "topic"
+2008-04-29 20:06:29		  alias.cmd.UB = "unban"
+2008-04-29 20:06:29		  alias.cmd.UNIG = "unignore"
+2008-04-29 20:06:29		  alias.cmd.W = "who"
+2008-04-29 20:06:29		  alias.cmd.WC = "window merge"
+2008-04-29 20:06:29		  alias.cmd.WI = "whois"
+2008-04-29 20:06:29		  alias.cmd.WW = "whowas"
+2008-04-29 20:06:29		224 configuration options found
+2008-04-29 23:06:23		Plugin "alias" unloaded
+2008-04-29 23:06:23		perl: unloading script "channels"
+2008-04-29 23:06:23		Plugin "perl" unloaded
+2008-04-30 20:57:09		Plugin "logger" loaded
+2008-04-30 20:57:09		perl: loading script "/home/mihairu/.weechat/perl/autoload/layout.pl"
+2008-04-30 20:57:09	=!=	perl: unable to parse file "/home/mihairu/.weechat/perl/autoload/layout.pl"
+2008-04-30 20:57:09	=!=	perl: error: Bareword "weechat::PLUGIN_RC_OK" not allowed while "strict subs" in use at (eval 2) line 220.
+2008-04-30 20:57:09		perl: loading script "/home/mihairu/.weechat/perl/autoload/sound.pl"
+2008-04-30 20:57:10	=!=	perl: unable to parse file "/home/mihairu/.weechat/perl/autoload/sound.pl"
+2008-04-30 20:57:10	=!=	perl: error: Bareword "weechat::PLUGIN_RC_OK" not allowed while "strict subs" in use at (eval 2) line 71.
+2008-04-30 20:57:10		perl: loading script "/home/mihairu/.weechat/perl/autoload/channels.pl"
+2008-04-30 20:57:10		perl: registered script "channels", version 0.1 (Channels demo bar for WeeChat 0.2.7, enjoy!)
+2008-04-30 20:57:10	=!=	perl: wrong arguments for function "bar_new"
+2008-04-30 20:57:10		Plugin "perl" loaded
+2008-04-30 20:57:10		Plugin "alias" loaded
+2008-04-30 21:18:30		Plugin "alias" unloaded
+2008-04-30 21:18:30		perl: unloading script "channels"
+2008-04-30 21:18:30		Plugin "perl" unloaded

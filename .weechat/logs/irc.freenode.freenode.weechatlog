@@ -1,0 +1,112 @@
+2008-04-29 20:04:14		irc: connecting to server chat.freenode.net/6667...
+2008-04-29 20:04:15	--	*** Looking up your hostname...
+2008-04-29 20:04:15	--	*** Checking ident
+2008-04-29 20:04:15	--	*** No identd (auth) response
+2008-04-29 20:04:18	--	*** Couldn't look up your hostname
+2008-04-29 20:04:18	--	Welcome to the freenode IRC Network mihairu
+2008-04-29 20:04:18	--	Your host is heinlein.freenode.net[jobe.wgops.com/6667], running version hyperion-1.0.2b
+2008-04-29 20:04:18	--	*** Your host is heinlein.freenode.net[jobe.wgops.com/6667], running version hyperion-1.0.2b
+2008-04-29 20:04:18	--	This server was created Fri May  4 21:54:04 UTC 2007
+2008-04-29 20:04:18	--	heinlein.freenode.net hyperion-1.0.2b aAbBcCdDeEfFGhHiIjkKlLmMnNopPQrRsStTuUvVwWxXyYzZ01234569*@ bcdefFhiIklmnoPqstv
+2008-04-29 20:04:18	--	IRCD=dancer CAPAB CHANTYPES=# EXCEPTS INVEX CHANMODES=bdeIq,k,lfJD,cgijLmnPQrRstz CHANLIMIT=#:20 PREFIX=(ov)@+ MAXLIST=bdeI:50 MODES=4 STATUSMSG=@ KNOCK NICKLEN=16 :are supported by this server
+2008-04-29 20:04:18	--	SAFELIST CASEMAPPING=ascii CHANNELLEN=30 TOPICLEN=450 KICKLEN=450 KEYLEN=23 USERLEN=10 HOSTLEN=63 SILENCE=50 :are supported by this server
+2008-04-29 20:04:18	--	There are 27076 listed and 20373 unlisted users on 28 servers
+2008-04-29 20:04:18	--	46 :flagged staff members
+2008-04-29 20:04:18	--	19390 :channels formed
+2008-04-29 20:04:18	--	I have 6085 clients and 0 servers
+2008-04-29 20:04:18	--	Current local  users: 6085  Max: 6895
+2008-04-29 20:04:18	--	Current global users: 47449  Max: 48230
+2008-04-29 20:04:18	--	Highest connection count: 6896 (6895 clients) (614637 since server was (re)started)
+2008-04-29 20:04:18	--	- heinlein.freenode.net Message of the Day -
+2008-04-29 20:04:18	--	- Welcome to heinlein.freenode.net in Missoula, Montana, US.
+2008-04-29 20:04:18	--	- Thanks to Michael Loftis and Modwest, Inc.
+2008-04-29 20:04:18	--	- (http://modwest.com/) for providing this server!
+2008-04-29 20:04:18	--	-
+2008-04-29 20:04:18	--	- HEINLEIN, ROBERT ANSON [1907-1988], author of "Starship
+2008-04-29 20:04:18	--	- Troopers", "Stranger in a Strange Land", and many other
+2008-04-29 20:04:18	--	- works, was one of the most popular, influential, and
+2008-04-29 20:04:18	--	- controversial authors of "hard" science fiction, setting a
+2008-04-29 20:04:18	--	- high standard for science and engineering plausibility that
+2008-04-29 20:04:18	--	- few have equaled. His most prevalent theme is the practical
+2008-04-29 20:04:18	--	- benefit of man's activities in space, and in fact a large
+2008-04-29 20:04:18	--	- portion of his works were written long before Neil Armstrong
+2008-04-29 20:04:18	--	- first set foot upon the Moon. Though he never ignored the
+2008-04-29 20:04:18	--	- negative aspects of technological growth, he had a clear
+2008-04-29 20:04:18	--	- vision of its importance to human progress and survival.
+2008-04-29 20:04:18	--	-
+2008-04-29 20:04:18	--	- You're using freenode, a service of Peer-Directed Projects
+2008-04-29 20:04:18	--	- Center (http://freenode.net/pdpc.shtml).
+2008-04-29 20:04:18	--	-
+2008-04-29 20:04:18	--	- freenode runs an open proxy scanner. Your use of the network
+2008-04-29 20:04:18	--	- indicates your acceptance of this policy. For details on
+2008-04-29 20:04:18	--	- freenode network policy, please take a look at our policy
+2008-04-29 20:04:18	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2008-04-29 20:04:18	--	- the network!
+2008-04-29 20:04:18	--	-
+2008-04-29 20:04:18	--	- freenode is a service of Peer-Directed Projects Center, an
+2008-04-29 20:04:18	--	- IRS 501(c)(3) not-for-profit organization.  Our yearly
+2008-04-29 20:04:18	--	- fundraiser will begin soon; if you'd like to donate early,
+2008-04-29 20:04:18	--	- please see http://freenode.net/pdpc_donations.shtml for more
+2008-04-29 20:04:18	--	- information.  Thank you for using freenode!
+2008-04-29 20:04:18	--	-
+2008-04-29 20:04:18	--	End of /MOTD command.
+2008-04-29 20:04:18	--	CTCP VERSION received from freenode-connect
+2008-04-29 20:04:24	--	#archlinux: [freenode-info] if you need to send private messages, please register: http://freenode.net/faq.shtml#privmsg
+2008-04-29 20:04:31	--	#archlinux :Please register with services and use the IDENTIFY command (/msg nickserv help) to speak in this channel
+2008-04-29 20:04:46	--	#archlinux :Please register with services and use the IDENTIFY command (/msg nickserv help) to speak in this channel
+2008-04-29 20:12:41	--	#archlinux :Please register with services and use the IDENTIFY command (/msg nickserv help) to speak in this channel
+2008-04-30 20:57:16		irc: connecting to server chat.freenode.net/6667...
+2008-04-30 20:57:17	--	*** Looking up your hostname...
+2008-04-30 20:57:17	--	*** Checking ident
+2008-04-30 20:57:17	--	*** No identd (auth) response
+2008-04-30 20:57:20	--	*** Couldn't look up your hostname
+2008-04-30 20:57:20	--	Welcome to the freenode IRC Network mihairu
+2008-04-30 20:57:20	--	Your host is heinlein.freenode.net[jobe.wgops.com/6667], running version hyperion-1.0.2b
+2008-04-30 20:57:20	--	*** Your host is heinlein.freenode.net[jobe.wgops.com/6667], running version hyperion-1.0.2b
+2008-04-30 20:57:20	--	This server was created Fri May  4 21:54:04 UTC 2007
+2008-04-30 20:57:20	--	heinlein.freenode.net hyperion-1.0.2b aAbBcCdDeEfFGhHiIjkKlLmMnNopPQrRsStTuUvVwWxXyYzZ01234569*@ bcdefFhiIklmnoPqstv
+2008-04-30 20:57:20	--	IRCD=dancer CAPAB CHANTYPES=# EXCEPTS INVEX CHANMODES=bdeIq,k,lfJD,cgijLmnPQrRstz CHANLIMIT=#:20 PREFIX=(ov)@+ MAXLIST=bdeI:50 MODES=4 STATUSMSG=@ KNOCK NICKLEN=16 :are supported by this server
+2008-04-30 20:57:20	--	SAFELIST CASEMAPPING=ascii CHANNELLEN=30 TOPICLEN=450 KICKLEN=450 KEYLEN=23 USERLEN=10 HOSTLEN=63 SILENCE=50 :are supported by this server
+2008-04-30 20:57:20	--	There are 26510 listed and 20187 unlisted users on 28 servers
+2008-04-30 20:57:20	--	45 :flagged staff members
+2008-04-30 20:57:20	--	19531 :channels formed
+2008-04-30 20:57:20	--	I have 5803 clients and 0 servers
+2008-04-30 20:57:20	--	Current local  users: 5803  Max: 6895
+2008-04-30 20:57:20	--	Current global users: 46697  Max: 48276
+2008-04-30 20:57:20	--	Highest connection count: 6896 (6895 clients) (629308 since server was (re)started)
+2008-04-30 20:57:20	--	- heinlein.freenode.net Message of the Day -
+2008-04-30 20:57:20	--	- Welcome to heinlein.freenode.net in Missoula, Montana, US.
+2008-04-30 20:57:20	--	- Thanks to Michael Loftis and Modwest, Inc.
+2008-04-30 20:57:20	--	- (http://modwest.com/) for providing this server!
+2008-04-30 20:57:20	--	-
+2008-04-30 20:57:20	--	- HEINLEIN, ROBERT ANSON [1907-1988], author of "Starship
+2008-04-30 20:57:20	--	- Troopers", "Stranger in a Strange Land", and many other
+2008-04-30 20:57:20	--	- works, was one of the most popular, influential, and
+2008-04-30 20:57:20	--	- controversial authors of "hard" science fiction, setting a
+2008-04-30 20:57:20	--	- high standard for science and engineering plausibility that
+2008-04-30 20:57:20	--	- few have equaled. His most prevalent theme is the practical
+2008-04-30 20:57:20	--	- benefit of man's activities in space, and in fact a large
+2008-04-30 20:57:20	--	- portion of his works were written long before Neil Armstrong
+2008-04-30 20:57:20	--	- first set foot upon the Moon. Though he never ignored the
+2008-04-30 20:57:20	--	- negative aspects of technological growth, he had a clear
+2008-04-30 20:57:20	--	- vision of its importance to human progress and survival.
+2008-04-30 20:57:20	--	-
+2008-04-30 20:57:20	--	- You're using freenode, a service of Peer-Directed Projects
+2008-04-30 20:57:20	--	- Center (http://freenode.net/pdpc.shtml).
+2008-04-30 20:57:20	--	-
+2008-04-30 20:57:20	--	- freenode runs an open proxy scanner. Your use of the network
+2008-04-30 20:57:20	--	- indicates your acceptance of this policy. For details on
+2008-04-30 20:57:20	--	- freenode network policy, please take a look at our policy
+2008-04-30 20:57:20	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2008-04-30 20:57:20	--	- the network!
+2008-04-30 20:57:20	--	-
+2008-04-30 20:57:20	--	- freenode is a service of Peer-Directed Projects Center, an
+2008-04-30 20:57:20	--	- IRS 501(c)(3) not-for-profit organization.  Our yearly
+2008-04-30 20:57:20	--	- fundraiser will begin soon; if you'd like to donate early,
+2008-04-30 20:57:20	--	- please see http://freenode.net/pdpc_donations.shtml for more
+2008-04-30 20:57:20	--	- information.  Thank you for using freenode!
+2008-04-30 20:57:20	--	-
+2008-04-30 20:57:20	--	End of /MOTD command.
+2008-04-30 20:57:20	--	CTCP VERSION received from freenode-connect
+2008-04-30 20:57:22	--	#archlinux: [freenode-info] if you need to send private messages, please register: http://freenode.net/faq.shtml#privmsg
+2008-04-30 20:58:06	--	#archlinux :Please register with services and use the IDENTIFY command (/msg nickserv help) to speak in this channel

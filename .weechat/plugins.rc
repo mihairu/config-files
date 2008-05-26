@@ -1,0 +1,16 @@
+#
+# WeeChat kofikurační soubor pluginů, vytvořil WeeChat v0.2.6 v Mon May 26 02:31:31 2008
+# UPOZORNĚNÍ! Buďte opatrní pokud editujete tento soubor, WeeChat zapisuje tento soubor při aktualizaci nastavení.
+#
+aspell.check-sync = "0"
+aspell.color = "red"
+aspell.word-size = "2"
+charset.global.decode = "ISO-8859-1"
+perl.beep.beep_highlight = "on"
+perl.beep.beep_pv = "on"
+perl.layout.auto_save = "on"
+perl.layout.buffers = "1:<servers>,2:freenode/#archlinux.cz,3:freenode/#archlinux,4:freenode/#python,5:freenode/##java,6:freenode/#vim,7:rizon/#exile-band"
+perl.sound.cmd_ctcp = "alsaplay -i text $filename"
+perl.sound.cmd_highlight = "aplay ~/Sounds/highlight.wav &> /dev/null"
+perl.sound.cmd_pv = "aplay ~/Sounds/private.wav &> /dev/null"
+python.awl.show_servers = "OFF"
