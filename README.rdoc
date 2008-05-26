@@ -1,5 +1,5 @@
 =Welcome!
 
-* my current desktop: http://github.com/Mihairu/config-files/tree/master%2Fscreenshots%2Fcurrent.png?raw=true
+* my current desktop: http://github.com/Mihairu/config-files/tree/master/screenshots/current.png?raw=true
 
 ==Have a nice day! 
