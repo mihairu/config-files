@@ -28,7 +28,6 @@ def getValues(cpu):
     for line in tmpFile.readlines()[cpu].split(" ")[0:6]:
         tmpVal.append(line)
 
-
     # close files, erase
     procFile.close()
     tmpFile.close()
@@ -42,6 +41,8 @@ def getPercentage(data, dict):
     s = int(dict[3]) - int(data[3])
     usage = u+n+s
     total = usage + (int(dict[4]) - int(data[4]))
+    if total == 0:
+        total = 1
     return str((100*usage)/total) + '%'
 
 def saveTmp():
