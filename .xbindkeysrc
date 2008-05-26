@@ -1,0 +1,9 @@
+"amixer sset PCM toggle"
+    m:0x0 + c:160
+
+"amixer sset PCM 5%-"
+    m:0x0 + c:174
+
+"amixer sset PCM 5%+"
+    m:0x0 + c:176
+
