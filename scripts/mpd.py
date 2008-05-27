@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import subprocess
 import re
+import unicodedata
 
 def run():
     p = subprocess.Popen(['mpc'],
@@ -29,6 +30,18 @@ for line in p.stdout:
     else:
         prev = line
 
+
+output = unicode(output, 'utf-8')
+output = unicodedata.normalize('NFKD', output)
+
+deDiaOutput = ''
+for c in output:
+    if not unicodedata.combining(c):
+        deDiaOutput += c
+
+output = deDiaOutput
+
+print 'mpd:',
 if output == '':
     print '[]: not playing'
 else:

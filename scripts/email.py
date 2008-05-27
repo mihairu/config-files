@@ -4,6 +4,7 @@
 from glob import glob
 import re
 
+print 'mail:',
 ########### SETTINGS
 # location of mailbox
 directory = "/home/mihairu/Mailbox/";

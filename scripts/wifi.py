@@ -12,7 +12,7 @@ def run():
 
 p = run()
 
-essid = re.compile("ESSID:\"([a-z\-]*)\"")
+essid = re.compile("ESSID:\"([a-z\-\_ A-Z]*)\"")
 quality = re.compile("Link Quality=([0-9]*)\/100")
 
 qualityout = ''
@@ -25,7 +25,8 @@ for line in p.stdout:
     for e in re.findall(quality, line):
         qualityout = e
 
+print 'wifi:',
 if essidout == '' or qualityout == '':
     print "no connection"
 else:
-    print essidout + " [" + qualityout + "%]"
+    print essidout + "|" + qualityout + "%"

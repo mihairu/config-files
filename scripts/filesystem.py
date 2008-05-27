@@ -26,5 +26,6 @@ for i in dfout:
 for i in hdd:
     output.append(tmpoutput[i])
 
+print 'hdd:',
 # print output - style int%|int$
 print "|".join(output)

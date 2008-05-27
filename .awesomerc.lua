@@ -8,9 +8,13 @@ require("wicked")
 terminal = "urxvt"
 modkey = "Mod4"
 layouts = { "tile", "tilebottom", "max", "floating" }
-font = "cure 8"
 -- }}}
 -- Barvy a fonty    {{{
+font = "cure 8"
+color_sep = "red"               -- separators
+color_tag_focus_bg = "black"    -- taglist focus color - background
+color_tag_focus_fg = "red"      -- taglist focus color - foreground
+
 awesome.font_set(font)
 awesome.resizehints_set(false)
 -- }}}
@@ -43,39 +47,49 @@ mytaglist:mouse({}, 3,
 mytaglist:mouse({ modkey }, 3, awful.client.toggletag)
 mytaglist:mouse({ }, 4, awful.tag.viewnext)
 mytaglist:mouse({ }, 5, awful.tag.viewprev)
-mytaglist:set("text_focus", "<bg color=\"#555555\"/> <title/> ")
+mytaglist:set("text_focus", "<span color=\"" .. color_tag_focus_fg .. "\"><bg color=\"" .. color_tag_focus_bg .. "\"/> <title/> </span>")
 -- }}}
 -- Layout image {{{
 layoutimg = widget.new({ type = "iconbox", name = "myiconbox", align = "left" })
 layoutimg:set("image", "/usr/share/awesome/icons/layouts/tile.png")
 -- }}}
 -- Widget Separator {{{
-separator = widget.new({ type = "textbox", name = "separator", align = "left"})
-separator:set("text", " ")
+sep_left = widget.new({ type = "textbox", name = "separator", align = "left"})
+sep_left:set("text", " ")
 
-separatorr = widget.new({ type = "textbox", name = "separator", align = "right"})
-separatorr:set("text", " ")
+sep_right = widget.new({ type = "textbox", name = "separator", align = "right"})
+sep_right:set("text", " ")
+
+sep_l_left = widget.new({ type = "textbox", name = "sep_l_left", align = "left"})
+sep_l_left:set("text", "<span color=\"" .. color_sep .. "\">[</span>")
+
+sep_b_left = widget.new({ type = "textbox", name = "separator", align = "left"})
+sep_b_left:set("text", "<span color=\"" .. color_sep .. "\">][</span>")
+
+sep_r_left = widget.new({ type = "textbox", name = "separator", align = "left"})
+sep_r_left:set("text", "<span color=\"" .. color_sep .. "\">]</span>")
+
+sep_l_right = widget.new({ type = "textbox", name = "separator", align = "right"})
+sep_l_right:set("text", "<span color=\"" .. color_sep .. "\">[</span>")
+
+sep_b_right = widget.new({ type = "textbox", name = "separator", align = "right"})
+sep_b_right:set("text", "<span color=\"" .. color_sep .. "\">][</span>")
+
+sep_r_right = widget.new({ type = "textbox", name = "separator", align = "right"})
+sep_r_right:set("text", "<span color=\"" .. color_sep .. "\">]</span>")
 -- }}}
 -- Widget Volume    {{{
-vol_ib = widget.new({ type = "iconbox", name = "vol_ib", align = "left"})
-vol_ib:set("image", "/home/mihairu/.awesome/transicons/vol.png")
-vol_ib:set("resize", "false")
-vol_ib:mouse({ }, 1, function () awful.spawn("exec amixer sset PCM 5%+ >/dev/null") end)
-vol_ib:mouse({ }, 2, function () awful.spawn("exec amixer sset PCM toggle >/dev/null") end)
-vol_ib:mouse({ }, 3, function () awful.spawn("exec amixer sset PCM 5%- >/dev/null") end)
-
 vol_tb = widget.new({ type = "textbox", name = "vol_tb", align = "left", fg = "#cccccc", shadow = "#111111", shadow_offset = "1" })
 vol_tb:mouse({ }, 1, function () awful.spawn("exec amixer sset PCM 5%+ >/dev/null") end)
 vol_tb:mouse({ }, 2, function () awful.spawn("exec amixer sset PCM toggle >/dev/null") end)
 vol_tb:mouse({ }, 3, function () awful.spawn("exec amixer sset PCM 5%- >/dev/null") end)
 vol_tb:set("text", "0%")
 
+wicked.register(vol_tb, 'function', function (widget, args)
+       return io.popen('/home/mihairu/scripts/volume.py'):read()
+   end, 1)
 -- }}}
 -- Widget MPD   {{{
-mpd_ib = widget.new({ type = "iconbox", name = "mpd_ib", align = "left"})
-mpd_ib:set("image", "/home/mihairu/.awesome/transicons/moc.png")
-mpd_ib:set("resize", "false")
-
 mpd_tb = widget.new({ type = "textbox", name = "mpd_tb", align = "left", fg = "#cccccc", shadow = "#111111", shadow_offset = "1" })
 mpd_tb:set("text", "[]: not playing")
 
@@ -85,10 +99,6 @@ wicked.register(mpd_tb, 'function', function (widget, args)
    end, 5)
 -- }}}
 -- Widget Wifi   {{{
-wifi_ib = widget.new({ type = "iconbox", name = "wifi_ib", align = "left"})
-wifi_ib:set("image", "/home/mihairu/.awesome/transicons/wifi.png")
-wifi_ib:set("resize", "false")
-
 wifi_tb = widget.new({ type = "textbox", name = "wifi_tb", align = "left", fg = "#cccccc", shadow = "#111111", shadow_offset = "1" })
 wifi_tb:set("text", "no connection")
 
@@ -98,10 +108,6 @@ wicked.register(wifi_tb, 'function', function (widget, args)
    end, 5)
 -- }}}
 -- Widget CPU   {{{
-cpu_ib = widget.new({ type = "iconbox", name = "cpu_ib", align = "right"})
-cpu_ib:set("image", "/home/mihairu/.awesome/transicons/cpu.png")
-cpu_ib:set("resize", "false")
-
 cpu_tb = widget.new({ type = "textbox", name = "cpu_tb", align = "right"})
 cpu_tb:set("text", "0%|0%")
 
@@ -111,10 +117,6 @@ wicked.register(cpu_tb, 'function', function (widget, args)
    end, 5)
 -- }}}
 -- Widget Memory+Swap   {{{
-mem_ib = widget.new({ type = "iconbox", name = "mem_ib", align = "right"})
-mem_ib:set("image", "/home/mihairu/.awesome/transicons/mem.png")
-mem_ib:set("resize", "false")
-
 mem_tb = widget.new({ type = "textbox", name = "mem_tb", align = "right"})
 mem_tb:set("text", "0%|0%")
 
@@ -124,10 +126,6 @@ wicked.register(mem_tb, 'function', function (widget, args)
    end, 5)
 -- }}}
 -- Widget HDD   {{{
-hdd_ib = widget.new({ type = "iconbox", name = "hdd_ib", align = "right"})
-hdd_ib:set("image", "/home/mihairu/.awesome/transicons/disk2.png")
-hdd_ib:set("resize", "false")
-
 hdd_tb = widget.new({ type = "textbox", name = "hdd_tb", align = "right"})
 hdd_tb:set("text", "0%|0%|0%|0%")
 
@@ -137,23 +135,15 @@ wicked.register(hdd_tb, 'function', function (widget, args)
    end, 5)
 -- }}}
 -- Widget Battery   {{{
-bat_ib = widget.new({ type = "iconbox", name = "bat_ib", align = "right"})
-bat_ib:set("image", "/home/mihairu/.awesome/transicons/bat.png")
-bat_ib:set("resize", "false")
-
 bat_tb = widget.new({ type = "textbox", name = "bat_tb", align = "right"})
 bat_tb:set("text", "0%")
 
 -- nacteni parseru pro baterku
 wicked.register(bat_tb, 'function', function (widget, args)
-       return io.popen('/home/mihairu/scripts/bat.pl'):read()
+       return io.popen('/home/mihairu/scripts/battery.py'):read()
    end, 1)
 -- }}}
 -- Widget Pacman   {{{
-pac_ib = widget.new({ type = "iconbox", name = "pac_ib", align = "right"})
-pac_ib:set("image", "/home/mihairu/.awesome/transicons/pacman2.png")
-pac_ib:set("resize", "false")
-
 pac_tb = widget.new({ type = "textbox", name = "pac_tb", align = "right"})
 pac_tb:set("text", "up-to-date")
 
@@ -163,10 +153,6 @@ wicked.register(pac_tb, 'function', function (widget, args)
    end, 3600)
 -- }}}
 -- Widget Email   {{{
-email_ib = widget.new({ type = "iconbox", name = "email_ib", align = "right"})
-email_ib:set("image", "/home/mihairu/.awesome/transicons/mail2.png")
-email_ib:set("resize", "false")
-
 email_tb = widget.new({ type = "textbox", name = "email_tb", align = "right"})
 email_tb:set("text", "no mail")
 
@@ -189,57 +175,41 @@ sb_top = statusbar.new({ position = "top", name = "sb_top1" .. 1,
                                 fg = "white", bg = "black" })
 -- Add widgets to the statusbar - order matters
 sb_top:widget_add(mytaglist)
-sb_top:widget_add(separator)
+sb_top:widget_add(sep_left)
 sb_top:widget_add(layoutimg)
 
-sb_top:widget_add(separator)
-sb_top:widget_add(vol_ib)
-sb_top:widget_add(separator)
+sb_top:widget_add(sep_l_left)
 sb_top:widget_add(vol_tb)
 
-sb_top:widget_add(separator)
-sb_top:widget_add(mpd_ib)
-sb_top:widget_add(separator)
+sb_top:widget_add(sep_b_left)
 sb_top:widget_add(mpd_tb)
 
-sb_top:widget_add(separator)
-sb_top:widget_add(wifi_ib)
-sb_top:widget_add(separator)
+sb_top:widget_add(sep_b_left)
 sb_top:widget_add(wifi_tb)
+sb_top:widget_add(sep_r_left)
 
-sb_top:widget_add(separatorr)
-sb_top:widget_add(cpu_ib)
-sb_top:widget_add(separatorr)
+sb_top:widget_add(sep_l_right)
 sb_top:widget_add(cpu_tb)
 
-sb_top:widget_add(separatorr)
-sb_top:widget_add(mem_ib)
-sb_top:widget_add(separatorr)
+sb_top:widget_add(sep_b_right)
 sb_top:widget_add(mem_tb)
 
-sb_top:widget_add(separatorr)
-sb_top:widget_add(hdd_ib)
-sb_top:widget_add(separatorr)
+sb_top:widget_add(sep_b_right)
 sb_top:widget_add(hdd_tb)
 
-sb_top:widget_add(separatorr)
-sb_top:widget_add(bat_ib)
-sb_top:widget_add(separatorr)
+sb_top:widget_add(sep_b_right)
 sb_top:widget_add(bat_tb)
 
-sb_top:widget_add(separatorr)
-sb_top:widget_add(pac_ib)
-sb_top:widget_add(separatorr)
+sb_top:widget_add(sep_b_right)
 sb_top:widget_add(pac_tb)
 
-sb_top:widget_add(separatorr)
-sb_top:widget_add(email_ib)
-sb_top:widget_add(separatorr)
+sb_top:widget_add(sep_b_right)
 sb_top:widget_add(email_tb)
+sb_top:widget_add(sep_r_right)
 
-sb_top:widget_add(separatorr)
-sb_top:widget_add(separatorr)
-sb_top:widget_add(separatorr)
+sb_top:widget_add(sep_right)
+sb_top:widget_add(sep_right)
+sb_top:widget_add(sep_right)
 sb_top:widget_add(clock_tb)
 
 sb_top:add(1) -- pridej pro screen 1
@@ -248,8 +218,8 @@ sb_top:add(1) -- pridej pro screen 1
 awesome.mouse({ }, 3, function () awful.spawn(terminal) end)
 awesome.mouse({ }, 4, awful.tag.viewnext)
 awesome.mouse({ }, 5, awful.tag.viewprev)
-client.mouse({ modkey }, 1, mouse.client_move)
-client.mouse({ modkey }, 3, mouse.client_resize)
+client.mouse({ modkey }, 1, function() client.focus_get():mouse_move() end)
+client.mouse({ modkey }, 3, function() client.focus_get():mouse_resize() end)
 -- }}}
 -- {{{ Key bindings
 

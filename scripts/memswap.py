@@ -25,4 +25,5 @@ def getValues():
     swap = str(100 - int(swapfree)/(int(swaptotal)/100)) + "%"
     print '%s|%s' % (mem, swap)
 
+print 'mem:',
 getValues()

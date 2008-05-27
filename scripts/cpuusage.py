@@ -63,5 +63,6 @@ for i in range(nocpu):
 # and then...save /proc/stat
 saveTmp()
 
+print 'cpu:',
 # print output - style int%|int$
 print "|".join(output)
