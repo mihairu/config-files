@@ -5,29 +5,39 @@ import re
 
 battery = "1"
 
-charging = {"charging" : "^",
-            "discharging" : "v",
-            "charged" : "="}
+charging = {"Charging" : "^",
+            "Discharging" : "v",
+            "Charged" : "="}
 
 battery = re.compile("Battery "+battery)
 percent = re.compile("([0-9]+)%")
 charge = re.compile("(([a-z]*)charg([a-z]+))")
 
-def run():
-    p = subprocess.Popen(['acpi', '-b'],
+def read_file(file):
+    p = subprocess.Popen(['less', '/sys/class/power_supply/BAT0/'+file],
         stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     return p
 
-p = run()
+status = read_file("status")
 
 output = ''
-for line in p.stdout:
-    if re.findall(battery, line):
-        for e in re.findall(charge, line):
-            e = e[0]
-            output = output + charging[e]
-            break       
-        for e in re.findall(percent, line):
-           output = output + "|" + e + "%"
+
+# load battery status
+for line in status.stdout:
+    output += charging[line.split("\n")[0]]
+
+# load battery percentage
+energyNow = read_file("energy_now")
+for line in energyNow.stdout:
+    energyNow = line.split("\n")[0]
+
+energyFull = read_file("energy_full")
+for line in energyFull.stdout:
+    energyFull = line.split("\n")[0]
+
+energy = int(energyNow) / (int(energyFull)/100)
+output += str(energy) + "%"
+
+
 print 'bat:',
 print output
