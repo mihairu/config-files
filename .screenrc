@@ -8,7 +8,7 @@ vbell_msg "[[[ ding ]]]"
 vbell off
 startup_message off
 
-caption always "%{= kw}%-w%{= Kk}%n %t%{-}%+w %-= %c"
+caption always "%{= Kw}%-w%{= KR}%n %t%{-}%+w %-= %c"
 
 #caption splitonly "%{= kb}[ %{W}%n*%f %t%?(%u)%? %{b}]"
 #hardstatus alwayslastline "%{= kb}[ %=%{w}%?%-Lw%?%{b}(%{W}%n*%f %t%?(%u)%?%{b})%{w}%?%+Lw%?%?%= %{b}][%{w} %0c %{b}]"
