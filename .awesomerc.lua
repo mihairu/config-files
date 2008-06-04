@@ -17,7 +17,6 @@ color_tag_focus_fg = "red"      -- taglist focus color - foreground
 
 awesome.font_set(font)
 awesome.resizehints_set(false)
-awesome.padding_set(0)
 -- }}}
 -- Nastaveni tagu   {{{ 
 tags = {}
