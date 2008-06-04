@@ -17,6 +17,7 @@ color_tag_focus_fg = "red"      -- taglist focus color - foreground
 
 awesome.font_set(font)
 awesome.resizehints_set(false)
+awesome.padding_set(0)
 -- }}}
 -- Nastaveni tagu   {{{ 
 tags = {}
@@ -50,8 +51,15 @@ mytaglist:mouse({ }, 5, awful.tag.viewprev)
 mytaglist:set("text_focus", "<span color=\"" .. color_tag_focus_fg .. "\"><bg color=\"" .. color_tag_focus_bg .. "\"/> <title/> </span>")
 -- }}}
 -- Layout image {{{
-layoutimg = widget.new({ type = "iconbox", name = "myiconbox", align = "left" })
-layoutimg:set("image", "/usr/share/awesome/icons/layouts/tile.png")
+layoutbox = {}
+for s = 1, screen.count() do
+    layoutbox[s] = widget.new({ type = "iconbox", name = "layoutbox", align = "left" })
+    layoutbox[s]:mouse({ }, 1, function () awful.layout.inc(layouts, 1) end)    
+    layoutbox[s]:mouse({ }, 3, function () awful.layout.inc(layouts, -1) end)    
+    layoutbox[s]:mouse({ }, 4, function () awful.layout.inc(layouts, 1) end)    
+    layoutbox[s]:mouse({ }, 5, function () awful.layout.inc(layouts, -1) end)    
+    layoutbox[s]:set("image", "/usr/share/awesome/icons/layouts/tilew.png")
+end
 -- }}}
 -- Widget Separator {{{
 sep_left = widget.new({ type = "textbox", name = "separator", align = "left"})
@@ -86,8 +94,11 @@ vol_tb:mouse({ }, 3, function () awful.spawn("exec amixer sset PCM 5%- >/dev/nul
 vol_tb:set("text", "0%")
 
 wicked.register(vol_tb, 'function', function (widget, args)
-       return io.popen('/home/mihairu/scripts/volume.py'):read()
-   end, 1)
+       local f = io.popen('/home/mihairu/scripts/volume.py')
+       local l = f:read()
+       f:close()
+       return l
+   end, 2)
 -- }}}
 -- Widget MPD   {{{
 mpd_tb = widget.new({ type = "textbox", name = "mpd_tb", align = "left", fg = "#cccccc", shadow = "#111111", shadow_offset = "1" })
@@ -95,7 +106,10 @@ mpd_tb:set("text", "[]: not playing")
 
 -- nacteni mpd parseru
 wicked.register(mpd_tb, 'function', function (widget, args)
-       return io.popen('/home/mihairu/scripts/mpd.py'):read()
+       local f = io.popen('/home/mihairu/scripts/mpd.py')
+       local l = f:read()
+       f:close()
+       return l
    end, 5)
 -- }}}
 -- Widget Wifi   {{{
@@ -104,7 +118,10 @@ wifi_tb:set("text", "no connection")
 
 -- nacteni wifi parseru
 wicked.register(wifi_tb, 'function', function (widget, args)
-       return io.popen('/home/mihairu/scripts/wifi.py'):read()
+       local f = io.popen('/home/mihairu/scripts/wifi.py')
+       local l = f:read()
+       f:close()
+       return l
    end, 5)
 -- }}}
 -- Widget CPU   {{{
@@ -113,7 +130,10 @@ cpu_tb:set("text", "0%|0%")
 
 -- nacteni cpu parseru
 wicked.register(cpu_tb, 'function', function (widget, args)
-       return io.popen('/home/mihairu/scripts/cpuusage.py'):read()
+       local f = io.popen('/home/mihairu/scripts/cpuusage.py')
+       local l = f:read()
+       f:close()
+       return l
    end, 5)
 -- }}}
 -- Widget Memory+Swap   {{{
@@ -122,7 +142,10 @@ mem_tb:set("text", "0%|0%")
 
 -- nacteni mem parseru
 wicked.register(mem_tb, 'function', function (widget, args)
-       return io.popen('/home/mihairu/scripts/memswap.py'):read()
+       local f = io.popen('/home/mihairu/scripts/memswap.py')
+       local l = f:read()
+       f:close()
+       return l
    end, 5)
 -- }}}
 -- Widget HDD   {{{
@@ -131,7 +154,10 @@ hdd_tb:set("text", "0%|0%|0%|0%")
 
 -- nacteni hdd parseru
 wicked.register(hdd_tb, 'function', function (widget, args)
-       return io.popen('/home/mihairu/scripts/filesystem.py'):read()
+       local f = io.popen('/home/mihairu/scripts/filesystem.py')
+       local l = f:read()
+       f:close()
+       return l
    end, 5)
 -- }}}
 -- Widget Battery   {{{
@@ -140,7 +166,10 @@ bat_tb:set("text", "0%")
 
 -- nacteni parseru pro baterku
 wicked.register(bat_tb, 'function', function (widget, args)
-       return io.popen('/home/mihairu/scripts/battery.py'):read()
+       local f = io.popen('/home/mihairu/scripts/battery.py')
+       local l = f:read()
+       f:close()
+       return l
    end, 1)
 -- }}}
 -- Widget Pacman   {{{
@@ -149,7 +178,10 @@ pac_tb:set("text", "up-to-date")
 
 -- nacteni parseru pro pacman
 wicked.register(pac_tb, 'function', function (widget, args)
-       return io.popen('/home/mihairu/scripts/arch-updates/parser.py'):read()
+       local f = io.popen('/home/mihairu/scripts/arch-updates/parser.py')
+       local l = f:read()
+       f:close()
+       return l
    end, 3600)
 -- }}}
 -- Widget Email   {{{
@@ -158,61 +190,71 @@ email_tb:set("text", "no mail")
 
 -- nacteni email parseru
 wicked.register(email_tb, 'function', function (widget, args)
-       return io.popen('/home/mihairu/scripts/email.py'):read()
+       local f = io.popen('/home/mihairu/scripts/email.py')
+       local l = f:read()
+       f:close()
+       return l
    end, 1)
 -- }}}
 -- Widget Clock   {{{
 clock_tb = widget.new({ type = "textbox", name = "clock_tb", align = "right"})
-clock_tb:set("width", "130")
+clock_tb:set("width", "140")
 
 -- nacteni parseru pro cas
 wicked.register(clock_tb, 'function', function (widget, args)
-       return io.popen('/home/mihairu/scripts/datetime.py'):read()
+       local f = io.popen('/home/mihairu/scripts/datetime.py')
+       local l = f:read()
+       f:close()
+       return l
    end, 1)
 -- }}}
 -- Statusbar    {{{
-sb_top = statusbar.new({ position = "top", name = "sb_top1" .. 1,
-                                fg = "white", bg = "black" })
--- Add widgets to the statusbar - order matters
-sb_top:widget_add(mytaglist)
-sb_top:widget_add(sep_left)
-sb_top:widget_add(layoutimg)
+for s = 1, screen.count() do
+    sb_top = statusbar.new({ position = "top", name = "sb_top" .. s, fg = "white", bg = "black" })
 
-sb_top:widget_add(sep_l_left)
-sb_top:widget_add(vol_tb)
+    -- Add widgets to the statusbar - order matters
+    sb_top:widget_add(mytaglist)
+    sb_top:widget_add(sep_left)
 
-sb_top:widget_add(sep_b_left)
-sb_top:widget_add(mpd_tb)
+    sb_top:widget_add(layoutbox[s])
+    sb_top:widget_add(sep_left)
 
-sb_top:widget_add(sep_b_left)
-sb_top:widget_add(wifi_tb)
-sb_top:widget_add(sep_r_left)
+    sb_top:widget_add(sep_l_left)
+    sb_top:widget_add(vol_tb)
 
-sb_top:widget_add(sep_l_right)
-sb_top:widget_add(cpu_tb)
+    sb_top:widget_add(sep_b_left)
+    sb_top:widget_add(mpd_tb)
 
-sb_top:widget_add(sep_b_right)
-sb_top:widget_add(mem_tb)
+    sb_top:widget_add(sep_b_left)
+    sb_top:widget_add(wifi_tb)
+    sb_top:widget_add(sep_r_left)
 
-sb_top:widget_add(sep_b_right)
-sb_top:widget_add(hdd_tb)
+    sb_top:widget_add(sep_l_right)
+    sb_top:widget_add(cpu_tb)
 
-sb_top:widget_add(sep_b_right)
-sb_top:widget_add(bat_tb)
+    sb_top:widget_add(sep_b_right)
+    sb_top:widget_add(mem_tb)
 
-sb_top:widget_add(sep_b_right)
-sb_top:widget_add(pac_tb)
+    sb_top:widget_add(sep_b_right)
+    sb_top:widget_add(hdd_tb)
 
-sb_top:widget_add(sep_b_right)
-sb_top:widget_add(email_tb)
-sb_top:widget_add(sep_r_right)
+    sb_top:widget_add(sep_b_right)
+    sb_top:widget_add(bat_tb)
 
-sb_top:widget_add(sep_right)
-sb_top:widget_add(sep_right)
-sb_top:widget_add(sep_right)
-sb_top:widget_add(clock_tb)
+    sb_top:widget_add(sep_b_right)
+    sb_top:widget_add(pac_tb)
 
-sb_top:add(1) -- pridej pro screen 1
+    sb_top:widget_add(sep_b_right)
+    sb_top:widget_add(email_tb)
+    sb_top:widget_add(sep_r_right)
+
+    sb_top:widget_add(sep_right)
+    sb_top:widget_add(sep_right)
+    sb_top:widget_add(sep_right)
+    sb_top:widget_add(clock_tb)
+
+    sb_top:add(s)
+end
 -- }}}
 -- Bindovani mysky {{{
 awesome.mouse({ }, 3, function () awful.spawn(terminal) end)
@@ -224,44 +266,44 @@ client.mouse({ modkey }, 3, function() client.focus_get():mouse_resize() end)
 -- {{{ Key bindings
 
 -- Prepinani ploch
-awesome.key({ modkey }, 1, function () awful.tag.viewonly(tags[1][1]) end )
-awesome.key({ modkey }, 2, function () awful.tag.viewonly(tags[1][2]) end )
-awesome.key({ modkey }, 3, function () awful.tag.viewonly(tags[1][3]) end )
-awesome.key({ modkey }, 4, function () awful.tag.viewonly(tags[1][4]) end )
-awesome.key({ modkey }, 5, function () awful.tag.viewonly(tags[1][5]) end )
+keybinding.new({ modkey }, 1, function () awful.tag.viewonly(tags[1][1]) end ):add()
+keybinding.new({ modkey }, 2, function () awful.tag.viewonly(tags[1][2]) end ):add()
+keybinding.new({ modkey }, 3, function () awful.tag.viewonly(tags[1][3]) end ):add()
+keybinding.new({ modkey }, 4, function () awful.tag.viewonly(tags[1][4]) end ):add()
+keybinding.new({ modkey }, 5, function () awful.tag.viewonly(tags[1][5]) end ):add()
 
-awesome.key({ modkey }, "Left", awful.tag.viewprev)
-awesome.key({ modkey }, "Right", awful.tag.viewnext)
+keybinding.new({ modkey }, "Left", awful.tag.viewprev):add()
+keybinding.new({ modkey }, "Right", awful.tag.viewnext):add()
 
 -- Zapinani programu
-awesome.key({ modkey }, "x", function () awful.spawn(terminal) end)
-awesome.key({ modkey }, "f", function () awful.spawn("firefox") end)
-awesome.key({ modkey }, "Return", function () awful.spawn("exec `dmenu_path | dmenu -b -nb black -sb '#333333' -sf white -nf white`") end)
+keybinding.new({ modkey }, "x", function () awful.spawn(terminal) end):add()
+keybinding.new({ modkey }, "f", function () awful.spawn("firefox") end):add()
+keybinding.new({ modkey }, "Return", function () awful.spawn("exec `dmenu_path | dmenu -b -nb black -sb '#333333' -sf white -nf white`") end):add()
 
 -- Operace s awesome
-awesome.key({ modkey, "Control" }, "r", awesome.restart)
-awesome.key({ modkey, "Shift" }, "q", awesome.quit)
+keybinding.new({ modkey, "Control" }, "r", awesome.restart):add()
+keybinding.new({ modkey, "Shift" }, "q", awesome.quit):add()
 
 
 -- Client manipulation
-awesome.key({ modkey, "Shift" }, "c", function () client.focus_get():kill() end)
-awesome.key({ modkey }, "j", function () awful.client.focus(1) end)
-awesome.key({ modkey }, "k", function () awful.client.focus(-1) end)
-awesome.key({ modkey, "Shift" }, "j", function () awful.client.swap(1) end)
-awesome.key({ modkey, "Shift" }, "k", function () awful.client.swap(-1) end)
-awesome.key({ modkey, "Control" }, "j", function () awful.screen.focus(1) end)
-awesome.key({ modkey, "Control" }, "k", function () awful.screen.focus(-1) end)
-awesome.key({ modkey, "Control" }, "space", function () awful.client.togglefloating() end)
-
+keybinding.new({ modkey, "Shift" }, "c", function () client.focus_get():kill() end):add()
+keybinding.new({ modkey }, "j", function () awful.client.focus(1) end):add()
+keybinding.new({ modkey }, "k", function () awful.client.focus(-1) end):add()
+keybinding.new({ modkey, "Shift" }, "j", function () awful.client.swap(1) end):add()
+keybinding.new({ modkey, "Shift" }, "k", function () awful.client.swap(-1) end):add()
+keybinding.new({ modkey, "Control" }, "j", function () awful.screen.focus(1) end):add()
+keybinding.new({ modkey, "Control" }, "k", function () awful.screen.focus(-1) end):add()
+keybinding.new({ modkey, "Control" }, "space", function () awful.client.togglefloating() end):add()
+ 
 -- Layout manipulation
-awesome.key({ modkey }, "l", function () awful.tag.incmwfact(0.05) end)
-awesome.key({ modkey }, "h", function () awful.tag.incmwfact(-0.05) end)
-awesome.key({ modkey, "Shift" }, "h", function () awful.tag.incnmaster(1) end)
-awesome.key({ modkey, "Shift" }, "l", function () awful.tag.incnmaster(-1) end)
-awesome.key({ modkey, "Control" }, "h", function () awful.tag.incncol(1) end)
-awesome.key({ modkey, "Control" }, "l", function () awful.tag.incncol(1) end)
-awesome.key({ modkey }, "space", function () awful.layout.inc(layouts, 1) end)
-awesome.key({ modkey, "Shift" }, "space", function () awful.layout.inc(layouts, -1) end)
+keybinding.new({ modkey }, "l", function () awful.tag.incmwfact(0.05) end):add()
+keybinding.new({ modkey }, "h", function () awful.tag.incmwfact(-0.05) end):add()
+keybinding.new({ modkey, "Shift" }, "h", function () awful.tag.incnmaster(1) end):add()
+keybinding.new({ modkey, "Shift" }, "l", function () awful.tag.incnmaster(-1) end):add()
+keybinding.new({ modkey, "Control" }, "h", function () awful.tag.incncol(1) end):add()
+keybinding.new({ modkey, "Control" }, "l", function () awful.tag.incncol(1) end):add()
+keybinding.new({ modkey }, "space", function () awful.layout.inc(layouts, 1) end):add()
+keybinding.new({ modkey, "Shift" }, "space", function () awful.layout.inc(layouts, -1) end):add()
 -- }}}
 -- {{{ Hooks
 -- Hook function to execute when focusing a client.
@@ -277,7 +319,9 @@ end
 -- Hook function to exeucte when the mouse is over a client.
 function hook_mouseover(c)
     -- Sloppy focus
-    c:focus_set()
+    if awful.layout.get(c:screen_get()) ~= "magnifier" then
+        c:focus_set()
+    end
 end
 
 -- Hook function to execute when a new client appears.
@@ -287,19 +331,29 @@ function hook_newclient(c)
     c:border_set({ width = 1, color = "black" })
     c:focus_set()
     local name = c:name_get()
-    if name:lower():find("mplayer") then
+    if name:lower():find("gimp") 
+        or name:lower():find("mplayer") 
+        or name:lower():find("wine") 
+        or name:lower():find("psi") 
+    then    
         c:floating_set(true)
     end
+    
     if name:lower():find("psi") then
-        c:floating_set(true)
+        awful.client.movetotag(tags[1][4], c)
+    end
+    
+    if name:lower():find("firefox") then
+        awful.client.movetotag(tags[1][1], c)
     end
 end
 
 -- Hook function to execute when arranging the screen
 -- (tag switch, new client, etc)
-function hook_arrange()
-    local layout = awful.layout.get()    
-    layoutimg:set("image", "~/.awesome/layouts/" .. layout .. "my.png")
+
+function hook_arrange(screen)
+    local layout = awful.layout.get(screen)
+    mylayoutbox[screen]:set("image", "/usr/share/awesome/icons/layouts/" .. layout .. "w.png")
 end
 
 -- Set up some hooks
@@ -309,6 +363,6 @@ hooks.newclient(hook_newclient)
 hooks.mouseover(hook_mouseover)
 hooks.arrange(hook_arrange)
 -- }}}
-
+ 
 -- Respect size hints
 awesome.resizehints_set(true)
