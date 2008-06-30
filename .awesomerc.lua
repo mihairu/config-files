@@ -11,14 +11,26 @@ layouts = { "tile", "tilebottom", "max", "floating" }
 -- }}}
 -- Barvy a fonty    {{{
 font = "cure 8"
+border_width = 1
+
 color_sep = "red"               -- separators
 color_tag_focus_bg = "black"    -- taglist focus color - background
 color_tag_focus_fg = "red"      -- taglist focus color - foreground
 
+bg_normal = "#000000"
+fg_normal = "#aaaaaa"
+border_normal = "#000000"
+
+bg_focus = "#535d6c"
+fg_focus = "#ffffff"
+border_focus = bg_focus
+border_marked = "#91231C"
+
+
+awesome.colors_set({ fg = fg_normal, bg = bg_normal })
 awesome.font_set(font)
-awesome.resizehints_set(false)
 -- }}}
--- Nastaveni tagu   {{{ 
+ -- Nastaveni tagu   {{{ 
 tags = {}
 tags[1] =
 {
@@ -38,59 +50,67 @@ tags[1][1]:view(true)
 -- {{{ Taglist
 -- Create a taglist widget
 mytaglist = widget.new({ type = "taglist", name = "mytaglist" })
-mytaglist:mouse({}, 1, awful.tag.viewonly)
-mytaglist:mouse({ modkey }, 1, awful.client.toggletag)
-mytaglist:mouse({}, 3,
-                function (tag)
-                    tag:view(not tag:isselected())
-                end)
-mytaglist:mouse({ modkey }, 3, awful.client.toggletag)
-mytaglist:mouse({ }, 4, awful.tag.viewnext)
-mytaglist:mouse({ }, 5, awful.tag.viewprev)
-mytaglist:set("text_focus", "<span color=\"" .. color_tag_focus_fg .. "\"><bg color=\"" .. color_tag_focus_bg .. "\"/> <title/> </span>")
+mytaglist:mouse_add(mouse.new({}, 1, function (object, tag) awful.tag.viewonly(tag) end))
+mytaglist:mouse_add(mouse.new({ modkey }, 1, function (object, tag) awful.client.movetotag(tag) end))
+mytaglist:mouse_add(mouse.new({}, 3, function (object, tag) tag:view(not tag:isselected()) end))
+mytaglist:mouse_add(mouse.new({ modkey }, 3, function (object, tag) awful.client.toggletag(tag) end))
+mytaglist:mouse_add(mouse.new({ }, 4, awful.tag.viewnext))
+mytaglist:mouse_add(mouse.new({ }, 5, awful.tag.viewprev))
+mytaglist.text_focus = "<span color=\"" .. color_tag_focus_fg .. "\"><bg color=\"" .. color_tag_focus_bg .. "\"/> <title/> </span>"
 -- }}}
 -- Layout image {{{
-layoutbox = {}
+mylayoutbox = {}
 for s = 1, screen.count() do
-    layoutbox[s] = widget.new({ type = "iconbox", name = "layoutbox", align = "left" })
-    layoutbox[s]:mouse({ }, 1, function () awful.layout.inc(layouts, 1) end)    
-    layoutbox[s]:mouse({ }, 3, function () awful.layout.inc(layouts, -1) end)    
-    layoutbox[s]:mouse({ }, 4, function () awful.layout.inc(layouts, 1) end)    
-    layoutbox[s]:mouse({ }, 5, function () awful.layout.inc(layouts, -1) end)    
-    layoutbox[s]:set("image", "/usr/share/awesome/icons/layouts/tilew.png")
+    mylayoutbox[s] = widget.new({ type = "textbox", name = "mylayoutbox", align = "right" })
+    mylayoutbox[s]:mouse_add(mouse.new({ }, 1, function () awful.layout.inc(layouts, 1) end))
+    mylayoutbox[s]:mouse_add(mouse.new({ }, 3, function () awful.layout.inc(layouts, -1) end))
+    mylayoutbox[s]:mouse_add(mouse.new({ }, 4, function () awful.layout.inc(layouts, 1) end))
+    mylayoutbox[s]:mouse_add(mouse.new({ }, 5, function () awful.layout.inc(layouts, -1) end))
+    mylayoutbox[s].text = "<bg image=\"/usr/share/awesome/icons/layouts/tilew.png\" resize=\"true\"/>"
 end
 -- }}}
+-- MenuBox {{{
+mymenubox = widget.new({ type = "textbox", name = "mytextbox", align = "left" })
+-- }}}
+-- Systray {{{
+mysystray = widget.new({ type = "systray", name = "mysystray", align = "right" })
+-- }}}
 -- Widget Separator {{{
-sep_left = widget.new({ type = "textbox", name = "separator", align = "left"})
-sep_left:set("text", " ")
+sep_left = widget.new({ type = "textbox", name = "sep_left", align = "left"})
+sep_left.text = " "
 
-sep_right = widget.new({ type = "textbox", name = "separator", align = "right"})
-sep_right:set("text", " ")
+sep_right = widget.new({ type = "textbox", name = "sep_right", align = "right"})
+sep_right.text = " "
 
 sep_l_left = widget.new({ type = "textbox", name = "sep_l_left", align = "left"})
-sep_l_left:set("text", "<span color=\"" .. color_sep .. "\">[</span>")
+sep_l_left.text = "<span color=\"" .. color_sep .. "\">[</span>"
 
-sep_b_left = widget.new({ type = "textbox", name = "separator", align = "left"})
-sep_b_left:set("text", "<span color=\"" .. color_sep .. "\">][</span>")
+sep_b_left = widget.new({ type = "textbox", name = "sep_b_left", align = "left"})
+sep_b_left.text = "<span color=\"" .. color_sep .. "\">][</span>"
 
-sep_r_left = widget.new({ type = "textbox", name = "separator", align = "left"})
-sep_r_left:set("text", "<span color=\"" .. color_sep .. "\">]</span>")
+sep_r_left = widget.new({ type = "textbox", name = "sep_r_left", align = "left"})
+sep_r_left.text = "<span color=\"" .. color_sep .. "\">]</span>"
 
-sep_l_right = widget.new({ type = "textbox", name = "separator", align = "right"})
-sep_l_right:set("text", "<span color=\"" .. color_sep .. "\">[</span>")
+sep_l_right = widget.new({ type = "textbox", name = "sep_l_right", align = "right"})
+sep_l_right.text = "<span color=\"" .. color_sep .. "\">[</span>"
 
-sep_b_right = widget.new({ type = "textbox", name = "separator", align = "right"})
-sep_b_right:set("text", "<span color=\"" .. color_sep .. "\">][</span>")
+sep_b_right = widget.new({ type = "textbox", name = "sep_b_right", align = "right"})
+sep_b_right.text = "<span color=\"" .. color_sep .. "\">][</span>"
 
-sep_r_right = widget.new({ type = "textbox", name = "separator", align = "right"})
-sep_r_right:set("text", "<span color=\"" .. color_sep .. "\">]</span>")
+sep_r_right = widget.new({ type = "textbox", name = "sep_r_right", align = "right"})
+sep_r_right.text = "<span color=\"" .. color_sep .. "\">]</span>"
+-- }}}
+-- Arch Logo {{{
+arch = widget.new({ type = "textbox", name = "arch", align = "left"})
+arch.text = "<span font_desc='openlogos'>A</span>"
+
 -- }}}
 -- Widget Volume    {{{
 vol_tb = widget.new({ type = "textbox", name = "vol_tb", align = "left", fg = "#cccccc", shadow = "#111111", shadow_offset = "1" })
-vol_tb:mouse({ }, 1, function () awful.spawn("exec amixer sset PCM 5%+ >/dev/null") end)
-vol_tb:mouse({ }, 2, function () awful.spawn("exec amixer sset PCM toggle >/dev/null") end)
-vol_tb:mouse({ }, 3, function () awful.spawn("exec amixer sset PCM 5%- >/dev/null") end)
-vol_tb:set("text", "0%")
+vol_tb:mouse_add(mouse.new({ }, 1, function () awful.spawn("exec amixer sset PCM 5%+ >/dev/null") end))
+vol_tb:mouse_add(mouse.new({ }, 2, function () awful.spawn("exec amixer sset PCM toggle >/dev/null") end))
+vol_tb:mouse_add(mouse.new({ }, 3, function () awful.spawn("exec amixer sset PCM 5%- >/dev/null") end))
+vol_tb.text = "0%"
 
 wicked.register(vol_tb, 'function', function (widget, args)
        local f = io.popen('/home/mihairu/scripts/volume.py')
@@ -99,9 +119,16 @@ wicked.register(vol_tb, 'function', function (widget, args)
        return l
    end, 2)
 -- }}}
+-- Widget Layout {{{
+lay_tb = widget.new({ type = "textbox", name = "lay_tb", align = "left", fg = "#cccccc", shadow = "#111111", shadow_offset = "1" })
+--lay_t:set('text', '❚❙')
+lay_tb.text ="✖"
+--lay_tb:set('text', '<span font_desc="cambria 8">✖❐▀</span>')
+--lay_tb:set('text', '<sup>◰</sup>')
+-- }}}
 -- Widget MPD   {{{
 mpd_tb = widget.new({ type = "textbox", name = "mpd_tb", align = "left", fg = "#cccccc", shadow = "#111111", shadow_offset = "1" })
-mpd_tb:set("text", "[]: not playing")
+mpd_tb.text = "[]: not playing"
 
 -- nacteni mpd parseru
 wicked.register(mpd_tb, 'function', function (widget, args)
@@ -113,7 +140,7 @@ wicked.register(mpd_tb, 'function', function (widget, args)
 -- }}}
 -- Widget Wifi   {{{
 wifi_tb = widget.new({ type = "textbox", name = "wifi_tb", align = "left", fg = "#cccccc", shadow = "#111111", shadow_offset = "1" })
-wifi_tb:set("text", "no connection")
+wifi_tb.text = "no connection"
 
 -- nacteni wifi parseru
 wicked.register(wifi_tb, 'function', function (widget, args)
@@ -125,7 +152,7 @@ wicked.register(wifi_tb, 'function', function (widget, args)
 -- }}}
 -- Widget CPU   {{{
 cpu_tb = widget.new({ type = "textbox", name = "cpu_tb", align = "right"})
-cpu_tb:set("text", "0%|0%")
+cpu_tb.text = "0%|0%"
 
 -- nacteni cpu parseru
 wicked.register(cpu_tb, 'function', function (widget, args)
@@ -137,7 +164,7 @@ wicked.register(cpu_tb, 'function', function (widget, args)
 -- }}}
 -- Widget Memory+Swap   {{{
 mem_tb = widget.new({ type = "textbox", name = "mem_tb", align = "right"})
-mem_tb:set("text", "0%|0%")
+mem_tb.text = "0%|0%"
 
 -- nacteni mem parseru
 wicked.register(mem_tb, 'function', function (widget, args)
@@ -149,7 +176,7 @@ wicked.register(mem_tb, 'function', function (widget, args)
 -- }}}
 -- Widget HDD   {{{
 hdd_tb = widget.new({ type = "textbox", name = "hdd_tb", align = "right"})
-hdd_tb:set("text", "0%|0%|0%|0%")
+hdd_tb.text = "0%|0%|0%|0%"
 
 -- nacteni hdd parseru
 wicked.register(hdd_tb, 'function', function (widget, args)
@@ -161,7 +188,7 @@ wicked.register(hdd_tb, 'function', function (widget, args)
 -- }}}
 -- Widget Battery   {{{
 bat_tb = widget.new({ type = "textbox", name = "bat_tb", align = "right"})
-bat_tb:set("text", "0%")
+bat_tb.text = "0%"
 
 -- nacteni parseru pro baterku
 wicked.register(bat_tb, 'function', function (widget, args)
@@ -173,7 +200,7 @@ wicked.register(bat_tb, 'function', function (widget, args)
 -- }}}
 -- Widget Pacman   {{{
 pac_tb = widget.new({ type = "textbox", name = "pac_tb", align = "right"})
-pac_tb:set("text", "up-to-date")
+pac_tb.text = "up-to-date"
 
 -- nacteni parseru pro pacman
 wicked.register(pac_tb, 'function', function (widget, args)
@@ -185,7 +212,7 @@ wicked.register(pac_tb, 'function', function (widget, args)
 -- }}}
 -- Widget Email   {{{
 email_tb = widget.new({ type = "textbox", name = "email_tb", align = "right"})
-email_tb:set("text", "no mail")
+email_tb.text = "no mail"
 
 -- nacteni email parseru
 wicked.register(email_tb, 'function', function (widget, args)
@@ -197,7 +224,7 @@ wicked.register(email_tb, 'function', function (widget, args)
 -- }}}
 -- Widget Clock   {{{
 clock_tb = widget.new({ type = "textbox", name = "clock_tb", align = "right"})
-clock_tb:set("width", "140")
+clock_tb.width = "140"
 
 -- nacteni parseru pro cas
 wicked.register(clock_tb, 'function', function (widget, args)
@@ -207,15 +234,19 @@ wicked.register(clock_tb, 'function', function (widget, args)
        return l
    end, 1)
 -- }}}
--- Statusbar    {{{
+-- Statusbar    {{{ 
 for s = 1, screen.count() do
-    sb_top = statusbar.new({ position = "top", name = "sb_top" .. s, fg = "white", bg = "black" })
+    sb_top = statusbar.new({ position = "top", name = "sb_top" .. s, fg = "white", bg = "black", height = "10" })
 
     -- Add widgets to the statusbar - order matters
+    sb_top:widget_add(sep_left)
+    sb_top:widget_add(arch)
+    sb_top:widget_add(sep_left)
     sb_top:widget_add(mytaglist)
     sb_top:widget_add(sep_left)
 
-    sb_top:widget_add(layoutbox[s])
+    --sb_top:widget_add(layoutbox[s])
+    sb_top:widget_add(lay_tb)
     sb_top:widget_add(sep_left)
 
     sb_top:widget_add(sep_l_left)
@@ -228,6 +259,10 @@ for s = 1, screen.count() do
     sb_top:widget_add(wifi_tb)
     sb_top:widget_add(sep_r_left)
 
+    sb_top:widget_add(sep_left)
+    sb_top:widget_add(mymenubox)
+    sb_top:widget_add(sep_right)
+    
     sb_top:widget_add(sep_l_right)
     sb_top:widget_add(cpu_tb)
 
@@ -252,19 +287,18 @@ for s = 1, screen.count() do
     sb_top:widget_add(sep_right)
     sb_top:widget_add(clock_tb)
 
+--    sb_top:widget_add(mysystray)
     sb_top:add(s)
 end
 -- }}}
 -- Bindovani mysky {{{
-awesome.mouse({ }, 3, function () awful.spawn(terminal) end)
-awesome.mouse({ }, 4, awful.tag.viewnext)
-awesome.mouse({ }, 5, awful.tag.viewprev)
-client.mouse({ modkey }, 1, function() client.focus_get():mouse_move() end)
-client.mouse({ modkey }, 3, function() client.focus_get():mouse_resize() end)
+awesome.mouse_add(mouse.new({ }, 3, function () awful.spawn(terminal) end))
+awesome.mouse_add(mouse.new({ }, 4, awful.tag.viewnext))
+awesome.mouse_add(mouse.new({ }, 5, awful.tag.viewprev))
 -- }}}
--- {{{ Key bindings
+-- {{{ Key bindings 
 
--- Prepinani ploch
+-- Prepinani ploch 
 keybinding.new({ modkey }, 1, function () awful.tag.viewonly(tags[1][1]) end ):add()
 keybinding.new({ modkey }, 2, function () awful.tag.viewonly(tags[1][2]) end ):add()
 keybinding.new({ modkey }, 3, function () awful.tag.viewonly(tags[1][3]) end ):add()
@@ -277,7 +311,10 @@ keybinding.new({ modkey }, "Right", awful.tag.viewnext):add()
 -- Zapinani programu
 keybinding.new({ modkey }, "x", function () awful.spawn(terminal) end):add()
 keybinding.new({ modkey }, "f", function () awful.spawn("firefox") end):add()
-keybinding.new({ modkey }, "Return", function () awful.spawn("exec `dmenu_path | dmenu -b -nb black -sb '#333333' -sf white -nf white`") end):add()
+keybinding.new({ modkey }, "Return", function ()
+                                     awful.prompt({ prompt = "Run: ", cursor_fg = 'red', cursor_bg = 'black' }, mymenubox, awful.spawn, awful.completion.bash)
+                                 end):add()
+--keybinding.new({ modkey }, "Return", function () awful.spawn("exec `dmenu_path | dmenu -b -nb black -sb '#333333' -sf white -nf white`") end):add()
 
 -- Operace s awesome
 keybinding.new({ modkey, "Control" }, "r", awesome.restart):add()
@@ -307,7 +344,7 @@ keybinding.new({ modkey, "Shift" }, "space", function () awful.layout.inc(layout
 -- {{{ Hooks
 -- Hook function to execute when focusing a client.
 function hook_focus(c)
-    c:border_set({ width = 1, color = "#999999" })
+    c:border_set({ width = 1, color = "red" })
 end
 
 -- Hook function to execute when unfocusing a client.
@@ -324,16 +361,21 @@ function hook_mouseover(c)
 end
 
 -- Hook function to execute when a new client appears.
-function hook_newclient(c)
+function hook_manage(c)
     -- New client may not receive focus
     -- if they're not focusable, so set border anyway.
+    c:mouse_add(mouse.new({ }, 1, function (c) c:focus_set(); c:raise() end))
+    c:mouse_add(mouse.new({ modkey }, 1, function (c) c:mouse_move() end))
+    c:mouse_add(mouse.new({ modkey }, 3, function (c) c:mouse_resize() end))
     c:border_set({ width = 1, color = "black" })
     c:focus_set()
     local name = c:name_get()
     if name:lower():find("gimp") 
         or name:lower():find("mplayer") 
+        or name:lower():find("feh") 
         or name:lower():find("wine") 
         or name:lower():find("psi") 
+        or name:lower():find("skype") 
     then    
         c:floating_set(true)
     end
@@ -345,6 +387,8 @@ function hook_newclient(c)
     if name:lower():find("firefox") then
         awful.client.movetotag(tags[1][1], c)
     end
+
+    c:honorsizehints_set(true)
 end
 
 -- Hook function to execute when arranging the screen
@@ -358,10 +402,7 @@ end
 -- Set up some hooks
 hooks.focus(hook_focus)
 hooks.unfocus(hook_unfocus)
-hooks.newclient(hook_newclient)
+hooks.manage(hook_manage)
 hooks.mouseover(hook_mouseover)
 hooks.arrange(hook_arrange)
 -- }}}
- 
--- Respect size hints
-awesome.resizehints_set(true)
