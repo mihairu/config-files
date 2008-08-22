@@ -1,0 +1,25 @@
+#!/bin/bash
+# Copyright 1999-2006 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Id: emake 3483 2006-06-10 21:40:40Z genone $
+#
+# emake: Supplies some default parameters to GNU make. At the moment the
+#        only parameter supplied is -jN, where N is a number of
+#        parallel processes that should be ideal for the running host
+#        (e.g. on a single-CPU machine, N=2).  The MAKEOPTS variable
+#        is set in /etc/make.globals.  We don't source
+#        /etc/make.globals here because emake is only called from an
+#        ebuild.
+
+#exec ${MAKE:-make} ${MAKEOPTS} ${EXTRA_EMAKE} "$@"
+
+#package name
+name=$(basename $(pwd))
+
+if [ -f /tmp/emerge.$name.build ]; then
+  make ${MAKEOPTS} ${EXTRA_EMAKE} "$@"
+  else
+    make -n -i -w ${MAKEOPTS} ${EXTRA_EMAKE} "$@" 2>&1 | egrep "^g?make\[?" > /tmp/emerge.$name.build
+      make -w ${MAKEOPTS} ${EXTRA_EMAKE} "$@" | tee /tmp/emake.$name.edone
+      fi
+

@@ -1,0 +1,9 @@
+#!/bin/sh
+FULL=`tail -n 2 /var/log/emerge.log | grep Compiling | sed "s/\(.*\)Compiling\/Merging \(.*\)::.*/\2/" | sed \
+"s/(\([a-zA-Z].*\)\/\(.*\)/\1\/\2/"`
+CUR=`echo $FULL | sed "s/\(.*\)\/\(.*\)/\2/"`
+TOT=`sudo find /var/tmp/portage/$FULL -iname "*.c*" | wc -l`
+PROG=`sudo find /var/tmp/portage/$FULL -iname "*.o*" | wc -l`
+PRE_PER=`echo $PROG $TOT | gawk '{ sum += $1 / $2 }; END { print sum }' -`
+PER=`echo $PRE_PER | gawk '{ sum += $1 * 100 }; END { print sum }' -`
+echo "now compiled: "$CUR" ("$PER"%)" 
