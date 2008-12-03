@@ -1,0 +1,18 @@
+font          = cure 8
+
+bg_normal     = #000000
+bg_focus      = #000000
+bg_urgent     = #000000
+
+fg_normal     = #ffffff
+fg_focus      = #ff0000
+fg_urgent     = #fff000
+
+border_width  = 1
+border_normal = #000000
+border_focus  = #ff0000
+border_marked = #91231c
+
+taglist_squares = true
+taglist_squares_sel = /usr/share/awesome/themes/default/taglist/squarefw.png
+taglist_squares_unsel = /usr/share/awesome/themes/default/taglist/squarefw.png
